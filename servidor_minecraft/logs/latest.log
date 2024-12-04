@@ -1,245 +1,493 @@
-[04Dec2024 17:43:51.420] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[04Dec2024 17:43:51.424] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[04Dec2024 17:43:52.093] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[04Dec2024 17:43:52.154] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[04Dec2024 17:43:52.578] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[04Dec2024 17:43:52.579] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Dec2024 17:43:52.582] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Dec2024 17:43:52.583] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Dec2024 17:43:52.849] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[04Dec2024 17:43:52.851] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/Servidor-24-2/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.9.jar
-[04Dec2024 17:43:52.851] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
-[04Dec2024 17:43:56.759] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[04Dec2024 17:43:57.047] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.mine_and_slash.mmorpg.MixinConnector]
-[04Dec2024 17:43:57.072] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.library_of_exile.main.MixinConnector]
-[04Dec2024 17:43:57.074] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[04Dec2024 17:43:57.340] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Dec2024 17:43:57.469] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/ItemInHandLayer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.ItemInHandLayer)
-[04Dec2024 17:43:57.469] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.ItemInHandLayer was not found mmorpg-mixins.json:PlayerAnimMixin
-[04Dec2024 17:43:59.148] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[04Dec2024 17:43:59.148] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
-[04Dec2024 17:43:59.730] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.0).
-[04Dec2024 17:44:06.033] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
-[04Dec2024 17:44:06.034] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
-[04Dec2024 17:44:09.568] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[04Dec2024 17:44:09.568] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[04Dec2024 17:44:09.569] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[04Dec2024 17:44:09.569] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[04Dec2024 17:44:13.219] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Servidor-24-2/servidor_minecraft/config/epicfight-client.toml is not correct. Correcting
-[04Dec2024 17:44:13.226] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame was corrected from null to its default, SimpleCommentedConfig:{}. 
-[04Dec2024 17:44:13.226] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.long_press_count was corrected from null to its default, 2. 
-[04Dec2024 17:44:13.226] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.max_hit_projectiles was corrected from null to its default, 30. 
-[04Dec2024 17:44:13.228] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.health_bar_show_option was corrected from null to its default, hurt. 
-[04Dec2024 17:44:13.228] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.show_target_indicator was corrected from null to its default, true. 
-[04Dec2024 17:44:13.228] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.filter_animation was corrected from null to its default, false. 
-[04Dec2024 17:44:13.229] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.laser_pointer_color was corrected from null to its default, 0.328125. 
-[04Dec2024 17:44:13.229] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.enable_laser_pointer was corrected from null to its default, true. 
-[04Dec2024 17:44:13.229] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.camera_auto_switch was corrected from null to its default, false. 
-[04Dec2024 17:44:13.229] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.auto_preparation was corrected from null to its default, false. 
-[04Dec2024 17:44:13.230] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.blood_effects was corrected from null to its default, true. 
-[04Dec2024 17:44:13.230] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.no_mining_in_combat was corrected from null to its default, true. 
-[04Dec2024 17:44:13.231] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.aiming_correction was corrected from null to its default, true. 
-[04Dec2024 17:44:13.231] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.show_epicfight_attributes was corrected from null to its default, true. 
-[04Dec2024 17:44:13.231] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.use_animation_shader was corrected from null to its default, false. 
-[04Dec2024 17:44:13.232] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.first_person_model was corrected from null to its default, true. 
-[04Dec2024 17:44:13.232] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.battle_autoswitch_items was corrected from null to its default, []. 
-[04Dec2024 17:44:13.233] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.mining_autoswitch_items was corrected from null to its default, []. 
-[04Dec2024 17:44:13.233] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui was corrected from null to its default, SimpleCommentedConfig:{}. 
-[04Dec2024 17:44:13.233] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.stamina_bar_x was corrected from null to its default, 120. 
-[04Dec2024 17:44:13.233] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.stamina_bar_y was corrected from null to its default, 10. 
-[04Dec2024 17:44:13.233] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.stamina_bar_x_base was corrected from null to its default, RIGHT. 
-[04Dec2024 17:44:13.235] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.stamina_bar_y_base was corrected from null to its default, BOTTOM. 
-[04Dec2024 17:44:13.236] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.weapon_innate_x was corrected from null to its default, 42. 
-[04Dec2024 17:44:13.236] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.weapon_innate_y was corrected from null to its default, 48. 
-[04Dec2024 17:44:13.236] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.weapon_innate_x_base was corrected from null to its default, RIGHT. 
-[04Dec2024 17:44:13.237] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.weapon_innate_y_base was corrected from null to its default, BOTTOM. 
-[04Dec2024 17:44:13.238] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.passives_x was corrected from null to its default, 70. 
-[04Dec2024 17:44:13.238] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.passives_y was corrected from null to its default, 36. 
-[04Dec2024 17:44:13.248] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.passives_x_base was corrected from null to its default, RIGHT. 
-[04Dec2024 17:44:13.250] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.passives_y_base was corrected from null to its default, BOTTOM. 
-[04Dec2024 17:44:13.251] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.passives_align_direction was corrected from null to its default, HORIZONTAL. 
-[04Dec2024 17:44:13.251] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.charging_bar_x was corrected from null to its default, -119. 
-[04Dec2024 17:44:13.251] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.charging_bar_y was corrected from null to its default, 60. 
-[04Dec2024 17:44:13.251] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.charging_bar_x_base was corrected from null to its default, CENTER. 
-[04Dec2024 17:44:13.252] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ingame.ui.charging_bar_y_base was corrected from null to its default, CENTER. 
-[04Dec2024 17:44:13.258] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Servidor-24-2/servidor_minecraft/config/epicfight.toml is not correct. Correcting
-[04Dec2024 17:44:13.259] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key default_gamerule was corrected from null to its default, SimpleCommentedConfig:{}. 
-[04Dec2024 17:44:13.260] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key default_gamerule.doVanillaAttack was corrected from null to its default, true. 
-[04Dec2024 17:44:13.263] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key default_gamerule.globalStun was corrected from null to its default, true. 
-[04Dec2024 17:44:13.263] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key default_gamerule.keepSkills was corrected from null to its default, true. 
-[04Dec2024 17:44:13.264] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key default_gamerule.hasFallAnimation was corrected from null to its default, true. 
-[04Dec2024 17:44:13.264] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key default_gamerule.disapleEntityUI was corrected from null to its default, false. 
-[04Dec2024 17:44:13.264] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key default_gamerule.stiffComboAttacks was corrected from null to its default, true. 
-[04Dec2024 17:44:13.264] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key default_gamerule.noMobsInBossfight was corrected from null to its default, true. 
-[04Dec2024 17:44:13.265] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key default_gamerule.epicDrop was corrected from null to its default, true. 
-[04Dec2024 17:44:13.265] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key default_gamerule.weightPenalty was corrected from null to its default, 100. 
-[04Dec2024 17:44:13.268] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key default_gamerule.canSwitchCombat was corrected from null to its default, true. 
-[04Dec2024 17:44:13.269] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key default_gamerule.initialPlayerMode was corrected from null to its default, MINING. 
-[04Dec2024 17:44:13.270] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot was corrected from null to its default, SimpleCommentedConfig:{}. 
-[04Dec2024 17:44:13.270] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.skill_book_mob_drop_chance_modifier was corrected from null to its default, 0. 
-[04Dec2024 17:44:13.274] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.skill_book_chest_drop_chance_modifier was corrected from null to its default, 0. 
-[04Dec2024 17:44:13.279] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
-[04Dec2024 17:44:13.289] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: IceAndFireCompat
-[04Dec2024 17:44:14.132] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[04Dec2024 17:44:16.318] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[04Dec2024 17:44:16.320] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[04Dec2024 17:44:16.600] [modloading-worker-0/INFO] [simplyswords/]: Registering Gobber compat Items for simplyswords
-[04Dec2024 17:44:20.564] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
-[04Dec2024 17:44:21.072] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
-[04Dec2024 17:44:21.154] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[04Dec2024 17:44:21.155] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[04Dec2024 17:44:21.155] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[04Dec2024 17:44:21.156] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[04Dec2024 17:44:21.156] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[04Dec2024 17:44:21.156] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[04Dec2024 17:44:21.157] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[04Dec2024 17:44:21.157] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[04Dec2024 17:44:21.157] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[04Dec2024 17:44:21.403] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_stat_condition already exists as seriazable: random_roll
-[04Dec2024 17:44:21.837] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
-[04Dec2024 17:44:22.298] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
-[04Dec2024 17:44:22.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
-[04Dec2024 17:44:22.726] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
-[04Dec2024 17:44:22.744] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.2.48 Target: null
-[04Dec2024 17:44:22.746] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[04Dec2024 17:44:22.784] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[04Dec2024 17:44:22.801] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[04Dec2024 17:44:23.063] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[04Dec2024 17:44:23.063] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[04Dec2024 17:44:23.154] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[04Dec2024 18:11:00.118] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[04Dec2024 18:11:00.122] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[04Dec2024 18:11:00.836] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[04Dec2024 18:11:00.921] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[04Dec2024 18:11:01.332] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[04Dec2024 18:11:01.335] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Dec2024 18:11:01.336] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Dec2024 18:11:01.340] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Dec2024 18:11:01.627] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[04Dec2024 18:11:01.629] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/Servidor-24-2/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.9.jar
+[04Dec2024 18:11:01.630] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[04Dec2024 18:11:06.153] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04Dec2024 18:11:06.344] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.mine_and_slash.mmorpg.MixinConnector]
+[04Dec2024 18:11:06.353] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.library_of_exile.main.MixinConnector]
+[04Dec2024 18:11:06.361] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[04Dec2024 18:11:06.621] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Dec2024 18:11:06.735] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/ItemInHandLayer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.ItemInHandLayer)
+[04Dec2024 18:11:06.736] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.ItemInHandLayer was not found mmorpg-mixins.json:PlayerAnimMixin
+[04Dec2024 18:11:08.393] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[04Dec2024 18:11:08.396] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[04Dec2024 18:11:09.286] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
+[04Dec2024 18:11:16.701] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[04Dec2024 18:11:16.701] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[04Dec2024 18:11:20.109] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[04Dec2024 18:11:20.110] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[04Dec2024 18:11:20.110] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[04Dec2024 18:11:20.110] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[04Dec2024 18:11:23.668] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
+[04Dec2024 18:11:23.683] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: IceAndFireCompat
+[04Dec2024 18:11:24.465] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[04Dec2024 18:11:26.491] [modloading-worker-0/INFO] [simplyswords/]: Registering Gobber compat Items for simplyswords
+[04Dec2024 18:11:26.809] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[04Dec2024 18:11:26.810] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[04Dec2024 18:11:31.134] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[04Dec2024 18:11:31.843] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
+[04Dec2024 18:11:32.018] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[04Dec2024 18:11:32.023] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[04Dec2024 18:11:32.023] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[04Dec2024 18:11:32.024] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[04Dec2024 18:11:32.024] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[04Dec2024 18:11:32.025] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[04Dec2024 18:11:32.025] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[04Dec2024 18:11:32.026] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[04Dec2024 18:11:32.026] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[04Dec2024 18:11:32.417] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_stat_condition already exists as seriazable: random_roll
+[04Dec2024 18:11:33.028] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[04Dec2024 18:11:33.367] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[04Dec2024 18:11:33.630] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
+[04Dec2024 18:11:33.633] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
+[04Dec2024 18:11:33.707] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[04Dec2024 18:11:33.714] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[04Dec2024 18:11:33.755] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 42 compatible attributes.
+[04Dec2024 18:11:33.756] [modloading-worker-0/INFO] [AttributeFix/]: Creating a new config file at /workspaces/Servidor-24-2/servidor_minecraft/config/attributefix.json.
+[04Dec2024 18:11:33.808] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 42 entries.
+[04Dec2024 18:11:33.811] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 42 attributes.
+[04Dec2024 18:11:34.100] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
+[04Dec2024 18:11:34.101] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[04Dec2024 18:11:34.197] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.2.48 Target: null
+[04Dec2024 18:11:34.198] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04Dec2024 18:11:34.374] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[04Dec2024 18:11:34.374] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[04Dec2024 18:11:34.455] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23160!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23170!/:?]
 	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23160!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23170!/:?]
 Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[04Dec2024 17:44:29.618] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04Dec2024 17:44:29.779] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
-mixinextras (version 0.2.0-beta.8 -> 0.2.0)
+[04Dec2024 18:11:40.771] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04Dec2024 18:11:40.940] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+mixinextras (version 0.2.0 -> 0.4.0)
 Things may not work well.
-[04Dec2024 17:44:29.944] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: epicfight:fracture_block Expected: 1123 Got: 2086
-[04Dec2024 17:44:29.947] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:uchigatana Expected: 1966 Got: 4137
-[04Dec2024 17:44:29.948] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:uchigatana_sheath Expected: 1967 Got: 4138
-[04Dec2024 17:44:29.948] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:stone_greatsword Expected: 1968 Got: 4139
-[04Dec2024 17:44:29.949] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:iron_greatsword Expected: 1969 Got: 4140
-[04Dec2024 17:44:29.950] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:golden_greatsword Expected: 1970 Got: 4141
-[04Dec2024 17:44:29.950] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:diamond_greatsword Expected: 1971 Got: 4142
-[04Dec2024 17:44:29.951] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:netherite_greatsword Expected: 1972 Got: 4143
-[04Dec2024 17:44:29.951] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:stone_spear Expected: 1973 Got: 4144
-[04Dec2024 17:44:29.957] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:iron_spear Expected: 1974 Got: 4145
-[04Dec2024 17:44:29.957] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:golden_spear Expected: 1975 Got: 4146
-[04Dec2024 17:44:29.958] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:diamond_spear Expected: 1976 Got: 4147
-[04Dec2024 17:44:29.959] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:netherite_spear Expected: 1977 Got: 4148
-[04Dec2024 17:44:29.959] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:iron_tachi Expected: 1978 Got: 4149
-[04Dec2024 17:44:29.960] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:golden_tachi Expected: 1979 Got: 4150
-[04Dec2024 17:44:29.960] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:diamond_tachi Expected: 1980 Got: 4151
-[04Dec2024 17:44:29.961] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:netherite_tachi Expected: 1981 Got: 4152
-[04Dec2024 17:44:29.962] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:iron_longsword Expected: 1982 Got: 4153
-[04Dec2024 17:44:29.966] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:golden_longsword Expected: 1983 Got: 4154
-[04Dec2024 17:44:29.966] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:diamond_longsword Expected: 1984 Got: 4155
-[04Dec2024 17:44:29.967] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:netherite_longsword Expected: 1985 Got: 4156
-[04Dec2024 17:44:29.967] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:iron_dagger Expected: 1986 Got: 4157
-[04Dec2024 17:44:29.968] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:golden_dagger Expected: 1987 Got: 4158
-[04Dec2024 17:44:29.969] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:diamond_dagger Expected: 1988 Got: 4159
-[04Dec2024 17:44:29.969] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:netherite_dagger Expected: 1989 Got: 4160
-[04Dec2024 17:44:29.970] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:glove Expected: 1990 Got: 4161
-[04Dec2024 17:44:29.970] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:bokken Expected: 1991 Got: 4162
-[04Dec2024 17:44:29.971] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:stray_hat Expected: 1992 Got: 4163
-[04Dec2024 17:44:29.972] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:stray_robe Expected: 1993 Got: 4164
-[04Dec2024 17:44:29.972] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:stray_pants Expected: 1994 Got: 4165
-[04Dec2024 17:44:29.973] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:skillbook Expected: 1995 Got: 4166
-[04Dec2024 17:44:29.974] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: epicfight:stun_immunity Expected: 62 Got: 107
-[04Dec2024 17:44:29.976] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: epicfight:instability Expected: 63 Got: 108
-[04Dec2024 17:44:29.978] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.hit.blade Expected: 1903 Got: 2395
-[04Dec2024 17:44:29.979] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.hit.blunt Expected: 1904 Got: 2396
-[04Dec2024 17:44:29.981] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.hit.blunt_hard Expected: 1905 Got: 2397
-[04Dec2024 17:44:29.982] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.hit.clash Expected: 1906 Got: 2398
-[04Dec2024 17:44:29.983] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.hit.eviscerate Expected: 1907 Got: 2399
-[04Dec2024 17:44:29.984] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.hit.blade_rush_last Expected: 1908 Got: 2400
-[04Dec2024 17:44:29.985] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.weapon.sword_in Expected: 1909 Got: 2401
-[04Dec2024 17:44:29.987] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.weapon.whoosh Expected: 1910 Got: 2402
-[04Dec2024 17:44:29.988] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.weapon.whoosh_hard Expected: 1911 Got: 2403
-[04Dec2024 17:44:29.988] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.weapon.whoosh_small Expected: 1912 Got: 2404
-[04Dec2024 17:44:29.989] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.weapon.whoosh_sharp Expected: 1913 Got: 2405
-[04Dec2024 17:44:29.999] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.weapon.whoosh_rod Expected: 1914 Got: 2406
-[04Dec2024 17:44:29.999] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.enderdragon.dragon_breath Expected: 1915 Got: 2407
-[04Dec2024 17:44:30.002] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.enderdragon.dragon_breath_finale Expected: 1916 Got: 2408
-[04Dec2024 17:44:30.003] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.enderdragon.dragon_crystal_link Expected: 1917 Got: 2409
-[04Dec2024 17:44:30.004] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.wither.wither_spell_armor Expected: 1918 Got: 2410
-[04Dec2024 17:44:30.004] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:sfx.no_sound Expected: 1919 Got: 2411
-[04Dec2024 17:44:30.006] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:sfx.buzz Expected: 1920 Got: 2412
-[04Dec2024 17:44:30.007] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:sfx.laser_blast Expected: 1921 Got: 2413
-[04Dec2024 17:44:30.007] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:sfx.ground_slam_small Expected: 1922 Got: 2414
-[04Dec2024 17:44:30.008] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:sfx.ground_slam Expected: 1923 Got: 2415
-[04Dec2024 17:44:30.008] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:sfx.neutralize_bosses Expected: 1924 Got: 2416
-[04Dec2024 17:44:30.009] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:sfx.neutralize_mobs Expected: 1925 Got: 2417
-[04Dec2024 17:44:30.011] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:sfx.nether_star_glitter Expected: 1926 Got: 2418
-[04Dec2024 17:44:30.011] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:sfx.entity_move Expected: 1927 Got: 2419
-[04Dec2024 17:44:30.012] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:sfx.big_entity_move Expected: 1928 Got: 2420
-[04Dec2024 17:44:30.012] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:skill.forbidden_strength Expected: 1929 Got: 2421
-[04Dec2024 17:44:30.013] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:skill.rocket_jump Expected: 1930 Got: 2422
-[04Dec2024 17:44:30.014] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:skill.roll Expected: 1931 Got: 2423
-[04Dec2024 17:44:30.015] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:anchor_slam Expected: 2145 Got: 2424
-[04Dec2024 17:44:30.016] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:axe_slash Expected: 2146 Got: 2425
-[04Dec2024 17:44:30.017] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:claymore_swing Expected: 2147 Got: 2426
-[04Dec2024 17:44:30.019] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:claymore_stab Expected: 2148 Got: 2427
-[04Dec2024 17:44:30.025] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:claymore_slam Expected: 2149 Got: 2428
-[04Dec2024 17:44:30.027] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:dagger_slash Expected: 2150 Got: 2429
-[04Dec2024 17:44:30.030] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:double_axe_swing Expected: 2151 Got: 2430
-[04Dec2024 17:44:30.031] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:fist_punch Expected: 2152 Got: 2431
-[04Dec2024 17:44:30.032] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:glaive_slash_quick Expected: 2153 Got: 2432
-[04Dec2024 17:44:30.032] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:glaive_slash_slow Expected: 2154 Got: 2433
-[04Dec2024 17:44:30.033] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:hammer_slam Expected: 2155 Got: 2434
-[04Dec2024 17:44:30.034] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:katana_slash Expected: 2156 Got: 2435
-[04Dec2024 17:44:30.035] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:mace_slam Expected: 2157 Got: 2436
-[04Dec2024 17:44:30.035] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:mace_slash Expected: 2158 Got: 2437
-[04Dec2024 17:44:30.038] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:pickaxe_swing Expected: 2159 Got: 2438
-[04Dec2024 17:44:30.039] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:rapier_slash Expected: 2160 Got: 2439
-[04Dec2024 17:44:30.040] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:rapier_stab Expected: 2161 Got: 2440
-[04Dec2024 17:44:30.040] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:scythe_slash Expected: 2162 Got: 2441
-[04Dec2024 17:44:30.041] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:spear_stab Expected: 2163 Got: 2442
-[04Dec2024 17:44:30.042] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:staff_slam Expected: 2164 Got: 2443
-[04Dec2024 17:44:30.043] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:staff_slash Expected: 2165 Got: 2444
-[04Dec2024 17:44:30.044] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:staff_spin Expected: 2166 Got: 2445
-[04Dec2024 17:44:30.045] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:staff_stab Expected: 2167 Got: 2446
-[04Dec2024 17:44:30.046] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:sickle_slash Expected: 2168 Got: 2447
-[04Dec2024 17:44:30.046] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:sword_slash Expected: 2169 Got: 2448
-[04Dec2024 17:44:30.050] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bettercombat:wand_swing Expected: 2170 Got: 2449
-[04Dec2024 17:44:30.050] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: combatroll:roll Expected: 2171 Got: 2450
-[04Dec2024 17:44:30.051] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: combatroll:roll_cooldown_ready Expected: 2172 Got: 2451
-[04Dec2024 17:44:30.052] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: combatroll:longfooted Expected: 39 Got: 52
-[04Dec2024 17:44:30.053] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: combatroll:acrobat Expected: 40 Got: 53
-[04Dec2024 17:44:30.053] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: combatroll:multi_roll Expected: 41 Got: 54
-[04Dec2024 17:44:30.054] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: epicfight:area_effect_breath Expected: 250 Got: 469
-[04Dec2024 17:44:30.055] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: epicfight:dropped_nether_star Expected: 251 Got: 470
-[04Dec2024 17:44:30.056] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: epicfight:wither_skeleton_minion Expected: 252 Got: 471
-[04Dec2024 17:44:30.058] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: epicfight:wither_ghost Expected: 253 Got: 472
-[04Dec2024 17:44:30.059] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: epicfight:death_harvest_orb Expected: 254 Got: 473
-[04Dec2024 17:44:30.060] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: epicfight:dodge_left Expected: 255 Got: 474
-[04Dec2024 17:44:30.067] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:painting_variant: Object did not get ID it asked for. Name: epicfight:epicfight_logo Expected: 30 Got: 37
-[04Dec2024 17:44:34.023] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23159!/assets/.mcassetsroot' uses unexpected schema
-[04Dec2024 17:44:34.025] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23159!/data/.mcassetsroot' uses unexpected schema
-[04Dec2024 17:44:39.582] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
+[04Dec2024 18:11:41.108] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_rune Expected: 1456 Got: 2087
+[04Dec2024 18:11:41.109] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom Expected: 1457 Got: 2088
+[04Dec2024 18:11:41.109] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:vine_wall Expected: 1458 Got: 2089
+[04Dec2024 18:11:41.110] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_end_frame Expected: 1459 Got: 2090
+[04Dec2024 18:11:41.110] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_blackstone Expected: 1460 Got: 2091
+[04Dec2024 18:11:41.111] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:sealed_blackstone Expected: 1461 Got: 2092
+[04Dec2024 18:11:41.111] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:chiseled_stone_altar Expected: 1462 Got: 2093
+[04Dec2024 18:11:41.112] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:mob_ward Expected: 1463 Got: 2094
+[04Dec2024 18:11:41.112] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:monolith_block Expected: 1464 Got: 2095
+[04Dec2024 18:11:41.112] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:levitation_block Expected: 1465 Got: 2096
+[04Dec2024 18:11:41.113] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom_block Expected: 1466 Got: 2097
+[04Dec2024 18:11:41.113] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_lily Expected: 1467 Got: 2098
+[04Dec2024 18:11:41.115] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:crimson_obsidian Expected: 1468 Got: 2099
+[04Dec2024 18:11:41.115] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:infused_blackstone Expected: 1469 Got: 2100
+[04Dec2024 18:11:41.115] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:cracked_infused_blackstone Expected: 1470 Got: 2101
+[04Dec2024 18:11:41.116] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:moonstone_ore Expected: 1471 Got: 2102
+[04Dec2024 18:11:41.116] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:moonstone_ore_deepslate Expected: 1472 Got: 2103
+[04Dec2024 18:11:41.117] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:moonstone_block Expected: 1473 Got: 2104
+[04Dec2024 18:11:41.117] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:altar_block Expected: 1474 Got: 2105
+[04Dec2024 18:11:41.117] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:withered_dirt Expected: 1475 Got: 2106
+[04Dec2024 18:11:41.118] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:withered_grass_block Expected: 1476 Got: 2107
+[04Dec2024 18:11:41.123] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:withered_grass Expected: 1477 Got: 2108
+[04Dec2024 18:11:41.124] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:withered_fern Expected: 1478 Got: 2109
+[04Dec2024 18:11:41.124] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:withered_berry_bush Expected: 1479 Got: 2110
+[04Dec2024 18:11:41.124] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:hydrangea Expected: 1480 Got: 2111
+[04Dec2024 18:11:41.125] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:withered_tall_grass Expected: 1481 Got: 2112
+[04Dec2024 18:11:41.125] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:withered_large_fern Expected: 1482 Got: 2113
+[04Dec2024 18:11:41.126] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:oleander Expected: 1483 Got: 2114
+[04Dec2024 18:11:41.126] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:blackstone_pedestal Expected: 1484 Got: 2115
+[04Dec2024 18:11:41.127] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:verglas_ore Expected: 1485 Got: 2116
+[04Dec2024 18:11:41.127] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:verglas_ore_deepslate Expected: 1486 Got: 2117
+[04Dec2024 18:11:41.128] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:verglas_block Expected: 1487 Got: 2118
+[04Dec2024 18:11:41.129] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:soulfire_stain Expected: 1488 Got: 2119
+[04Dec2024 18:11:41.130] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:soul_lamp Expected: 1489 Got: 2120
+[04Dec2024 18:11:41.134] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: soulsweapons:chungus_monolith Expected: 1490 Got: 2121
+[04Dec2024 18:11:41.137] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:soul_star Expected: 3031 Got: 4167
+[04Dec2024 18:11:41.138] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:ancient_anima Expected: 3032 Got: 4168
+[04Dec2024 18:11:41.138] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:blazing_eye Expected: 3033 Got: 4169
+[04Dec2024 18:11:41.139] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidian_heart Expected: 3034 Got: 4170
+[04Dec2024 18:11:41.140] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:earthdive_spear Expected: 3035 Got: 4171
+[04Dec2024 18:11:41.140] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_thorn Expected: 3036 Got: 4172
+[04Dec2024 18:11:41.141] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:crystal_fruit Expected: 3037 Got: 4173
+[04Dec2024 18:11:41.141] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:charged_ender_pearl Expected: 3038 Got: 4174
+[04Dec2024 18:11:41.146] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:brimstone_nectar Expected: 3039 Got: 4175
+[04Dec2024 18:11:41.147] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_rune Expected: 3040 Got: 4176
+[04Dec2024 18:11:41.147] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:chiseled_stone_altar Expected: 3041 Got: 4177
+[04Dec2024 18:11:41.148] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom Expected: 3042 Got: 4178
+[04Dec2024 18:11:41.148] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:vine_wall Expected: 3043 Got: 4179
+[04Dec2024 18:11:41.150] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_end_frame Expected: 3044 Got: 4180
+[04Dec2024 18:11:41.150] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_blackstone Expected: 3045 Got: 4181
+[04Dec2024 18:11:41.151] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:sealed_blackstone Expected: 3046 Got: 4182
+[04Dec2024 18:11:41.152] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:mob_ward Expected: 3047 Got: 4183
+[04Dec2024 18:11:41.153] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:monolith_block Expected: 3048 Got: 4184
+[04Dec2024 18:11:41.153] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:levitation_block Expected: 3049 Got: 4185
+[04Dec2024 18:11:41.153] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom_block Expected: 3050 Got: 4186
+[04Dec2024 18:11:41.154] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_lily Expected: 3051 Got: 4187
+[04Dec2024 18:11:41.154] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:lord_soul_red Expected: 3052 Got: 4188
+[04Dec2024 18:11:41.155] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:lord_soul_dark Expected: 3053 Got: 4189
+[04Dec2024 18:11:41.155] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:lord_soul_void Expected: 3054 Got: 4190
+[04Dec2024 18:11:41.156] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:lord_soul_rose Expected: 3055 Got: 4191
+[04Dec2024 18:11:41.156] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:lord_soul_purple Expected: 3056 Got: 4192
+[04Dec2024 18:11:41.157] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:lord_soul_white Expected: 3057 Got: 4193
+[04Dec2024 18:11:41.157] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:lord_soul_day_stalker Expected: 3058 Got: 4194
+[04Dec2024 18:11:41.158] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:lord_soul_night_prowler Expected: 3059 Got: 4195
+[04Dec2024 18:11:41.159] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:lost_soul Expected: 3060 Got: 4196
+[04Dec2024 18:11:41.160] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:moonstone Expected: 3061 Got: 4197
+[04Dec2024 18:11:41.164] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:chungus_emerald Expected: 3062 Got: 4198
+[04Dec2024 18:11:41.165] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:demon_heart Expected: 3063 Got: 4199
+[04Dec2024 18:11:41.165] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:molten_demon_heart Expected: 3064 Got: 4200
+[04Dec2024 18:11:41.166] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:demon_chunk Expected: 3065 Got: 4201
+[04Dec2024 18:11:41.166] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:crimson_ingot Expected: 3066 Got: 4202
+[04Dec2024 18:11:41.167] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:soul_ingot Expected: 3067 Got: 4203
+[04Dec2024 18:11:41.168] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:silver_bullet Expected: 3068 Got: 4204
+[04Dec2024 18:11:41.168] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:boss_compass Expected: 3069 Got: 4205
+[04Dec2024 18:11:41.169] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:moonstone_ring Expected: 3070 Got: 4206
+[04Dec2024 18:11:41.170] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:shard_of_uncertainty Expected: 3071 Got: 4207
+[04Dec2024 18:11:41.173] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:verglas Expected: 3072 Got: 4208
+[04Dec2024 18:11:41.173] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:skofnung_stone Expected: 3073 Got: 4209
+[04Dec2024 18:11:41.173] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:iron_skull Expected: 3074 Got: 4210
+[04Dec2024 18:11:41.174] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:moonstone_shovel Expected: 3075 Got: 4211
+[04Dec2024 18:11:41.175] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:moonstone_pickaxe Expected: 3076 Got: 4212
+[04Dec2024 18:11:41.176] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:moonstone_axe Expected: 3077 Got: 4213
+[04Dec2024 18:11:41.177] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:moonstone_hoe Expected: 3078 Got: 4214
+[04Dec2024 18:11:41.177] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:withered_demon_heart Expected: 3079 Got: 4215
+[04Dec2024 18:11:41.178] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:arkenstone Expected: 3080 Got: 4216
+[04Dec2024 18:11:41.179] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:essence_of_eventide Expected: 3081 Got: 4217
+[04Dec2024 18:11:41.179] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:essence_of_luminescence Expected: 3082 Got: 4218
+[04Dec2024 18:11:41.180] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:chaos_crown Expected: 3083 Got: 4219
+[04Dec2024 18:11:41.180] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:chaos_helmet Expected: 3084 Got: 4220
+[04Dec2024 18:11:41.181] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:arkenplate Expected: 3085 Got: 4221
+[04Dec2024 18:11:41.182] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:enhanced_arkenplate Expected: 3086 Got: 4222
+[04Dec2024 18:11:41.183] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:withered_chest Expected: 3087 Got: 4223
+[04Dec2024 18:11:41.184] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:enhanced_withered_chest Expected: 3088 Got: 4224
+[04Dec2024 18:11:41.185] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:chaos_robes Expected: 3089 Got: 4225
+[04Dec2024 18:11:41.185] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:chaos_orb Expected: 3090 Got: 4226
+[04Dec2024 18:11:41.186] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:chungus_disc Expected: 3091 Got: 4227
+[04Dec2024 18:11:41.186] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:crimson_obsidian Expected: 3092 Got: 4228
+[04Dec2024 18:11:41.187] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:infused_blackstone Expected: 3093 Got: 4229
+[04Dec2024 18:11:41.187] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:cracked_infused_blackstone Expected: 3094 Got: 4230
+[04Dec2024 18:11:41.187] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:moonstone_ore Expected: 3095 Got: 4231
+[04Dec2024 18:11:41.188] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:moonstone_ore_deepslate Expected: 3096 Got: 4232
+[04Dec2024 18:11:41.188] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:moonstone_block Expected: 3097 Got: 4233
+[04Dec2024 18:11:41.189] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:altar_block Expected: 3098 Got: 4234
+[04Dec2024 18:11:41.189] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:withered_dirt Expected: 3099 Got: 4235
+[04Dec2024 18:11:41.190] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:withered_grass_block Expected: 3100 Got: 4236
+[04Dec2024 18:11:41.190] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:withered_grass Expected: 3101 Got: 4237
+[04Dec2024 18:11:41.191] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:withered_fern Expected: 3102 Got: 4238
+[04Dec2024 18:11:41.191] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:withered_berry_bush Expected: 3103 Got: 4239
+[04Dec2024 18:11:41.192] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:hydrangea Expected: 3104 Got: 4240
+[04Dec2024 18:11:41.193] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:withered_tall_grass Expected: 3105 Got: 4241
+[04Dec2024 18:11:41.193] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:withered_large_fern Expected: 3106 Got: 4242
+[04Dec2024 18:11:41.194] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:oleander Expected: 3107 Got: 4243
+[04Dec2024 18:11:41.194] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:blackstone_pedestal Expected: 3108 Got: 4244
+[04Dec2024 18:11:41.194] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:verglas_ore Expected: 3109 Got: 4245
+[04Dec2024 18:11:41.195] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:verglas_ore_deepslate Expected: 3110 Got: 4246
+[04Dec2024 18:11:41.195] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:verglas_block Expected: 3111 Got: 4247
+[04Dec2024 18:11:41.196] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:soulfire_stain Expected: 3112 Got: 4248
+[04Dec2024 18:11:41.196] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:soul_lamp Expected: 3113 Got: 4249
+[04Dec2024 18:11:41.196] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:chungus_monolith Expected: 3114 Got: 4250
+[04Dec2024 18:11:41.197] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:soul_ingot_helmet Expected: 3115 Got: 4251
+[04Dec2024 18:11:41.197] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:soul_ingot_chestplate Expected: 3116 Got: 4252
+[04Dec2024 18:11:41.198] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:soul_ingot_leggings Expected: 3117 Got: 4253
+[04Dec2024 18:11:41.198] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:soul_ingot_boots Expected: 3118 Got: 4254
+[04Dec2024 18:11:41.199] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:soul_robes_helmet Expected: 3119 Got: 4255
+[04Dec2024 18:11:41.199] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:soul_robes_chestplate Expected: 3120 Got: 4256
+[04Dec2024 18:11:41.199] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:soul_robes_leggings Expected: 3121 Got: 4257
+[04Dec2024 18:11:41.200] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:soul_robes_boots Expected: 3122 Got: 4258
+[04Dec2024 18:11:41.200] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:forlorn_helmet Expected: 3123 Got: 4259
+[04Dec2024 18:11:41.201] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:forlorn_chestplate Expected: 3124 Got: 4260
+[04Dec2024 18:11:41.202] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:forlorn_leggings Expected: 3125 Got: 4261
+[04Dec2024 18:11:41.202] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:forlorn_boots Expected: 3126 Got: 4262
+[04Dec2024 18:11:41.203] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:bluemoon_shortsword Expected: 3127 Got: 4263
+[04Dec2024 18:11:41.203] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:bluemoon_greatsword Expected: 3128 Got: 4264
+[04Dec2024 18:11:41.204] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:moonlight_shortsword Expected: 3129 Got: 4265
+[04Dec2024 18:11:41.204] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:moonlight_greatsword Expected: 3130 Got: 4266
+[04Dec2024 18:11:41.204] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:pure_moonlight_greatsword Expected: 3131 Got: 4267
+[04Dec2024 18:11:41.205] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:bloodthirster Expected: 3132 Got: 4268
+[04Dec2024 18:11:41.205] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:darkin_blade Expected: 3133 Got: 4269
+[04Dec2024 18:11:41.205] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:dragon_staff Expected: 3134 Got: 4270
+[04Dec2024 18:11:41.206] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:withered_wabbajack Expected: 3135 Got: 4271
+[04Dec2024 18:11:41.206] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:whirligig_sawblade Expected: 3136 Got: 4272
+[04Dec2024 18:11:41.207] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:dragonslayer_swordspear Expected: 3137 Got: 4273
+[04Dec2024 18:11:41.207] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:rageblade Expected: 3138 Got: 4274
+[04Dec2024 18:11:41.208] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:guts_sword Expected: 3139 Got: 4275
+[04Dec2024 18:11:41.208] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:nightfall Expected: 3140 Got: 4276
+[04Dec2024 18:11:41.209] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:comet_spear Expected: 3141 Got: 4277
+[04Dec2024 18:11:41.209] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:lich_bane Expected: 3142 Got: 4278
+[04Dec2024 18:11:41.210] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:galeforce Expected: 3143 Got: 4279
+[04Dec2024 18:11:41.210] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:translucent_sword Expected: 3144 Got: 4280
+[04Dec2024 18:11:41.212] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:translucent_glaive Expected: 3145 Got: 4281
+[04Dec2024 18:11:41.215] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:translucent_double_greatsword Expected: 3146 Got: 4282
+[04Dec2024 18:11:41.218] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:draugr Expected: 3147 Got: 4283
+[04Dec2024 18:11:41.220] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:dawnbreaker Expected: 3148 Got: 4284
+[04Dec2024 18:11:41.220] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:soul_reaper Expected: 3149 Got: 4285
+[04Dec2024 18:11:41.223] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:forlorn_scythe Expected: 3150 Got: 4286
+[04Dec2024 18:11:41.224] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:leviathan_axe Expected: 3151 Got: 4287
+[04Dec2024 18:11:41.224] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:skofnung Expected: 3152 Got: 4288
+[04Dec2024 18:11:41.225] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:mjolnir Expected: 3153 Got: 4289
+[04Dec2024 18:11:41.225] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:freyr_sword Expected: 3154 Got: 4290
+[04Dec2024 18:11:41.226] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:sting Expected: 3155 Got: 4291
+[04Dec2024 18:11:41.226] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:featherlight Expected: 3156 Got: 4292
+[04Dec2024 18:11:41.226] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:crucible_sword Expected: 3157 Got: 4293
+[04Dec2024 18:11:41.227] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:darkin_scythe_pre Expected: 3158 Got: 4294
+[04Dec2024 18:11:41.227] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:darkin_scythe Expected: 3159 Got: 4295
+[04Dec2024 18:11:41.228] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:shadow_assassin_scythe Expected: 3160 Got: 4296
+[04Dec2024 18:11:41.228] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:kirkhammer Expected: 3161 Got: 4297
+[04Dec2024 18:11:41.229] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:silver_sword Expected: 3162 Got: 4298
+[04Dec2024 18:11:41.229] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:holy_greatsword Expected: 3163 Got: 4299
+[04Dec2024 18:11:41.229] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:draupnir_spear Expected: 3164 Got: 4300
+[04Dec2024 18:11:41.230] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:holy_moonlight_greatsword Expected: 3165 Got: 4301
+[04Dec2024 18:11:41.230] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:holy_moonlight_sword Expected: 3166 Got: 4302
+[04Dec2024 18:11:41.230] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:frostmourne Expected: 3167 Got: 4303
+[04Dec2024 18:11:41.231] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:master_sword Expected: 3168 Got: 4304
+[04Dec2024 18:11:41.231] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:nights_edge_item Expected: 3169 Got: 4305
+[04Dec2024 18:11:41.232] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:empowered_dawnbreaker Expected: 3170 Got: 4306
+[04Dec2024 18:11:41.232] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:kraken_slayer Expected: 3171 Got: 4307
+[04Dec2024 18:11:41.232] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:kraken_slayer_crossbow Expected: 3172 Got: 4308
+[04Dec2024 18:11:41.233] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:darkmoon_longbow Expected: 3173 Got: 4309
+[04Dec2024 18:11:41.233] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:hunter_pistol Expected: 3174 Got: 4310
+[04Dec2024 18:11:41.234] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:blunderbuss Expected: 3175 Got: 4311
+[04Dec2024 18:11:41.234] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:gatling_gun Expected: 3176 Got: 4312
+[04Dec2024 18:11:41.235] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:hunter_cannon Expected: 3177 Got: 4313
+[04Dec2024 18:11:41.235] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:withered_demon_spawn_egg Expected: 3178 Got: 4314
+[04Dec2024 18:11:41.235] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:accursed_lord_boss_spawn_egg Expected: 3179 Got: 4315
+[04Dec2024 18:11:41.236] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:draugr_boss_spawn_egg Expected: 3180 Got: 4316
+[04Dec2024 18:11:41.236] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:night_shade_spawn_egg Expected: 3181 Got: 4317
+[04Dec2024 18:11:41.236] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:returning_knight_spawn_egg Expected: 3182 Got: 4318
+[04Dec2024 18:11:41.237] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:remnant_spawn_egg Expected: 3183 Got: 4319
+[04Dec2024 18:11:41.237] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:dark_sorcerer_spawn_egg Expected: 3184 Got: 4320
+[04Dec2024 18:11:41.238] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:big_chungus_spawn_egg Expected: 3185 Got: 4321
+[04Dec2024 18:11:41.238] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:soul_reaper_ghost_spawn_egg Expected: 3186 Got: 4322
+[04Dec2024 18:11:41.239] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:forlorn_spawn_egg Expected: 3187 Got: 4323
+[04Dec2024 18:11:41.239] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:evil_forlorn_spawn_egg Expected: 3188 Got: 4324
+[04Dec2024 18:11:41.240] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:soulmass_spawn_egg Expected: 3189 Got: 4325
+[04Dec2024 18:11:41.240] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:chaos_monarch_spawn_egg Expected: 3190 Got: 4326
+[04Dec2024 18:11:41.241] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:moonknight_spawn_egg Expected: 3191 Got: 4327
+[04Dec2024 18:11:41.241] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:frost_giant_spawn_egg Expected: 3192 Got: 4328
+[04Dec2024 18:11:41.241] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:rime_spectre_spawn_egg Expected: 3193 Got: 4329
+[04Dec2024 18:11:41.242] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:day_stalker_spawn_egg Expected: 3194 Got: 4330
+[04Dec2024 18:11:41.242] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:night_prowler_spawn_egg Expected: 3195 Got: 4331
+[04Dec2024 18:11:41.243] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: soulsweapons:warmth_entity_spawn_egg Expected: 3196 Got: 4332
+[04Dec2024 18:11:41.245] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: projectile_damage:impact Expected: 0 Got: 109
+[04Dec2024 18:11:41.245] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:decay Expected: 67 Got: 110
+[04Dec2024 18:11:41.245] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:fear Expected: 68 Got: 111
+[04Dec2024 18:11:41.246] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:freezing Expected: 69 Got: 112
+[04Dec2024 18:11:41.246] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:hallowed_dragon_mist Expected: 70 Got: 113
+[04Dec2024 18:11:41.246] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:life_leach Expected: 71 Got: 114
+[04Dec2024 18:11:41.247] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:posture_break Expected: 72 Got: 115
+[04Dec2024 18:11:41.247] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:retribution Expected: 73 Got: 116
+[04Dec2024 18:11:41.248] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:veil_of_fire Expected: 74 Got: 117
+[04Dec2024 18:11:41.248] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:bloodthirsty Expected: 75 Got: 118
+[04Dec2024 18:11:41.248] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:magic_resistance Expected: 76 Got: 119
+[04Dec2024 18:11:41.249] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:moon_herald Expected: 77 Got: 120
+[04Dec2024 18:11:41.249] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:disable_heal Expected: 78 Got: 121
+[04Dec2024 18:11:41.250] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:bleed Expected: 79 Got: 122
+[04Dec2024 18:11:41.250] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:calculated_fall Expected: 80 Got: 123
+[04Dec2024 18:11:41.251] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:blight Expected: 81 Got: 124
+[04Dec2024 18:11:41.251] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:shadow_step Expected: 82 Got: 125
+[04Dec2024 18:11:41.251] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:cooldown Expected: 83 Got: 126
+[04Dec2024 18:11:41.252] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: soulsweapons:ghostly Expected: 84 Got: 127
+[04Dec2024 18:11:41.255] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_hurt Expected: 1970 Got: 2452
+[04Dec2024 18:11:41.257] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_death Expected: 1971 Got: 2453
+[04Dec2024 18:11:41.257] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_idle Expected: 1972 Got: 2454
+[04Dec2024 18:11:41.258] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_cast Expected: 1973 Got: 2455
+[04Dec2024 18:11:41.258] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_clink Expected: 1974 Got: 2456
+[04Dec2024 18:11:41.258] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_spin_punch Expected: 1975 Got: 2457
+[04Dec2024 18:11:41.259] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_laser_charge Expected: 1976 Got: 2458
+[04Dec2024 18:11:41.259] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:lich_hurt Expected: 1977 Got: 2459
+[04Dec2024 18:11:41.259] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:lich_death Expected: 1978 Got: 2460
+[04Dec2024 18:11:41.260] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:lich_teleport Expected: 1979 Got: 2461
+[04Dec2024 18:11:41.260] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:blue_fireball_land Expected: 1980 Got: 2462
+[04Dec2024 18:11:41.260] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:comet_shoot Expected: 1981 Got: 2463
+[04Dec2024 18:11:41.260] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:comet_prepare Expected: 1982 Got: 2464
+[04Dec2024 18:11:41.262] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:missile_shoot Expected: 1983 Got: 2465
+[04Dec2024 18:11:41.262] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:missile_prepare Expected: 1984 Got: 2466
+[04Dec2024 18:11:41.262] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:minion_rune Expected: 1985 Got: 2467
+[04Dec2024 18:11:41.262] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:minion_summon Expected: 1986 Got: 2468
+[04Dec2024 18:11:41.263] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:rage_prepare Expected: 1987 Got: 2469
+[04Dec2024 18:11:41.263] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_hurt Expected: 1988 Got: 2470
+[04Dec2024 18:11:41.263] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_death Expected: 1989 Got: 2471
+[04Dec2024 18:11:41.264] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_prepare_attack Expected: 1990 Got: 2472
+[04Dec2024 18:11:41.264] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_burst Expected: 1991 Got: 2473
+[04Dec2024 18:11:41.264] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_wave Expected: 1992 Got: 2474
+[04Dec2024 18:11:41.265] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_teleport Expected: 1993 Got: 2475
+[04Dec2024 18:11:41.265] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:teleport_prepare Expected: 1994 Got: 2476
+[04Dec2024 18:11:41.265] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:spike Expected: 1995 Got: 2477
+[04Dec2024 18:11:41.265] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:spike_indicator Expected: 1996 Got: 2478
+[04Dec2024 18:11:41.266] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:energy_shield Expected: 1997 Got: 2479
+[04Dec2024 18:11:41.267] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom_hurt Expected: 1998 Got: 2480
+[04Dec2024 18:11:41.267] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom_fall Expected: 1999 Got: 2481
+[04Dec2024 18:11:41.268] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom_spike Expected: 2000 Got: 2482
+[04Dec2024 18:11:41.269] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom_burrow Expected: 2001 Got: 2483
+[04Dec2024 18:11:41.269] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:spore_prepare Expected: 2002 Got: 2484
+[04Dec2024 18:11:41.270] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:spore_impact Expected: 2003 Got: 2485
+[04Dec2024 18:11:41.270] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:spore_ball_land Expected: 2004 Got: 2486
+[04Dec2024 18:11:41.272] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:petal_blade Expected: 2005 Got: 2487
+[04Dec2024 18:11:41.272] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_spike_indicator Expected: 2006 Got: 2488
+[04Dec2024 18:11:41.273] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:spike_wave_indicator Expected: 2007 Got: 2489
+[04Dec2024 18:11:41.273] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:wave_indicator Expected: 2008 Got: 2490
+[04Dec2024 18:11:41.273] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:soul_star Expected: 2009 Got: 2491
+[04Dec2024 18:11:41.273] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:earthdive_spear_throw Expected: 2010 Got: 2492
+[04Dec2024 18:11:41.274] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:charged_ender_pearl Expected: 2011 Got: 2493
+[04Dec2024 18:11:41.274] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:brimstone Expected: 2012 Got: 2494
+[04Dec2024 18:11:41.274] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:moonlight_big Expected: 2013 Got: 2495
+[04Dec2024 18:11:41.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:moonlight_small Expected: 2014 Got: 2496
+[04Dec2024 18:11:41.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:big_chungus Expected: 2015 Got: 2497
+[04Dec2024 18:11:41.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:big_chungus_song Expected: 2016 Got: 2498
+[04Dec2024 18:11:41.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:fart Expected: 2017 Got: 2499
+[04Dec2024 18:11:41.281] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:demon_idle Expected: 2018 Got: 2500
+[04Dec2024 18:11:41.281] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:demon_walk Expected: 2019 Got: 2501
+[04Dec2024 18:11:41.282] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:demon_damage Expected: 2020 Got: 2502
+[04Dec2024 18:11:41.282] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:demon_death Expected: 2021 Got: 2503
+[04Dec2024 18:11:41.282] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:decaying_king_idle Expected: 2022 Got: 2504
+[04Dec2024 18:11:41.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:decaying_king_death Expected: 2023 Got: 2505
+[04Dec2024 18:11:41.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:decaying_king_hurt Expected: 2024 Got: 2506
+[04Dec2024 18:11:41.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:spawn_undead Expected: 2025 Got: 2507
+[04Dec2024 18:11:41.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:shield Expected: 2026 Got: 2508
+[04Dec2024 18:11:41.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:nightfall_bonk Expected: 2027 Got: 2509
+[04Dec2024 18:11:41.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:death_screams Expected: 2028 Got: 2510
+[04Dec2024 18:11:41.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:knight_hit Expected: 2029 Got: 2511
+[04Dec2024 18:11:41.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:knight_death Expected: 2030 Got: 2512
+[04Dec2024 18:11:41.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:night_shade_damage Expected: 2031 Got: 2513
+[04Dec2024 18:11:41.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:night_shade_idle Expected: 2032 Got: 2514
+[04Dec2024 18:11:41.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:night_shade_death Expected: 2033 Got: 2515
+[04Dec2024 18:11:41.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:gatling_gun_startup Expected: 2034 Got: 2516
+[04Dec2024 18:11:41.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:gatling_gun_barrage Expected: 2035 Got: 2517
+[04Dec2024 18:11:41.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:gatling_gun_stop Expected: 2036 Got: 2518
+[04Dec2024 18:11:41.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:dawnbreaker_sound Expected: 2037 Got: 2519
+[04Dec2024 18:11:41.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:soulmass_idle Expected: 2038 Got: 2520
+[04Dec2024 18:11:41.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:crit_hit Expected: 2039 Got: 2521
+[04Dec2024 18:11:41.289] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:posture_break Expected: 2040 Got: 2522
+[04Dec2024 18:11:41.289] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:restore Expected: 2041 Got: 2523
+[04Dec2024 18:11:41.289] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:sharpen Expected: 2042 Got: 2524
+[04Dec2024 18:11:41.289] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:sword_hit_shield Expected: 2043 Got: 2525
+[04Dec2024 18:11:41.291] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:knight_swipe Expected: 2044 Got: 2526
+[04Dec2024 18:11:41.291] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:knight_death_laugh Expected: 2045 Got: 2527
+[04Dec2024 18:11:41.292] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:blinding_light_explosion Expected: 2046 Got: 2528
+[04Dec2024 18:11:41.293] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:knight_core_beam Expected: 2047 Got: 2529
+[04Dec2024 18:11:41.293] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:knight_charge_sword Expected: 2048 Got: 2530
+[04Dec2024 18:11:41.293] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:knight_sword_smash Expected: 2049 Got: 2531
+[04Dec2024 18:11:41.294] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:knight_thrust_sword Expected: 2050 Got: 2532
+[04Dec2024 18:11:41.294] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:slice_target Expected: 2051 Got: 2533
+[04Dec2024 18:11:41.294] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:umbral_trespass_sound Expected: 2052 Got: 2534
+[04Dec2024 18:11:41.294] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:trick_weapon Expected: 2053 Got: 2535
+[04Dec2024 18:11:41.295] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:hard_boss_spawn Expected: 2054 Got: 2536
+[04Dec2024 18:11:41.295] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:warmth_buff Expected: 2055 Got: 2537
+[04Dec2024 18:11:41.295] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:warmth_die Expected: 2056 Got: 2538
+[04Dec2024 18:11:41.296] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:overheat_charge Expected: 2057 Got: 2539
+[04Dec2024 18:11:41.296] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:day_stalker_decimate Expected: 2058 Got: 2540
+[04Dec2024 18:11:41.296] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:day_stalker_chaos_storm Expected: 2059 Got: 2541
+[04Dec2024 18:11:41.297] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:day_stalker_spin_normal Expected: 2060 Got: 2542
+[04Dec2024 18:11:41.297] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:day_stalker_spin_empowered Expected: 2061 Got: 2543
+[04Dec2024 18:11:41.297] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:day_stalker_radiance Expected: 2062 Got: 2544
+[04Dec2024 18:11:41.299] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:day_stalker_windup Expected: 2063 Got: 2545
+[04Dec2024 18:11:41.299] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:day_stalker_pull Expected: 2064 Got: 2546
+[04Dec2024 18:11:41.301] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:hard_boss_death_short Expected: 2065 Got: 2547
+[04Dec2024 18:11:41.302] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:hard_boss_death_long Expected: 2066 Got: 2548
+[04Dec2024 18:11:41.302] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:scythe_swipe Expected: 2067 Got: 2549
+[04Dec2024 18:11:41.302] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:night_skull_die Expected: 2068 Got: 2550
+[04Dec2024 18:11:41.303] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:engulf Expected: 2069 Got: 2551
+[04Dec2024 18:11:41.305] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:night_prowler_scream Expected: 2070 Got: 2552
+[04Dec2024 18:11:41.305] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:partner_dies Expected: 2071 Got: 2553
+[04Dec2024 18:11:41.305] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:darkness_rise Expected: 2072 Got: 2554
+[04Dec2024 18:11:41.306] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: soulsweapons:trinity Expected: 2073 Got: 2555
+[04Dec2024 18:11:41.306] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: soulsweapons:warding Expected: 47 Got: 65
+[04Dec2024 18:11:41.307] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: soulsweapons:strong_warding Expected: 48 Got: 66
+[04Dec2024 18:11:41.308] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: soulsweapons:long_warding Expected: 49 Got: 67
+[04Dec2024 18:11:41.308] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: soulsweapons:tainted_ambrosia Expected: 50 Got: 68
+[04Dec2024 18:11:41.309] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: soulsweapons:fast_hands Expected: 49 Got: 55
+[04Dec2024 18:11:41.309] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: soulsweapons:visceral Expected: 50 Got: 56
+[04Dec2024 18:11:41.309] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: soulsweapons:stagger Expected: 51 Got: 57
+[04Dec2024 18:11:41.310] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:lich Expected: 342 Got: 475
+[04Dec2024 18:11:41.311] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:blue_fireball Expected: 343 Got: 476
+[04Dec2024 18:11:41.311] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:comet Expected: 344 Got: 477
+[04Dec2024 18:11:41.311] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:soul_star Expected: 345 Got: 478
+[04Dec2024 18:11:41.324] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:charged_ender_pearl Expected: 346 Got: 479
+[04Dec2024 18:11:41.324] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith Expected: 347 Got: 480
+[04Dec2024 18:11:41.324] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet Expected: 348 Got: 481
+[04Dec2024 18:11:41.325] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom Expected: 349 Got: 482
+[04Dec2024 18:11:41.325] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:spore_ball Expected: 350 Got: 483
+[04Dec2024 18:11:41.325] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:petal_blade Expected: 351 Got: 484
+[04Dec2024 18:11:41.325] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:withered_demon Expected: 352 Got: 485
+[04Dec2024 18:11:41.332] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:accursed_lord_boss Expected: 353 Got: 486
+[04Dec2024 18:11:41.332] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:draugr_boss Expected: 354 Got: 487
+[04Dec2024 18:11:41.332] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:night_shade Expected: 355 Got: 488
+[04Dec2024 18:11:41.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:returning_knight Expected: 356 Got: 489
+[04Dec2024 18:11:41.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:remnant Expected: 357 Got: 490
+[04Dec2024 18:11:41.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:dark_sorcerer Expected: 358 Got: 491
+[04Dec2024 18:11:41.334] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:big_chungus Expected: 359 Got: 492
+[04Dec2024 18:11:41.334] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:soul_reaper_ghost Expected: 360 Got: 493
+[04Dec2024 18:11:41.334] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:forlorn Expected: 361 Got: 494
+[04Dec2024 18:11:41.335] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:evil_forlorn Expected: 362 Got: 495
+[04Dec2024 18:11:41.335] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:soulmass Expected: 363 Got: 496
+[04Dec2024 18:11:41.335] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:chaos_monarch Expected: 364 Got: 497
+[04Dec2024 18:11:41.335] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:moonknight Expected: 365 Got: 498
+[04Dec2024 18:11:41.336] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:frost_giant Expected: 366 Got: 499
+[04Dec2024 18:11:41.338] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:rime_spectre Expected: 367 Got: 500
+[04Dec2024 18:11:41.338] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:day_stalker Expected: 368 Got: 501
+[04Dec2024 18:11:41.339] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:night_prowler Expected: 369 Got: 502
+[04Dec2024 18:11:41.339] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:warmth_entity Expected: 370 Got: 503
+[04Dec2024 18:11:41.339] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:moonlight_projectile Expected: 371 Got: 504
+[04Dec2024 18:11:41.340] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:big_moonlight_projectile Expected: 372 Got: 505
+[04Dec2024 18:11:41.340] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:vertical_moonlight_projectile Expected: 373 Got: 506
+[04Dec2024 18:11:41.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:sunlight_projectile_small Expected: 374 Got: 507
+[04Dec2024 18:11:41.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:sunlight_projectile_big Expected: 375 Got: 508
+[04Dec2024 18:11:41.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:vertical_sunlight_projectile Expected: 376 Got: 509
+[04Dec2024 18:11:41.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:swordspear_entity Expected: 377 Got: 510
+[04Dec2024 18:11:41.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:comet_spear_entity Expected: 378 Got: 511
+[04Dec2024 18:11:41.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:charged_arrow_entity Expected: 379 Got: 512
+[04Dec2024 18:11:41.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:silver_bullet_entity Expected: 380 Got: 513
+[04Dec2024 18:11:41.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:cannonball_entity_type Expected: 381 Got: 514
+[04Dec2024 18:11:41.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:leviathan_axe_entity Expected: 382 Got: 515
+[04Dec2024 18:11:41.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:mjolnir_entity Expected: 383 Got: 516
+[04Dec2024 18:11:41.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:freyr_sword_entity Expected: 384 Got: 517
+[04Dec2024 18:11:41.345] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:shadow_orb_entity Expected: 385 Got: 518
+[04Dec2024 18:11:41.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:draupnir_spear_entity Expected: 386 Got: 519
+[04Dec2024 18:11:41.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:area_effect_sphere Expected: 387 Got: 520
+[04Dec2024 18:11:41.347] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:dragon_staff_projectile Expected: 388 Got: 521
+[04Dec2024 18:11:41.348] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:withered_wabbajack_projectile Expected: 389 Got: 522
+[04Dec2024 18:11:41.348] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:chaos_skull Expected: 390 Got: 523
+[04Dec2024 18:11:41.348] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:chaos_orb_entity Expected: 391 Got: 524
+[04Dec2024 18:11:41.348] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:growing_fireball Expected: 392 Got: 525
+[04Dec2024 18:11:41.349] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:night_skull Expected: 393 Got: 526
+[04Dec2024 18:11:41.349] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:fog_entity Expected: 394 Got: 527
+[04Dec2024 18:11:41.350] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:blackflame_snake_entity Expected: 395 Got: 528
+[04Dec2024 18:11:41.350] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:no_drag_wither_skull Expected: 396 Got: 529
+[04Dec2024 18:11:41.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:death_spiral Expected: 397 Got: 530
+[04Dec2024 18:11:41.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:nights_edge Expected: 398 Got: 531
+[04Dec2024 18:11:41.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:night_wave Expected: 399 Got: 532
+[04Dec2024 18:11:41.352] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:flame_pillar Expected: 400 Got: 533
+[04Dec2024 18:11:41.353] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:kraken_slayer_projectile Expected: 401 Got: 534
+[04Dec2024 18:11:41.353] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:moonlight_arrow Expected: 402 Got: 535
+[04Dec2024 18:11:41.353] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:arrow_storm_entity Expected: 403 Got: 536
+[04Dec2024 18:11:41.354] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:holy_moonlight_pillar Expected: 404 Got: 537
+[04Dec2024 18:11:41.355] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: soulsweapons:warmup_lightning Expected: 405 Got: 538
+[04Dec2024 18:11:45.291] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23169!/assets/.mcassetsroot' uses unexpected schema
+[04Dec2024 18:11:45.292] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23169!/data/.mcassetsroot' uses unexpected schema
+[04Dec2024 18:11:50.051] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
-	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
@@ -247,10 +495,10 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
@@ -258,20 +506,20 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23164!/:?]
-	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23164!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23174!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23174!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23159!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
@@ -279,65 +527,85 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[04Dec2024 17:44:43.557] [Worker-Main-1/INFO] [epicfight/]: Register animations from epicfight
-[04Dec2024 17:44:44.568] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[04Dec2024 17:44:44.672] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[04Dec2024 17:44:44.695] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[04Dec2024 17:44:44.713] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[04Dec2024 17:44:44.773] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[04Dec2024 17:44:44.798] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[04Dec2024 17:44:44.811] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[04Dec2024 17:44:44.816] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[04Dec2024 17:44:44.823] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
-[04Dec2024 17:44:45.120] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2738 advancements
-[04Dec2024 17:44:46.193] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[04Dec2024 17:44:46.204] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[04Dec2024 17:44:46.244] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[04Dec2024 17:44:49.527] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
-[04Dec2024 17:44:49.938] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[04Dec2024 17:44:49.939] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[04Dec2024 17:44:49.940] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[04Dec2024 17:44:49.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[04Dec2024 17:44:50.226] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[04Dec2024 17:44:50.267] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[04Dec2024 17:44:50.447] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04Dec2024 17:44:50.447] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[04Dec2024 17:44:50.448] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04Dec2024 17:44:50.448] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[04Dec2024 17:44:50.951] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[04Dec2024 17:45:03.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[04Dec2024 17:45:10.669] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:10.675] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:10.676] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:10.677] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:10.678] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:10.679] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:10.679] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:10.680] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:10.681] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:10.681] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:10.683] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:10.689] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:10.696] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:10.697] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:10.698] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:10.861] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:11.361] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:11.861] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 17:45:12.818] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9457 ms
-[04Dec2024 17:45:12.819] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (22.344s)! For help, type "help"
-[04Dec2024 17:45:12.880] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[04Dec2024 17:45:12.897] [Server thread/INFO] [net.stardustlabs.incendium.Incendium/]: Thanks for choosing Incendium!
-[04Dec2024 17:45:12.901] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
-[04Dec2024 17:45:13.122] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
-[04Dec2024 17:45:13.201] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
-[04Dec2024 17:45:13.202] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
-[04Dec2024 17:45:13.203] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
-[04Dec2024 17:45:13.203] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
-[04Dec2024 17:45:13.254] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[04Dec2024 17:45:13.256] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[04Dec2024 17:45:13.513] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 213679 bytes (in 22 string chunks with the size of 10000)
-[04Dec2024 17:45:32.723] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Terrain32[/100.65.58.104:50384] logged in with entity id 203 at (-53.48367573476222, 65.41533533749576, 138.6966781755892)
-[04Dec2024 17:45:33.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 joined the game
-[04Dec2024 17:52:07.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
-[04Dec2024 17:52:56.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[04Dec2024 18:11:54.577] [Worker-Main-1/INFO] [epicfight/]: Register animations from epicfight
+[04Dec2024 18:11:56.234] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[04Dec2024 18:11:56.322] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[04Dec2024 18:11:56.338] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[04Dec2024 18:11:56.353] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[04Dec2024 18:11:56.433] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[04Dec2024 18:11:56.442] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[04Dec2024 18:11:56.445] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[04Dec2024 18:11:56.461] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[04Dec2024 18:11:56.469] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[04Dec2024 18:11:56.773] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2883 advancements
+[04Dec2024 18:11:57.673] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[04Dec2024 18:11:57.681] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[04Dec2024 18:11:57.743] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[04Dec2024 18:12:01.616] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[04Dec2024 18:12:01.822] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[04Dec2024 18:12:01.823] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[04Dec2024 18:12:01.823] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[04Dec2024 18:12:01.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04Dec2024 18:12:02.265] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[04Dec2024 18:12:02.301] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[04Dec2024 18:12:02.409] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04Dec2024 18:12:02.410] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[04Dec2024 18:12:02.410] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04Dec2024 18:12:02.411] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[04Dec2024 18:12:02.859] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[04Dec2024 18:12:20.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04Dec2024 18:12:27.072] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:27.076] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:27.078] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:27.078] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:27.079] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:27.081] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:27.083] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:27.084] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:27.088] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:27.091] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:27.092] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:27.093] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:27.098] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:27.329] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:27.828] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:28.328] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 18:12:29.216] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8388 ms
+[04Dec2024 18:12:29.217] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (26.787s)! For help, type "help"
+[04Dec2024 18:12:29.288] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[04Dec2024 18:12:29.306] [Server thread/INFO] [net.stardustlabs.incendium.Incendium/]: Thanks for choosing Incendium!
+[04Dec2024 18:12:29.310] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[04Dec2024 18:12:29.589] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[04Dec2024 18:12:29.718] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[04Dec2024 18:12:29.719] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[04Dec2024 18:12:29.720] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[04Dec2024 18:12:29.721] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[04Dec2024 18:12:29.792] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[04Dec2024 18:12:29.794] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[04Dec2024 18:12:30.236] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 247468 bytes (in 25 string chunks with the size of 10000)
+[04Dec2024 18:12:32.919] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[04Dec2024 18:12:49.456] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Terrain32[/100.65.58.104:51600] logged in with entity id 210 at (-46.400589993830344, 65.0, 148.10750281018426)
+[04Dec2024 18:12:49.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 joined the game
+[04Dec2024 18:14:54.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has reached the goal [Bullets for Dinner]
+[04Dec2024 18:16:25.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has reached the goal [Maybe a little over the top?]
+[04Dec2024 18:16:34.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has reached the goal [A new Hunter in Town]
+[04Dec2024 18:18:55.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has reached the goal [Switcharoo!]
+[04Dec2024 18:19:40.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has made the advancement [A... Fake?]
+[04Dec2024 18:22:01.251] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 lost connection: Disconnected
+[04Dec2024 18:22:01.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 left the game
+[04Dec2024 18:23:10.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04Dec2024 18:23:10.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04Dec2024 18:23:10.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04Dec2024 18:23:11.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04Dec2024 18:23:12.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04Dec2024 18:23:12.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[04Dec2024 18:23:12.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04Dec2024 18:23:12.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[04Dec2024 18:23:12.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mmorpg:dungeon
+[04Dec2024 18:23:12.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04Dec2024 18:23:12.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04Dec2024 18:23:12.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[04Dec2024 18:23:12.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04Dec2024 18:23:12.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[04Dec2024 18:23:12.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
+[04Dec2024 18:23:12.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
