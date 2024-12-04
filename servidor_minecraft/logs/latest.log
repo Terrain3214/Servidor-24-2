@@ -1,71 +1,716 @@
-[04Dec2024 04:52:43.739] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[04Dec2024 04:52:43.743] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[04Dec2024 04:52:43.964] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[04Dec2024 04:52:44.026] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[04Dec2024 04:52:44.340] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[04Dec2024 04:52:44.341] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Dec2024 04:52:44.343] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Dec2024 04:52:44.345] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Dec2024 04:52:44.478] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[04Dec2024 04:52:47.400] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[04Dec2024 04:52:47.424] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[04Dec2024 04:52:47.663] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[04Dec2024 04:52:47.664] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
-[04Dec2024 04:52:57.684] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[04Dec2024 04:52:57.687] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[04Dec2024 04:52:58.062] [modloading-worker-0/WARN] [net.spellcraftgaming.rpghud.main.ModRPGHud/]: RPG-Hud is a client-side-only mod and should not be installed server-side, please remove it from your server
-[04Dec2024 04:52:59.132] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Servidor-24-2/servidor_minecraft/config/deeperdarker-common.toml is not correct. Correcting
-[04Dec2024 04:52:59.133] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fakeVaseChance was corrected from null to its default, 0.16. 
-[04Dec2024 04:52:59.135] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stalkerSpawnChance was corrected from null to its default, 0.3125. 
-[04Dec2024 04:52:59.140] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key soulElytraCooldown was corrected from null to its default, 600. 
-[04Dec2024 04:52:59.142] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wardenHeartPulses was corrected from null to its default, true. 
-[04Dec2024 04:52:59.144] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key snapperDropLimit was corrected from null to its default, 8. 
-[04Dec2024 04:52:59.148] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key othersidePortalWidth was corrected from null to its default, 6. 
-[04Dec2024 04:52:59.151] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key othersidePortalHeight was corrected from null to its default, 3. 
-[04Dec2024 04:52:59.207] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[04Dec2024 04:52:59.209] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[04Dec2024 04:52:59.598] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[04Dec2024 04:53:00.413] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[04Dec2024 04:53:03.676] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04Dec2024 04:53:05.869] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23111!/assets/.mcassetsroot' uses unexpected schema
-[04Dec2024 04:53:05.870] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23111!/data/.mcassetsroot' uses unexpected schema
-[04Dec2024 04:53:09.680] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[04Dec2024 04:53:09.891] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1524 advancements
-[04Dec2024 04:53:11.203] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[04Dec2024 04:53:11.207] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[04Dec2024 04:53:11.207] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[04Dec2024 04:53:11.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[04Dec2024 04:53:11.494] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[04Dec2024 04:53:11.520] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[04Dec2024 04:53:11.637] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04Dec2024 04:53:11.638] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[04Dec2024 04:53:11.638] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04Dec2024 04:53:11.644] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[04Dec2024 04:53:11.740] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[04Dec2024 04:53:21.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[04Dec2024 04:53:29.290] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.293] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.294] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.294] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.296] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.299] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.301] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.304] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.305] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.310] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.312] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.314] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.318] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.327] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.332] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.336] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:29.806] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:30.306] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:30.806] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:31.334] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Dec2024 04:53:31.971] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10166 ms
-[04Dec2024 04:53:31.973] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (20.299s)! For help, type "help"
-[04Dec2024 04:53:32.003] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[04Dec2024 04:56:00.868] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Terrain32[/100.65.58.104:60612] logged in with entity id 368 at (-49.01961086067583, 64.0, 132.30699359457918)
-[04Dec2024 04:56:01.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 joined the game
-[04Dec2024 04:56:29.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[04Dec2024 05:14:00.846] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[04Dec2024 05:14:00.852] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[04Dec2024 05:14:01.200] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[04Dec2024 05:14:01.263] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[04Dec2024 05:14:01.601] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[04Dec2024 05:14:01.605] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Dec2024 05:14:01.609] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Dec2024 05:14:01.611] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Dec2024 05:14:01.733] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[04Dec2024 05:14:05.078] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04Dec2024 05:14:05.101] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[04Dec2024 05:14:05.164] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Dec2024 05:14:05.377] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[04Dec2024 05:14:05.378] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[04Dec2024 05:14:17.727] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Servidor-24-2/servidor_minecraft/config/gobber-general.toml is not correct. Correcting
+[04Dec2024 05:14:17.742] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_tool_material was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.744] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_tool_material.gobberToolsDurability was corrected from null to its default, 3800. 
+[04Dec2024 05:14:17.744] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_tool_material.gobberToolsSpeed was corrected from null to its default, 9.0. 
+[04Dec2024 05:14:17.745] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_tool_material.gobberToolsDamage was corrected from null to its default, 9.0. 
+[04Dec2024 05:14:17.745] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_tool_material.gobberToolsEnchantability was corrected from null to its default, 20. 
+[04Dec2024 05:14:17.743] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[04Dec2024 05:14:17.748] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_tool_material was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.749] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_tool_material.netherGobberToolsDurability was corrected from null to its default, 5200. 
+[04Dec2024 05:14:17.750] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_tool_material.netherGobberToolsSpeed was corrected from null to its default, 12.0. 
+[04Dec2024 05:14:17.751] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_tool_material.netherGobberToolsDamage was corrected from null to its default, 9.0. 
+[04Dec2024 05:14:17.752] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_tool_material.netherGobberToolsEnchantability was corrected from null to its default, 25. 
+[04Dec2024 05:14:17.756] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[04Dec2024 05:14:17.758] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_tool_material was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.759] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_tool_material.endGobberToolsDurability was corrected from null to its default, 8000. 
+[04Dec2024 05:14:17.760] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_tool_material.endGobberToolsSpeed was corrected from null to its default, 14.0. 
+[04Dec2024 05:14:17.760] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_tool_material.endGobberToolsDamage was corrected from null to its default, 9.0. 
+[04Dec2024 05:14:17.762] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_tool_material.endGobberToolsEnchantability was corrected from null to its default, 30. 
+[04Dec2024 05:14:17.763] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_tool_material.endGobberToolsUnbreakable was corrected from null to its default, true. 
+[04Dec2024 05:14:17.773] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_armor_material was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.773] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_armor_material.gobberArmorDurabilityMultiplier was corrected from null to its default, 71. 
+[04Dec2024 05:14:17.774] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_armor_material.gobberArmorEnchantability was corrected from null to its default, 25. 
+[04Dec2024 05:14:17.775] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_armor_material.gobberArmorToughness was corrected from null to its default, 2.5. 
+[04Dec2024 05:14:17.775] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_armor_material.gobberArmorKnockback was corrected from null to its default, 0.1. 
+[04Dec2024 05:14:17.776] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_armor_material.gobberHeadProtection was corrected from null to its default, 6. 
+[04Dec2024 05:14:17.776] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_armor_material.gobberChestProtection was corrected from null to its default, 11. 
+[04Dec2024 05:14:17.777] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_armor_material.gobberLeggingsProtection was corrected from null to its default, 9. 
+[04Dec2024 05:14:17.777] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_armor_material.gobberBootsProtection was corrected from null to its default, 6. 
+[04Dec2024 05:14:17.787] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_armor_material was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.788] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_armor_material.netherGobberArmorDurabilityMultiplier was corrected from null to its default, 83. 
+[04Dec2024 05:14:17.788] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_armor_material.netherGobberArmorEnchantability was corrected from null to its default, 30. 
+[04Dec2024 05:14:17.789] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_armor_material.netherGobberArmorToughness was corrected from null to its default, 2.75. 
+[04Dec2024 05:14:17.789] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_armor_material.netherGobberArmorKnockback was corrected from null to its default, 0.1. 
+[04Dec2024 05:14:17.790] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_armor_material.netherHeadProtection was corrected from null to its default, 7. 
+[04Dec2024 05:14:17.790] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_armor_material.netherChestProtection was corrected from null to its default, 12. 
+[04Dec2024 05:14:17.791] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_armor_material.netherLeggingsProtection was corrected from null to its default, 10. 
+[04Dec2024 05:14:17.792] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_armor_material.netherBootsProtection was corrected from null to its default, 7. 
+[04Dec2024 05:14:17.801] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_armor_material was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.801] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_armor_material.endGobberArmorDurabilityMultiplier was corrected from null to its default, 100. 
+[04Dec2024 05:14:17.807] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_armor_material.endGobberArmorEnchantability was corrected from null to its default, 30. 
+[04Dec2024 05:14:17.807] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_armor_material.endGobberArmorToughness was corrected from null to its default, 3.0. 
+[04Dec2024 05:14:17.809] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_armor_material.endGobberArmorKnockback was corrected from null to its default, 0.2. 
+[04Dec2024 05:14:17.809] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_armor_material.endGobberArmorUnbreakable was corrected from null to its default, true. 
+[04Dec2024 05:14:17.810] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_armor_material.endHeadProtection was corrected from null to its default, 8. 
+[04Dec2024 05:14:17.810] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_armor_material.endChestProtection was corrected from null to its default, 13. 
+[04Dec2024 05:14:17.811] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_armor_material.endLeggingsProtection was corrected from null to its default, 11. 
+[04Dec2024 05:14:17.812] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key end_gobber_armor_material.endBootsProtection was corrected from null to its default, 8. 
+[04Dec2024 05:14:17.818] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragon_armor_material was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.818] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragon_armor_material.dragonArmorDurabilityMultiplier was corrected from null to its default, 100. 
+[04Dec2024 05:14:17.819] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragon_armor_material.dragonArmorEnchantability was corrected from null to its default, 30. 
+[04Dec2024 05:14:17.820] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragon_armor_material.dragonArmorToughness was corrected from null to its default, 3.0. 
+[04Dec2024 05:14:17.821] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragon_armor_material.dragonArmorKnockback was corrected from null to its default, 0.3. 
+[04Dec2024 05:14:17.822] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragon_armor_material.dragonArmorUnbreakable was corrected from null to its default, true. 
+[04Dec2024 05:14:17.822] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragon_armor_material.dragonHeadProtection was corrected from null to its default, 8. 
+[04Dec2024 05:14:17.823] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragon_armor_material.dragonChestProtection was corrected from null to its default, 13. 
+[04Dec2024 05:14:17.827] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragon_armor_material.dragonLeggingsProtection was corrected from null to its default, 11. 
+[04Dec2024 05:14:17.828] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragon_armor_material.dragonBootsProtection was corrected from null to its default, 8. 
+[04Dec2024 05:14:17.837] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_perk_settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.837] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_perk_settings.gobberArmorNoFallDamage was corrected from null to its default, true. 
+[04Dec2024 05:14:17.838] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_perk_settings.gobberArmorFireProtection was corrected from null to its default, false. 
+[04Dec2024 05:14:17.839] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_perk_settings.gobberArmorWaterBreathing was corrected from null to its default, false. 
+[04Dec2024 05:14:17.839] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_perk_settings.gobberArmorHealthPerks was corrected from null to its default, false. 
+[04Dec2024 05:14:17.840] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_perk_settings.gobberNetherArmorHealthPerks was corrected from null to its default, false. 
+[04Dec2024 05:14:17.841] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_perk_settings.gobberEndArmorHealthPerks was corrected from null to its default, false. 
+[04Dec2024 05:14:17.842] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_perk_settings.gobberDragonArmorHealthPerks was corrected from null to its default, true. 
+[04Dec2024 05:14:17.843] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_perk_settings.gobberArmorAutofeed was corrected from null to its default, false. 
+[04Dec2024 05:14:17.845] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_perk_settings.gobberNetherArmorAutofeed was corrected from null to its default, false. 
+[04Dec2024 05:14:17.845] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_perk_settings.gobberEndArmorAutofeed was corrected from null to its default, false. 
+[04Dec2024 05:14:17.850] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_perk_settings.gobberDragonArmorAutofeed was corrected from null to its default, true. 
+[04Dec2024 05:14:17.851] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_perk_settings.gobberNetherArmorYellowHeartsPerks was corrected from null to its default, false. 
+[04Dec2024 05:14:17.852] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_perk_settings.gobberEndArmorYellowHeartsPerks was corrected from null to its default, false. 
+[04Dec2024 05:14:17.853] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_perk_settings.gobberDragonArmorYellowHeartsPerks was corrected from null to its default, true. 
+[04Dec2024 05:14:17.858] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_foods was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.860] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_foods.gooHunger was corrected from null to its default, 7. 
+[04Dec2024 05:14:17.861] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_foods.gooSaturation was corrected from null to its default, 0.7. 
+[04Dec2024 05:14:17.862] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_foods.gooeyAppleHunger was corrected from null to its default, 8. 
+[04Dec2024 05:14:17.862] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_foods.gooeyAppleSaturation was corrected from null to its default, 0.8. 
+[04Dec2024 05:14:17.863] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_foods.gooeyBreadHunger was corrected from null to its default, 8. 
+[04Dec2024 05:14:17.863] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_foods.gooeyBreadSaturation was corrected from null to its default, 0.8. 
+[04Dec2024 05:14:17.864] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_foods.gooeyBeefHunger was corrected from null to its default, 9. 
+[04Dec2024 05:14:17.865] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_foods.gooeyBeefSaturation was corrected from null to its default, 0.9. 
+[04Dec2024 05:14:17.865] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_foods.gooeyBeefstewHunger was corrected from null to its default, 10. 
+[04Dec2024 05:14:17.866] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gobber_foods.gooeyBeefstewSaturation was corrected from null to its default, 1.0. 
+[04Dec2024 05:14:17.871] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_foods was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.872] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_foods.netherGooHunger was corrected from null to its default, 9. 
+[04Dec2024 05:14:17.873] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_foods.netherGooSaturation was corrected from null to its default, 0.9. 
+[04Dec2024 05:14:17.877] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_foods.netherGooeyAppleHunger was corrected from null to its default, 10. 
+[04Dec2024 05:14:17.879] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_foods.netherGooeyAppleSaturation was corrected from null to its default, 1.0. 
+[04Dec2024 05:14:17.879] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_foods.netherGooeyBreadHunger was corrected from null to its default, 10. 
+[04Dec2024 05:14:17.881] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_foods.netherGooeyBreadSaturation was corrected from null to its default, 1.0. 
+[04Dec2024 05:14:17.882] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_foods.netherGooeyBeefHunger was corrected from null to its default, 12. 
+[04Dec2024 05:14:17.883] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_foods.netherGooeyBeefSaturation was corrected from null to its default, 1.2. 
+[04Dec2024 05:14:17.884] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_foods.netherGooeyBeefstewHunger was corrected from null to its default, 14. 
+[04Dec2024 05:14:17.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether_gobber_foods.netherGooeyBeefstewSaturation was corrected from null to its default, 1.5. 
+[04Dec2024 05:14:17.892] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_cooldown_settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.893] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_cooldown_settings.ringBlinkCooldown was corrected from null to its default, 60. 
+[04Dec2024 05:14:17.893] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_cooldown_settings.ringMinerCooldown was corrected from null to its default, 80. 
+[04Dec2024 05:14:17.894] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_cooldown_settings.ringAboveCooldown was corrected from null to its default, 80. 
+[04Dec2024 05:14:17.895] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_cooldown_settings.ringExplorerCooldown was corrected from null to its default, 480. 
+[04Dec2024 05:14:17.895] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_cooldown_settings.swordSniperCooldown was corrected from null to its default, 60. 
+[04Dec2024 05:14:17.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_cooldown_settings.staffSniperCooldown was corrected from null to its default, 60. 
+[04Dec2024 05:14:17.897] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_cooldown_settings.ringHusbandryCooldown was corrected from null to its default, 2400. 
+[04Dec2024 05:14:17.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ring_explorer_settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ring_explorer_settings.ringExplorerMin was corrected from null to its default, 500. 
+[04Dec2024 05:14:17.904] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ring_explorer_settings.ringExplorerMax was corrected from null to its default, 6000. 
+[04Dec2024 05:14:17.911] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc_ring_staff_settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.912] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc_ring_staff_settings.ringAccelerationVelocity was corrected from null to its default, 0.18. 
+[04Dec2024 05:14:17.913] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc_ring_staff_settings.ringRepairDelay was corrected from null to its default, 120. 
+[04Dec2024 05:14:17.914] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc_ring_staff_settings.ringAttractionBlocking was corrected from null to its default, 8. 
+[04Dec2024 05:14:17.915] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc_ring_staff_settings.ringAttractionMode was corrected from null to its default, true. 
+[04Dec2024 05:14:17.915] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc_ring_staff_settings.ringDismissalVelocity was corrected from null to its default, 0.2. 
+[04Dec2024 05:14:17.916] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc_ring_staff_settings.ringDismissalLift was corrected from null to its default, 8.0. 
+[04Dec2024 05:14:17.916] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc_ring_staff_settings.limitedUseRingTeleport was corrected from null to its default, false. 
+[04Dec2024 05:14:17.916] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc_ring_staff_settings.placeGlassRingAirWalking was corrected from null to its default, true. 
+[04Dec2024 05:14:17.923] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farmer_settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.923] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farmer_settings.ringFarmerTickDelay was corrected from null to its default, 20. 
+[04Dec2024 05:14:17.924] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farmer_settings.ringFarmerRadius was corrected from null to its default, 12. 
+[04Dec2024 05:14:17.925] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farmer_settings.staffFarmerTickDelay was corrected from null to its default, 20. 
+[04Dec2024 05:14:17.925] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farmer_settings.staffFarmerRadius was corrected from null to its default, 12. 
+[04Dec2024 05:14:17.935] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key replanting_settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.935] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key replanting_settings.StaffHarvestReplant was corrected from null to its default, true. 
+[04Dec2024 05:14:17.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key replanting_settings.StaffFarmerBreaking was corrected from null to its default, true. 
+[04Dec2024 05:14:17.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key replanting_settings.StaffFarmerReplant was corrected from null to its default, true. 
+[04Dec2024 05:14:17.958] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.959] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_settings.gobberArmorHunger was corrected from null to its default, 1. 
+[04Dec2024 05:14:17.959] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_settings.gobberArmorSaturation was corrected from null to its default, 0.02. 
+[04Dec2024 05:14:17.960] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_settings.gobberNetherArmorHunger was corrected from null to its default, 1. 
+[04Dec2024 05:14:17.960] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_settings.gobberNetherArmorSaturation was corrected from null to its default, 0.05. 
+[04Dec2024 05:14:17.961] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_settings.gobberEndArmorHunger was corrected from null to its default, 1. 
+[04Dec2024 05:14:17.961] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_settings.gobberEndArmorSaturation was corrected from null to its default, 0.1. 
+[04Dec2024 05:14:17.962] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_settings.gobberDragonArmorHunger was corrected from null to its default, 1. 
+[04Dec2024 05:14:17.962] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key armor_health_settings.gobberDragonArmorSaturation was corrected from null to its default, 0.15. 
+[04Dec2024 05:14:17.975] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key medallion_exp_settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.976] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key medallion_exp_settings.medallionExpOrbs was corrected from null to its default, 5. 
+[04Dec2024 05:14:17.977] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key medallion_exp_settings.medallionExpLoot was corrected from null to its default, 20. 
+[04Dec2024 05:14:17.984] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key medallion_healing_settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.985] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key medallion_healing_settings.medallionLesserHealingFood was corrected from null to its default, 1. 
+[04Dec2024 05:14:17.985] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key medallion_healing_settings.medallionLesserHealingSat was corrected from null to its default, 0.02. 
+[04Dec2024 05:14:17.985] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key medallion_healing_settings.medallionHealingFood was corrected from null to its default, 1. 
+[04Dec2024 05:14:17.986] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key medallion_healing_settings.medallionHealingSat was corrected from null to its default, 0.05. 
+[04Dec2024 05:14:17.986] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key medallion_healing_settings.medallionGreaterHealingFood was corrected from null to its default, 1. 
+[04Dec2024 05:14:17.987] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key medallion_healing_settings.medallionGreaterHealingSat was corrected from null to its default, 0.1. 
+[04Dec2024 05:14:17.999] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragonStar_special was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:17.999] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragonStar_special.enableDragonStarOffhand was corrected from null to its default, true. 
+[04Dec2024 05:14:18.007] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragon_armor_void was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:18.007] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragon_armor_void.enableDragonArmorVoidProtection was corrected from null to its default, false. 
+[04Dec2024 05:14:18.013] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragon_armo_fly_anywhere was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:18.013] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dragon_armo_fly_anywhere.enableDragonArmorFlyAnywhere was corrected from null to its default, false. 
+[04Dec2024 05:14:18.025] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bow_zoom was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:18.025] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bow_zoom.bow_zoom_value was corrected from null to its default, 0.45. 
+[04Dec2024 05:14:18.036] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key full_damage was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:18.036] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key full_damage.full_damage was corrected from null to its default, false. 
+[04Dec2024 05:14:18.482] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[04Dec2024 05:14:18.548] [modloading-worker-0/WARN] [net.spellcraftgaming.rpghud.main.ModRPGHud/]: RPG-Hud is a client-side-only mod and should not be installed server-side, please remove it from your server
+[04Dec2024 05:14:19.588] [modloading-worker-0/INFO] [simplyswords/]: Registering Gobber compat Items for simplyswords
+[04Dec2024 05:14:21.115] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Servidor-24-2/servidor_minecraft/config/citadel-common.toml is not correct. Correcting
+[04Dec2024 05:14:21.115] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.115] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Track Entities was corrected from null to its default, true. 
+[04Dec2024 05:14:21.115] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Skip Datapack Warnings was corrected from null to its default, true. 
+[04Dec2024 05:14:21.116] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.chunkGenSpawnModifier was corrected from null to its default, 1.0. 
+[04Dec2024 05:14:21.116] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.April Fools Content was corrected from null to its default, true. 
+[04Dec2024 05:14:21.117] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Servidor-24-2/servidor_minecraft/config/iceandfire-common.toml is not correct. Correcting
+[04Dec2024 05:14:21.118] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.118] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation.Dragon was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.118] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation.Dragon.Generate Dragon Skeletons was corrected from null to its default, true. 
+[04Dec2024 05:14:21.118] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation.Dragon.Generate Dragon Skeleton Chance was corrected from null to its default, 300. 
+[04Dec2024 05:14:21.118] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation.Dragon.Generate Dragon Cave Chance was corrected from null to its default, 180. 
+[04Dec2024 05:14:21.119] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation.Dragon.Generate Dragon Roost Chance was corrected from null to its default, 360. 
+[04Dec2024 05:14:21.119] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation.Dragon.Dragon Den Gold Amount was corrected from null to its default, 4. 
+[04Dec2024 05:14:21.119] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation.Dragon.Dragon Cave Ore Ratio was corrected from null to its default, 45. 
+[04Dec2024 05:14:21.119] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.119] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features.Dangerous World Gen Dist From Spawn was corrected from null to its default, 800. 
+[04Dec2024 05:14:21.120] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features.Dangerous World Gen Dist Seperation was corrected from null to its default, 300. 
+[04Dec2024 05:14:21.120] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features.Generate Glaciers was corrected from null to its default, true. 
+[04Dec2024 05:14:21.120] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features.Glacier Spawn Weight was corrected from null to its default, 4. 
+[04Dec2024 05:14:21.120] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features.Generate Mausoleums was corrected from null to its default, true. 
+[04Dec2024 05:14:21.120] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features.Generate Graveyards was corrected from null to its default, true. 
+[04Dec2024 05:14:21.120] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Generation.Structures-Features.Generate Gorgon Temple was corrected from null to its default, true. 
+[04Dec2024 05:14:21.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Griefing was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Griefing.Dragon Griefing was corrected from null to its default, 0. 
+[04Dec2024 05:14:21.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Griefing.Tamed Dragon Griefing was corrected from null to its default, true. 
+[04Dec2024 05:14:21.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Griefing.Dragon Block Breaking Drop Chance was corrected from null to its default, 0.10000000149011612. 
+[04Dec2024 05:14:21.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Egg Hatch Time was corrected from null to its default, 7200. 
+[04Dec2024 05:14:21.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Flap Noise Distance was corrected from null to its default, 4. 
+[04Dec2024 05:14:21.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Flute Distance was corrected from null to its default, 4. 
+[04Dec2024 05:14:21.123] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Health was corrected from null to its default, 500.0. 
+[04Dec2024 05:14:21.123] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Attack Damage was corrected from null to its default, 17. 
+[04Dec2024 05:14:21.123] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Attack Damage(Fire breath) was corrected from null to its default, 2.0. 
+[04Dec2024 05:14:21.123] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Attack Damage(Ice breath) was corrected from null to its default, 2.5. 
+[04Dec2024 05:14:21.123] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Attack Damage(Lightning breath) was corrected from null to its default, 3.5. 
+[04Dec2024 05:14:21.123] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Flight Speed Modifier was corrected from null to its default, 1.0. 
+[04Dec2024 05:14:21.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Attributes.Dragon Moved Wrongly Error Fix was corrected from null to its default, false. 
+[04Dec2024 05:14:21.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Max Dragon Flight Height was corrected from null to its default, 256. 
+[04Dec2024 05:14:21.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragon Gold Search Length was corrected from null to its default, 30. 
+[04Dec2024 05:14:21.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragon Bite Heal was corrected from null to its default, true. 
+[04Dec2024 05:14:21.125] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragons Despawn was corrected from null to its default, true. 
+[04Dec2024 05:14:21.125] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Tamed Dragons Sleep was corrected from null to its default, true. 
+[04Dec2024 05:14:21.125] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragons Dig When Stuck was corrected from null to its default, true. 
+[04Dec2024 05:14:21.125] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragons Drop Skull was corrected from null to its default, true. 
+[04Dec2024 05:14:21.125] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragons Drop Heart was corrected from null to its default, true. 
+[04Dec2024 05:14:21.125] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragons Drop Blood was corrected from null to its default, true. 
+[04Dec2024 05:14:21.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Explosive Dragon Breath was corrected from null to its default, false. 
+[04Dec2024 05:14:21.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragon Target Search Length was corrected from null to its default, 128. 
+[04Dec2024 05:14:21.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragon Wander From Home Distance was corrected from null to its default, 40. 
+[04Dec2024 05:14:21.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragon Hunger Tick Rate was corrected from null to its default, 3000. 
+[04Dec2024 05:14:21.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Dragon Block Break Cooldown was corrected from null to its default, 5. 
+[04Dec2024 05:14:21.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Villagers Fear Dragons was corrected from null to its default, true. 
+[04Dec2024 05:14:21.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Animals Fear Dragons was corrected from null to its default, true. 
+[04Dec2024 05:14:21.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dragons.Behaviour.Intelligent Dragon Pathfinding was corrected from null to its default, false. 
+[04Dec2024 05:14:21.127] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.127] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Pixies was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.127] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Pixies.Spawn Pixies Chance was corrected from null to its default, 60. 
+[04Dec2024 05:14:21.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Pixies.Pixie Village Size was corrected from null to its default, 5. 
+[04Dec2024 05:14:21.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Pixies.Pixies Steal Items was corrected from null to its default, true. 
+[04Dec2024 05:14:21.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops.Spawn Cyclops Cave Chance was corrected from null to its default, 100. 
+[04Dec2024 05:14:21.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops.Spawn Wandering Cyclops Chance was corrected from null to its default, 100. 
+[04Dec2024 05:14:21.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops.Cyclops Max Health was corrected from null to its default, 150.0. 
+[04Dec2024 05:14:21.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops.Cyclopes Sheep Search Length was corrected from null to its default, 17. 
+[04Dec2024 05:14:21.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops.Cyclops Attack Strength was corrected from null to its default, 15.0. 
+[04Dec2024 05:14:21.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops.Cyclops Bite Strength was corrected from null to its default, 40.0. 
+[04Dec2024 05:14:21.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cyclops.Cyclops Griefing was corrected from null to its default, true. 
+[04Dec2024 05:14:21.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Sirens was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Sirens.Siren Max Health was corrected from null to its default, 50.0. 
+[04Dec2024 05:14:21.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Sirens.Use Siren Shader was corrected from null to its default, true. 
+[04Dec2024 05:14:21.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Sirens.Spawn Sirens Chance was corrected from null to its default, 400. 
+[04Dec2024 05:14:21.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Sirens.Siren Max Sing Time was corrected from null to its default, 12000. 
+[04Dec2024 05:14:21.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Sirens.Siren Time Between Songs was corrected from null to its default, 2000. 
+[04Dec2024 05:14:21.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.DeathWorms was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.DeathWorms.Death Worm Target Search Length was corrected from null to its default, 64. 
+[04Dec2024 05:14:21.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.DeathWorms.Death Worm Base Health was corrected from null to its default, 10.0. 
+[04Dec2024 05:14:21.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.DeathWorms.Death Worm Base Attack Strength was corrected from null to its default, 3.0. 
+[04Dec2024 05:14:21.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.DeathWorms.Death Worms Target Monsters was corrected from null to its default, true. 
+[04Dec2024 05:14:21.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.DeathWorms.Death Worm Spawn Weight was corrected from null to its default, 30. 
+[04Dec2024 05:14:21.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cockatrice was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cockatrice.Cockatrice Health was corrected from null to its default, 40.0. 
+[04Dec2024 05:14:21.131] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cockatrice.Cockatrice chicken Search Length was corrected from null to its default, 30. 
+[04Dec2024 05:14:21.131] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cockatrice.Chickens Lay Rotten Eggs was corrected from null to its default, true. 
+[04Dec2024 05:14:21.131] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cockatrice.Spawn Cockatrices was corrected from null to its default, true. 
+[04Dec2024 05:14:21.131] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Cockatrice.Cockatrice Spawn Weight was corrected from null to its default, 4. 
+[04Dec2024 05:14:21.131] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.131] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Stymphalian Bird Target Search Length was corrected from null to its default, 64. 
+[04Dec2024 05:14:21.132] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Stymphalian Bird Feather Drop Chance was corrected from null to its default, 25. 
+[04Dec2024 05:14:21.132] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Stymphalian Bird Feather Attack Strength was corrected from null to its default, 1.0. 
+[04Dec2024 05:14:21.132] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Stymphalian Bird Flock Length was corrected from null to its default, 40. 
+[04Dec2024 05:14:21.132] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Max Stymphalian Bird Flight Height was corrected from null to its default, 80. 
+[04Dec2024 05:14:21.132] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Stymphalian Birds drop ore dict items was corrected from null to its default, true. 
+[04Dec2024 05:14:21.133] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Stymphalian Birds Target Animals was corrected from null to its default, false. 
+[04Dec2024 05:14:21.133] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Stymphalians.Spawn Stymhphalian Bird Chance was corrected from null to its default, 100. 
+[04Dec2024 05:14:21.133] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Trolls was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.133] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Trolls.Spawn Trolls was corrected from null to its default, true. 
+[04Dec2024 05:14:21.133] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Trolls.Trolls Drop Weapon was corrected from null to its default, true. 
+[04Dec2024 05:14:21.133] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Trolls.Troll Spawn Weight was corrected from null to its default, 40. 
+[04Dec2024 05:14:21.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Trolls.Troll Max Health was corrected from null to its default, 50.0. 
+[04Dec2024 05:14:21.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Trolls.Troll Attack Strength was corrected from null to its default, 10.0. 
+[04Dec2024 05:14:21.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex.Myrmex Gestation Length was corrected from null to its default, 2500. 
+[04Dec2024 05:14:21.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex.Myrmex Hatch Length was corrected from null to its default, 35000. 
+[04Dec2024 05:14:21.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex.Myrmex Colony Gen Chance was corrected from null to its default, 150. 
+[04Dec2024 05:14:21.135] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex.Myrmex Colony Max Size was corrected from null to its default, 80. 
+[04Dec2024 05:14:21.135] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex.Myrmex Base Attack Strength was corrected from null to its default, 3.0. 
+[04Dec2024 05:14:21.135] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex.Myrmex Maximum Wander Radius was corrected from null to its default, 50. 
+[04Dec2024 05:14:21.135] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Myrmex.Myrmex Hive Ignore Daytime was corrected from null to its default, false. 
+[04Dec2024 05:14:21.135] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.138] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres.Spawn Amphitheres was corrected from null to its default, true. 
+[04Dec2024 05:14:21.138] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres.Amphithere Spawn Weight was corrected from null to its default, 50. 
+[04Dec2024 05:14:21.139] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres.Amphithere Villager Search Length was corrected from null to its default, 64. 
+[04Dec2024 05:14:21.140] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres.Amphithere Tame Time was corrected from null to its default, 400. 
+[04Dec2024 05:14:21.146] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres.Amphithere Flight Speed was corrected from null to its default, 1.75. 
+[04Dec2024 05:14:21.147] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres.Amphithere Max Health was corrected from null to its default, 50.0. 
+[04Dec2024 05:14:21.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Amphitheres.Amphithere Attack Strength was corrected from null to its default, 7.0. 
+[04Dec2024 05:14:21.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.SeaSerpents was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.150] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.SeaSerpents.Spawn Sea Serpent Chance was corrected from null to its default, 250. 
+[04Dec2024 05:14:21.151] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.SeaSerpents.Sea Serpent Griefing was corrected from null to its default, true. 
+[04Dec2024 05:14:21.152] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.SeaSerpents.Sea Serpent Base Health was corrected from null to its default, 20.0. 
+[04Dec2024 05:14:21.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.SeaSerpents.Sea Serpent Base Attack Strength was corrected from null to its default, 4.0. 
+[04Dec2024 05:14:21.155] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Hippocampus was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.155] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Hippocampus.Spawn Hippocampus Chance was corrected from null to its default, 40. 
+[04Dec2024 05:14:21.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Hippocampus.Hippocampus Swim Speed Modifier was corrected from null to its default, 1.0. 
+[04Dec2024 05:14:21.157] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Hippogryph was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.158] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Hippogryph.Spawn Hippogryphs was corrected from null to its default, true. 
+[04Dec2024 05:14:21.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Hippogryph.Hippogryph Spawn Weight was corrected from null to its default, 2. 
+[04Dec2024 05:14:21.160] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Hippogryph.Hippogryph Flight Speed Modifier was corrected from null to its default, 1.0. 
+[04Dec2024 05:14:21.161] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Gorgons was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.161] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Gorgons.Gorgon Max Health was corrected from null to its default, 100.0. 
+[04Dec2024 05:14:21.162] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.163] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Spawn Liches was corrected from null to its default, true. 
+[04Dec2024 05:14:21.164] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Lich Spawn Weight was corrected from null to its default, 2. 
+[04Dec2024 05:14:21.165] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Lich Spawn Chance was corrected from null to its default, 30. 
+[04Dec2024 05:14:21.166] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Hydra Max Health was corrected from null to its default, 250.0. 
+[04Dec2024 05:14:21.167] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Hydra Caves Gen Chance was corrected from null to its default, 60. 
+[04Dec2024 05:14:21.168] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Ghost Max Health was corrected from null to its default, 30.0. 
+[04Dec2024 05:14:21.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Ghost Attack Strength was corrected from null to its default, 3.0. 
+[04Dec2024 05:14:21.170] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Ghost Spawn from PvP deaths was corrected from null to its default, true. 
+[04Dec2024 05:14:21.170] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Villager Scribe House Weight was corrected from null to its default, 5. 
+[04Dec2024 05:14:21.172] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Others.Allow Attribute Overriding was corrected from null to its default, true. 
+[04Dec2024 05:14:21.180] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Items was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Items.Dragonsteel Sword Base Attack Strength was corrected from null to its default, 25.0. 
+[04Dec2024 05:14:21.182] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Items.Dragonsteel Base Armor was corrected from null to its default, 12. 
+[04Dec2024 05:14:21.183] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Items.Dragonsteel Base Armor Toughness was corrected from null to its default, 6.0. 
+[04Dec2024 05:14:21.184] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Items.Dragonsteel Base Durability was corrected from null to its default, 8000. 
+[04Dec2024 05:14:21.185] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Items.Dragonsteel Base Durability Equipment was corrected from null to its default, 8000. 
+[04Dec2024 05:14:21.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Items.Weezer was corrected from null to its default, true. 
+[04Dec2024 05:14:21.187] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Items.Easter Egg Tinkers Tool Disarm chance was corrected from null to its default, 0.20000000298023224. 
+[04Dec2024 05:14:21.188] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Items.Chunk Load Summon Crystal was corrected from null to its default, true. 
+[04Dec2024 05:14:21.189] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Items.Dragon Bone Fire Abilities was corrected from null to its default, true. 
+[04Dec2024 05:14:21.189] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Items.Dragon Bone Ice Abilities was corrected from null to its default, true. 
+[04Dec2024 05:14:21.190] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Items.Dragon Bone Lightning Abilities was corrected from null to its default, true. 
+[04Dec2024 05:14:21.199] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Pathfinding was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04Dec2024 05:14:21.199] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Pathfinding.Dragon Pathfinding Threads was corrected from null to its default, 3. 
+[04Dec2024 05:14:21.200] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Pathfinding.Dragon Max Pathfinding Nodes was corrected from null to its default, 5000. 
+[04Dec2024 05:14:21.201] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Pathfinding.Debug Pathfinding Mode was corrected from null to its default, false. 
+[04Dec2024 05:14:21.934] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04Dec2024 05:14:22.429] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[04Dec2024 05:14:22.440] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[04Dec2024 05:14:22.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[04Dec2024 05:14:25.977] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04Dec2024 05:14:26.417] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: gobber2:gobber2_ore Expected: 1003 Got: 1144
+[04Dec2024 05:14:26.417] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: gobber2:gobber2_ore_deepslate Expected: 1004 Got: 1145
+[04Dec2024 05:14:26.418] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: gobber2:gobber2_ore_nether Expected: 1005 Got: 1146
+[04Dec2024 05:14:26.418] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: gobber2:gobber2_ore_end Expected: 1006 Got: 1147
+[04Dec2024 05:14:26.419] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: gobber2:gobber2_block Expected: 1007 Got: 1148
+[04Dec2024 05:14:26.419] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: gobber2:gobber2_block_nether Expected: 1008 Got: 1149
+[04Dec2024 05:14:26.420] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: gobber2:gobber2_block_end Expected: 1009 Got: 1150
+[04Dec2024 05:14:26.420] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: gobber2:gobber2_lucky_block Expected: 1010 Got: 1151
+[04Dec2024 05:14:26.420] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: gobber2:gobber2_lucky_block_deepslate Expected: 1011 Got: 1152
+[04Dec2024 05:14:26.421] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: gobber2:gobber2_lucky_block_nether Expected: 1012 Got: 1153
+[04Dec2024 05:14:26.422] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: gobber2:gobber2_lucky_block_end Expected: 1013 Got: 1154
+[04Dec2024 05:14:26.423] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: gobber2:gobber2_glass Expected: 1014 Got: 1155
+[04Dec2024 05:14:26.424] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: gobber2:gobber2_glass_nether Expected: 1015 Got: 1156
+[04Dec2024 05:14:26.446] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: gobber2:gobber2_glass_end Expected: 1016 Got: 1157
+[04Dec2024 05:14:26.446] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: gobber2:clear_glass Expected: 1017 Got: 1158
+[04Dec2024 05:14:26.450] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ore Expected: 1293 Got: 1467
+[04Dec2024 05:14:26.455] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ore_deepslate Expected: 1294 Got: 1468
+[04Dec2024 05:14:26.455] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ore_nether Expected: 1295 Got: 1469
+[04Dec2024 05:14:26.455] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ore_end Expected: 1296 Got: 1470
+[04Dec2024 05:14:26.460] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_lucky_block Expected: 1297 Got: 1471
+[04Dec2024 05:14:26.460] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_lucky_block_deepslate Expected: 1298 Got: 1472
+[04Dec2024 05:14:26.461] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_lucky_block_nether Expected: 1299 Got: 1473
+[04Dec2024 05:14:26.461] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_lucky_block_end Expected: 1300 Got: 1474
+[04Dec2024 05:14:26.462] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_block Expected: 1301 Got: 1475
+[04Dec2024 05:14:26.462] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_block_nether Expected: 1302 Got: 1476
+[04Dec2024 05:14:26.462] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_block_end Expected: 1303 Got: 1477
+[04Dec2024 05:14:26.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_glass Expected: 1304 Got: 1478
+[04Dec2024 05:14:26.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_glass_nether Expected: 1305 Got: 1479
+[04Dec2024 05:14:26.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_glass_end Expected: 1306 Got: 1480
+[04Dec2024 05:14:26.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:clear_glass Expected: 1307 Got: 1481
+[04Dec2024 05:14:26.464] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_globette Expected: 1308 Got: 1482
+[04Dec2024 05:14:26.464] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_globette_nether Expected: 1309 Got: 1483
+[04Dec2024 05:14:26.464] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_globette_end Expected: 1310 Got: 1484
+[04Dec2024 05:14:26.464] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_glob Expected: 1311 Got: 1485
+[04Dec2024 05:14:26.465] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_glob_nether Expected: 1312 Got: 1486
+[04Dec2024 05:14:26.466] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_glob_end Expected: 1313 Got: 1487
+[04Dec2024 05:14:26.466] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ingot Expected: 1314 Got: 1488
+[04Dec2024 05:14:26.467] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ingot_nether Expected: 1315 Got: 1489
+[04Dec2024 05:14:26.471] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ingot_end Expected: 1316 Got: 1490
+[04Dec2024 05:14:26.475] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_rod Expected: 1317 Got: 1491
+[04Dec2024 05:14:26.475] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_rod_nether Expected: 1318 Got: 1492
+[04Dec2024 05:14:26.475] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_rod_end Expected: 1319 Got: 1493
+[04Dec2024 05:14:26.476] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_foo Expected: 1320 Got: 1494
+[04Dec2024 05:14:26.476] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_foo_nether Expected: 1321 Got: 1495
+[04Dec2024 05:14:26.477] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_foo_end Expected: 1322 Got: 1496
+[04Dec2024 05:14:26.482] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_sword Expected: 1323 Got: 1497
+[04Dec2024 05:14:26.482] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_bow Expected: 1324 Got: 1498
+[04Dec2024 05:14:26.483] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_pickaxe Expected: 1325 Got: 1499
+[04Dec2024 05:14:26.484] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_shovel Expected: 1326 Got: 1500
+[04Dec2024 05:14:26.484] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_axe Expected: 1327 Got: 1501
+[04Dec2024 05:14:26.487] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_tree_axe Expected: 1328 Got: 1502
+[04Dec2024 05:14:26.489] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_hoe Expected: 1329 Got: 1503
+[04Dec2024 05:14:26.489] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_hammer Expected: 1330 Got: 1504
+[04Dec2024 05:14:26.490] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_excavator Expected: 1331 Got: 1505
+[04Dec2024 05:14:26.490] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_paxel Expected: 1332 Got: 1506
+[04Dec2024 05:14:26.490] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_helmet Expected: 1333 Got: 1507
+[04Dec2024 05:14:26.490] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_chestplate Expected: 1334 Got: 1508
+[04Dec2024 05:14:26.491] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_leggings Expected: 1335 Got: 1509
+[04Dec2024 05:14:26.491] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_boots Expected: 1336 Got: 1510
+[04Dec2024 05:14:26.491] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_sword_nether Expected: 1337 Got: 1511
+[04Dec2024 05:14:26.492] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_bow_nether Expected: 1338 Got: 1512
+[04Dec2024 05:14:26.493] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_pickaxe_nether Expected: 1339 Got: 1513
+[04Dec2024 05:14:26.493] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_shovel_nether Expected: 1340 Got: 1514
+[04Dec2024 05:14:26.494] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_axe_nether Expected: 1341 Got: 1515
+[04Dec2024 05:14:26.494] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_tree_axe_nether Expected: 1342 Got: 1516
+[04Dec2024 05:14:26.495] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_hoe_nether Expected: 1343 Got: 1517
+[04Dec2024 05:14:26.495] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_hammer_nether Expected: 1344 Got: 1518
+[04Dec2024 05:14:26.496] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_excavator_nether Expected: 1345 Got: 1519
+[04Dec2024 05:14:26.497] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_paxel_nether Expected: 1346 Got: 1520
+[04Dec2024 05:14:26.497] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_helmet_nether Expected: 1347 Got: 1521
+[04Dec2024 05:14:26.497] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_chestplate_nether Expected: 1348 Got: 1522
+[04Dec2024 05:14:26.501] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_leggings_nether Expected: 1349 Got: 1523
+[04Dec2024 05:14:26.502] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_boots_nether Expected: 1350 Got: 1524
+[04Dec2024 05:14:26.502] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_sword_end Expected: 1351 Got: 1525
+[04Dec2024 05:14:26.502] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_sword_sniper Expected: 1352 Got: 1526
+[04Dec2024 05:14:26.503] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_sword_traveler Expected: 1353 Got: 1527
+[04Dec2024 05:14:26.504] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_bow_end Expected: 1354 Got: 1528
+[04Dec2024 05:14:26.504] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_pickaxe_end Expected: 1355 Got: 1529
+[04Dec2024 05:14:26.504] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_shovel_end Expected: 1356 Got: 1530
+[04Dec2024 05:14:26.504] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_axe_end Expected: 1357 Got: 1531
+[04Dec2024 05:14:26.505] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_tree_axe_end Expected: 1358 Got: 1532
+[04Dec2024 05:14:26.505] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_hoe_end Expected: 1359 Got: 1533
+[04Dec2024 05:14:26.505] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_hammer_end Expected: 1360 Got: 1534
+[04Dec2024 05:14:26.505] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_excavator_end Expected: 1361 Got: 1535
+[04Dec2024 05:14:26.505] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_paxel_end Expected: 1362 Got: 1536
+[04Dec2024 05:14:26.506] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_paxel_stars Expected: 1363 Got: 1537
+[04Dec2024 05:14:26.506] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_links_end Expected: 1364 Got: 1538
+[04Dec2024 05:14:26.506] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_helmet_end Expected: 1365 Got: 1539
+[04Dec2024 05:14:26.507] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_chestplate_end Expected: 1366 Got: 1540
+[04Dec2024 05:14:26.508] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_leggings_end Expected: 1367 Got: 1541
+[04Dec2024 05:14:26.508] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_boots_end Expected: 1368 Got: 1542
+[04Dec2024 05:14:26.509] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:dragon_star Expected: 1369 Got: 1543
+[04Dec2024 05:14:26.509] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:dragon_elytra Expected: 1370 Got: 1544
+[04Dec2024 05:14:26.510] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_helmet_dragon Expected: 1371 Got: 1545
+[04Dec2024 05:14:26.510] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_chestplate_dragon Expected: 1372 Got: 1546
+[04Dec2024 05:14:26.511] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_leggings_dragon Expected: 1373 Got: 1547
+[04Dec2024 05:14:26.514] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_boots_dragon Expected: 1374 Got: 1548
+[04Dec2024 05:14:26.514] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring Expected: 1375 Got: 1549
+[04Dec2024 05:14:26.514] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_attraction Expected: 1376 Got: 1550
+[04Dec2024 05:14:26.514] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_return Expected: 1377 Got: 1551
+[04Dec2024 05:14:26.515] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_ascent Expected: 1378 Got: 1552
+[04Dec2024 05:14:26.517] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_above Expected: 1379 Got: 1553
+[04Dec2024 05:14:26.517] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_miner Expected: 1380 Got: 1554
+[04Dec2024 05:14:26.518] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_farmer Expected: 1381 Got: 1555
+[04Dec2024 05:14:26.518] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_husbandry Expected: 1382 Got: 1556
+[04Dec2024 05:14:26.518] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_swiftness Expected: 1383 Got: 1557
+[04Dec2024 05:14:26.519] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_sunshine Expected: 1384 Got: 1558
+[04Dec2024 05:14:26.519] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_nether Expected: 1385 Got: 1559
+[04Dec2024 05:14:26.519] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_acceleration Expected: 1386 Got: 1560
+[04Dec2024 05:14:26.520] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_leaping Expected: 1387 Got: 1561
+[04Dec2024 05:14:26.520] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_curing Expected: 1388 Got: 1562
+[04Dec2024 05:14:26.520] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_vision Expected: 1389 Got: 1563
+[04Dec2024 05:14:26.520] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_phoenix Expected: 1390 Got: 1564
+[04Dec2024 05:14:26.521] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_haste Expected: 1391 Got: 1565
+[04Dec2024 05:14:26.521] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_blaze Expected: 1392 Got: 1566
+[04Dec2024 05:14:26.523] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_repair Expected: 1393 Got: 1567
+[04Dec2024 05:14:26.523] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_end Expected: 1394 Got: 1568
+[04Dec2024 05:14:26.524] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_dismissal Expected: 1395 Got: 1569
+[04Dec2024 05:14:26.524] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_pyro Expected: 1396 Got: 1570
+[04Dec2024 05:14:26.524] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_enderchest Expected: 1397 Got: 1571
+[04Dec2024 05:14:26.525] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_traveler Expected: 1398 Got: 1572
+[04Dec2024 05:14:26.527] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_void Expected: 1399 Got: 1573
+[04Dec2024 05:14:26.528] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_airwalking Expected: 1400 Got: 1574
+[04Dec2024 05:14:26.529] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_stealth Expected: 1401 Got: 1575
+[04Dec2024 05:14:26.529] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_teleport Expected: 1402 Got: 1576
+[04Dec2024 05:14:26.530] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_blink Expected: 1403 Got: 1577
+[04Dec2024 05:14:26.531] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_ring_explorer Expected: 1404 Got: 1578
+[04Dec2024 05:14:26.532] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_medallion Expected: 1405 Got: 1579
+[04Dec2024 05:14:26.533] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_medallion_stepping Expected: 1406 Got: 1580
+[04Dec2024 05:14:26.533] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_medallion_breathing Expected: 1407 Got: 1581
+[04Dec2024 05:14:26.534] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_medallion_hero Expected: 1408 Got: 1582
+[04Dec2024 05:14:26.535] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_medallion_healing Expected: 1409 Got: 1583
+[04Dec2024 05:14:26.536] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_medallion_nether Expected: 1410 Got: 1584
+[04Dec2024 05:14:26.536] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_medallion_healing2 Expected: 1411 Got: 1585
+[04Dec2024 05:14:26.537] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_medallion_glowing Expected: 1412 Got: 1586
+[04Dec2024 05:14:26.539] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_medallion_exp Expected: 1413 Got: 1587
+[04Dec2024 05:14:26.539] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_medallion_end Expected: 1414 Got: 1588
+[04Dec2024 05:14:26.541] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_medallion_healing3 Expected: 1415 Got: 1589
+[04Dec2024 05:14:26.542] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_medallion_conduit Expected: 1416 Got: 1590
+[04Dec2024 05:14:26.544] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_medallion_dolphin Expected: 1417 Got: 1591
+[04Dec2024 05:14:26.545] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_staff_clearing Expected: 1418 Got: 1592
+[04Dec2024 05:14:26.546] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_staff_nature Expected: 1419 Got: 1593
+[04Dec2024 05:14:26.546] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_staff_farmer Expected: 1420 Got: 1594
+[04Dec2024 05:14:26.547] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_staff_harvest Expected: 1421 Got: 1595
+[04Dec2024 05:14:26.550] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_staff_stars Expected: 1422 Got: 1596
+[04Dec2024 05:14:26.550] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_staff_ensnarement Expected: 1423 Got: 1597
+[04Dec2024 05:14:26.551] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_staff_sniper Expected: 1424 Got: 1598
+[04Dec2024 05:14:26.552] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_goo Expected: 1425 Got: 1599
+[04Dec2024 05:14:26.553] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_gooey_apple Expected: 1426 Got: 1600
+[04Dec2024 05:14:26.553] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_gooey_bread Expected: 1427 Got: 1601
+[04Dec2024 05:14:26.554] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_gooey_beef Expected: 1428 Got: 1602
+[04Dec2024 05:14:26.555] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_gooey_beefstew Expected: 1429 Got: 1603
+[04Dec2024 05:14:26.556] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_goo_nether Expected: 1430 Got: 1604
+[04Dec2024 05:14:26.557] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_gooey_apple_nether Expected: 1431 Got: 1605
+[04Dec2024 05:14:26.557] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_gooey_bread_nether Expected: 1432 Got: 1606
+[04Dec2024 05:14:26.558] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_gooey_beef_nether Expected: 1433 Got: 1607
+[04Dec2024 05:14:26.559] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: gobber2:gobber2_gooey_beefstew_nether Expected: 1434 Got: 1608
+[04Dec2024 05:14:26.578] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:bestiary_page Expected: 1474 Got: 1512
+[04Dec2024 05:14:26.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:egg_hatch Expected: 1475 Got: 1513
+[04Dec2024 05:14:26.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_breath Expected: 1476 Got: 1514
+[04Dec2024 05:14:26.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_breath Expected: 1477 Got: 1515
+[04Dec2024 05:14:26.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_child_idle Expected: 1478 Got: 1516
+[04Dec2024 05:14:26.585] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_child_hurt Expected: 1479 Got: 1517
+[04Dec2024 05:14:26.585] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_child_death Expected: 1480 Got: 1518
+[04Dec2024 05:14:26.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_child_roar Expected: 1481 Got: 1519
+[04Dec2024 05:14:26.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_teen_roar Expected: 1482 Got: 1520
+[04Dec2024 05:14:26.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_teen_idle Expected: 1483 Got: 1521
+[04Dec2024 05:14:26.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_teen_death Expected: 1484 Got: 1522
+[04Dec2024 05:14:26.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_teen_hurt Expected: 1485 Got: 1523
+[04Dec2024 05:14:26.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_adult_roar Expected: 1486 Got: 1524
+[04Dec2024 05:14:26.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_adult_idle Expected: 1487 Got: 1525
+[04Dec2024 05:14:26.590] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_adult_death Expected: 1488 Got: 1526
+[04Dec2024 05:14:26.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_adult_hurt Expected: 1489 Got: 1527
+[04Dec2024 05:14:26.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_child_idle Expected: 1490 Got: 1528
+[04Dec2024 05:14:26.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_child_hurt Expected: 1491 Got: 1529
+[04Dec2024 05:14:26.594] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_child_death Expected: 1492 Got: 1530
+[04Dec2024 05:14:26.594] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_child_roar Expected: 1493 Got: 1531
+[04Dec2024 05:14:26.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_teen_roar Expected: 1494 Got: 1532
+[04Dec2024 05:14:26.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_teen_idle Expected: 1495 Got: 1533
+[04Dec2024 05:14:26.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_teen_death Expected: 1496 Got: 1534
+[04Dec2024 05:14:26.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_teen_hurt Expected: 1497 Got: 1535
+[04Dec2024 05:14:26.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_adult_roar Expected: 1498 Got: 1536
+[04Dec2024 05:14:26.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_adult_idle Expected: 1499 Got: 1537
+[04Dec2024 05:14:26.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_adult_death Expected: 1500 Got: 1538
+[04Dec2024 05:14:26.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_adult_hurt Expected: 1501 Got: 1539
+[04Dec2024 05:14:26.599] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:dragonflute Expected: 1502 Got: 1540
+[04Dec2024 05:14:26.599] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippogryph_idle Expected: 1503 Got: 1541
+[04Dec2024 05:14:26.600] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippogryph_hurt Expected: 1504 Got: 1542
+[04Dec2024 05:14:26.605] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippogryph_die Expected: 1505 Got: 1543
+[04Dec2024 05:14:26.605] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gorgon_idle Expected: 1506 Got: 1544
+[04Dec2024 05:14:26.605] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gorgon_hurt Expected: 1507 Got: 1545
+[04Dec2024 05:14:26.605] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gorgon_die Expected: 1508 Got: 1546
+[04Dec2024 05:14:26.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gorgon_attack Expected: 1509 Got: 1547
+[04Dec2024 05:14:26.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gorgon_petrify Expected: 1510 Got: 1548
+[04Dec2024 05:14:26.607] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:turn_stone Expected: 1511 Got: 1549
+[04Dec2024 05:14:26.607] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:pixie_idle Expected: 1512 Got: 1550
+[04Dec2024 05:14:26.607] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:pixie_hurt Expected: 1513 Got: 1551
+[04Dec2024 05:14:26.607] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:pixie_die Expected: 1514 Got: 1552
+[04Dec2024 05:14:26.608] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:pixie_taunt Expected: 1515 Got: 1553
+[04Dec2024 05:14:26.608] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gold_pile_step Expected: 1516 Got: 1554
+[04Dec2024 05:14:26.609] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gold_pile_break Expected: 1517 Got: 1555
+[04Dec2024 05:14:26.610] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:dragon_flight Expected: 1518 Got: 1556
+[04Dec2024 05:14:26.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cyclops_idle Expected: 1519 Got: 1557
+[04Dec2024 05:14:26.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cyclops_hurt Expected: 1520 Got: 1558
+[04Dec2024 05:14:26.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cyclops_die Expected: 1521 Got: 1559
+[04Dec2024 05:14:26.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cyclops_bite Expected: 1522 Got: 1560
+[04Dec2024 05:14:26.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cyclops_blinded Expected: 1523 Got: 1561
+[04Dec2024 05:14:26.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippocampus_idle Expected: 1524 Got: 1562
+[04Dec2024 05:14:26.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippocampus_hurt Expected: 1525 Got: 1563
+[04Dec2024 05:14:26.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippocampus_die Expected: 1526 Got: 1564
+[04Dec2024 05:14:26.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_idle Expected: 1527 Got: 1565
+[04Dec2024 05:14:26.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_attack Expected: 1528 Got: 1566
+[04Dec2024 05:14:26.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_hurt Expected: 1529 Got: 1567
+[04Dec2024 05:14:26.616] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_die Expected: 1530 Got: 1568
+[04Dec2024 05:14:26.617] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_giant_idle Expected: 1531 Got: 1569
+[04Dec2024 05:14:26.617] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_giant_attack Expected: 1532 Got: 1570
+[04Dec2024 05:14:26.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_giant_hurt Expected: 1533 Got: 1571
+[04Dec2024 05:14:26.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_giant_die Expected: 1534 Got: 1572
+[04Dec2024 05:14:26.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:naga_idle Expected: 1535 Got: 1573
+[04Dec2024 05:14:26.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:naga_attack Expected: 1536 Got: 1574
+[04Dec2024 05:14:26.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:naga_hurt Expected: 1537 Got: 1575
+[04Dec2024 05:14:26.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:naga_die Expected: 1538 Got: 1576
+[04Dec2024 05:14:26.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:mermaid_idle Expected: 1539 Got: 1577
+[04Dec2024 05:14:26.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:mermaid_hurt Expected: 1540 Got: 1578
+[04Dec2024 05:14:26.622] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:mermaid_die Expected: 1541 Got: 1579
+[04Dec2024 05:14:26.622] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:siren_song Expected: 1542 Got: 1580
+[04Dec2024 05:14:26.624] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:troll_die Expected: 1543 Got: 1581
+[04Dec2024 05:14:26.625] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:troll_idle Expected: 1544 Got: 1582
+[04Dec2024 05:14:26.625] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:troll_hurt Expected: 1545 Got: 1583
+[04Dec2024 05:14:26.625] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:troll_roar Expected: 1546 Got: 1584
+[04Dec2024 05:14:26.626] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cockatrice_die Expected: 1547 Got: 1585
+[04Dec2024 05:14:26.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cockatrice_idle Expected: 1548 Got: 1586
+[04Dec2024 05:14:26.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cockatrice_hurt Expected: 1549 Got: 1587
+[04Dec2024 05:14:26.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cockatrice_cry Expected: 1550 Got: 1588
+[04Dec2024 05:14:26.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:stymphalian_bird_die Expected: 1551 Got: 1589
+[04Dec2024 05:14:26.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:stymphalian_bird_idle Expected: 1552 Got: 1590
+[04Dec2024 05:14:26.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:stymphalian_bird_hurt Expected: 1553 Got: 1591
+[04Dec2024 05:14:26.629] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:stymphalian_bird_attack Expected: 1554 Got: 1592
+[04Dec2024 05:14:26.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_die Expected: 1555 Got: 1593
+[04Dec2024 05:14:26.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_idle Expected: 1556 Got: 1594
+[04Dec2024 05:14:26.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_hurt Expected: 1557 Got: 1595
+[04Dec2024 05:14:26.634] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_walk Expected: 1558 Got: 1596
+[04Dec2024 05:14:26.636] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_bite Expected: 1559 Got: 1597
+[04Dec2024 05:14:26.642] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_sting Expected: 1560 Got: 1598
+[04Dec2024 05:14:26.643] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:amphithere_die Expected: 1561 Got: 1599
+[04Dec2024 05:14:26.643] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:amphithere_idle Expected: 1562 Got: 1600
+[04Dec2024 05:14:26.643] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:amphithere_hurt Expected: 1563 Got: 1601
+[04Dec2024 05:14:26.643] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:amphithere_bite Expected: 1564 Got: 1602
+[04Dec2024 05:14:26.644] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:amphithere_gust Expected: 1565 Got: 1603
+[04Dec2024 05:14:26.644] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_die Expected: 1566 Got: 1604
+[04Dec2024 05:14:26.644] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_idle Expected: 1567 Got: 1605
+[04Dec2024 05:14:26.645] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_hurt Expected: 1568 Got: 1606
+[04Dec2024 05:14:26.645] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_bite Expected: 1569 Got: 1607
+[04Dec2024 05:14:26.645] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_roar Expected: 1570 Got: 1608
+[04Dec2024 05:14:26.645] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_breath Expected: 1571 Got: 1609
+[04Dec2024 05:14:26.646] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_splash Expected: 1572 Got: 1610
+[04Dec2024 05:14:26.648] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hydra_die Expected: 1573 Got: 1611
+[04Dec2024 05:14:26.649] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hydra_idle Expected: 1574 Got: 1612
+[04Dec2024 05:14:26.650] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hydra_hurt Expected: 1575 Got: 1613
+[04Dec2024 05:14:26.650] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hydra_spit Expected: 1576 Got: 1614
+[04Dec2024 05:14:26.650] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hydra_regen_head Expected: 1577 Got: 1615
+[04Dec2024 05:14:26.651] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:pixie_wand Expected: 1578 Got: 1616
+[04Dec2024 05:14:26.651] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:dread_lich_summon Expected: 1579 Got: 1617
+[04Dec2024 05:14:26.651] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:dread_ghoul_idle Expected: 1580 Got: 1618
+[04Dec2024 05:14:26.652] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_child_idle Expected: 1581 Got: 1619
+[04Dec2024 05:14:26.652] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_child_hurt Expected: 1582 Got: 1620
+[04Dec2024 05:14:26.652] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_child_death Expected: 1583 Got: 1621
+[04Dec2024 05:14:26.655] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_child_roar Expected: 1584 Got: 1622
+[04Dec2024 05:14:26.655] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_teen_roar Expected: 1585 Got: 1623
+[04Dec2024 05:14:26.655] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_teen_idle Expected: 1586 Got: 1624
+[04Dec2024 05:14:26.656] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_teen_death Expected: 1587 Got: 1625
+[04Dec2024 05:14:26.656] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_teen_hurt Expected: 1588 Got: 1626
+[04Dec2024 05:14:26.656] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_adult_roar Expected: 1589 Got: 1627
+[04Dec2024 05:14:26.660] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_adult_idle Expected: 1590 Got: 1628
+[04Dec2024 05:14:26.661] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_adult_death Expected: 1591 Got: 1629
+[04Dec2024 05:14:26.661] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_adult_hurt Expected: 1592 Got: 1630
+[04Dec2024 05:14:26.661] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_breath Expected: 1593 Got: 1631
+[04Dec2024 05:14:26.662] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_breath_crackle Expected: 1594 Got: 1632
+[04Dec2024 05:14:26.662] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:ghost_idle Expected: 1595 Got: 1633
+[04Dec2024 05:14:26.662] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:ghost_hurt Expected: 1596 Got: 1634
+[04Dec2024 05:14:26.663] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:ghost_die Expected: 1597 Got: 1635
+[04Dec2024 05:14:26.663] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:ghost_attack Expected: 1598 Got: 1636
+[04Dec2024 05:14:26.663] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:ghost_jumpscare Expected: 1599 Got: 1637
+[04Dec2024 05:14:27.904] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23123!/assets/.mcassetsroot' uses unexpected schema
+[04Dec2024 05:14:27.905] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23123!/data/.mcassetsroot' uses unexpected schema
+[04Dec2024 05:14:32.208] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23128!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23128!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[04Dec2024 05:14:33.838] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[04Dec2024 05:14:34.361] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2000 advancements
+[04Dec2024 05:14:35.411] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[04Dec2024 05:14:35.412] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[04Dec2024 05:14:35.412] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[04Dec2024 05:14:35.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04Dec2024 05:14:35.600] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[04Dec2024 05:14:35.744] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[04Dec2024 05:14:35.887] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04Dec2024 05:14:35.887] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[04Dec2024 05:14:35.888] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04Dec2024 05:14:35.888] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[04Dec2024 05:14:36.045] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[04Dec2024 05:14:50.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04Dec2024 05:14:57.901] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:57.916] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:57.916] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:57.917] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:57.918] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:57.919] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:57.920] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:57.920] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:57.921] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:57.923] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:57.923] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:57.936] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:57.937] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:57.943] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:57.967] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:58.463] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:58.958] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:59.458] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:14:59.960] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Dec2024 05:15:00.752] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9795 ms
+[04Dec2024 05:15:00.753] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (24.847s)! For help, type "help"
+[04Dec2024 05:15:00.788] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[04Dec2024 05:15:00.791] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[04Dec2024 05:15:00.791] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[04Dec2024 05:15:22.148] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Terrain32[/100.65.58.104:60970] logged in with entity id 352 at (-42.2288692674684, 64.0, 123.29498367927957)
+[04Dec2024 05:15:22.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 joined the game
+[04Dec2024 05:15:22.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has made the advancement [Ice and Fire]
+[04Dec2024 05:16:15.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has made the advancement [Weather Warning]
+[04Dec2024 05:16:51.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has made the advancement [Ice Cubed]
+[04Dec2024 05:19:04.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has made the advancement [Book of Monsters]
+[04Dec2024 05:20:57.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: The difficulty has been set to Peaceful]
