@@ -767,6 +767,12 @@
     },
     "done": true
   },
+  "soulsweapons:recipes/misc/verglas": {
+    "criteria": {
+      "has_item": "2024-12-06 04:17:03 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/void_prism": {
     "criteria": {
       "has_journal": "2024-12-06 02:46:18 +0000"
@@ -1857,6 +1863,12 @@
     },
     "done": false
   },
+  "soulsweapons:recipes/building_blocks/verglas_block": {
+    "criteria": {
+      "has_item": "2024-12-06 04:17:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-12-06 04:06:17 +0000"
@@ -2049,6 +2061,12 @@
     },
     "done": true
   },
+  "soulsweapons:verglas": {
+    "criteria": {
+      "item": "2024-12-06 04:17:03 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/ritual_forestation": {
     "criteria": {
       "has_journal": "2024-12-06 02:46:18 +0000"
@@ -2214,6 +2232,12 @@
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2024-12-06 02:48:07 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/skofnung_stone": {
+    "criteria": {
+      "has_item": "2024-12-06 04:17:03 +0000"
     },
     "done": true
   },
@@ -2827,6 +2851,12 @@
   "ars_nouveau:recipes/misc/scry_to_blank_parchment": {
     "criteria": {
       "has_journal": "2024-12-06 02:46:18 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/sting": {
+    "criteria": {
+      "has_item": "2024-12-06 04:17:03 +0000"
     },
     "done": true
   },
