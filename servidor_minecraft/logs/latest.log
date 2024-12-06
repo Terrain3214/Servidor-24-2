@@ -227,3 +227,20 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [06Dec2024 02:46:46.511] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.81.12.92:62481 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
 [06Dec2024 02:47:12.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Monster Hunter]
 [06Dec2024 02:47:13.621] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.81.12.92:62484 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
+[06Dec2024 02:48:52.059] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.81.12.92:62504 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
+[06Dec2024 02:50:49.161] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.81.12.92:62544 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
+[06Dec2024 02:50:51.659] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.81.12.92:62545 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
+[06Dec2024 02:51:22.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Stone Age]
+[06Dec2024 02:51:26.465] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.81.12.92:62550 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
+[06Dec2024 02:52:02.022] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.81.12.92:62560 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
+[06Dec2024 02:52:25.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Getting an Upgrade]
+[06Dec2024 02:53:45.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 has completed the challenge [Learn to Fart]
+[06Dec2024 02:54:04.811] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Pochito228[/100.65.198.20:63664] logged in with entity id 8654 at (-41.5, 65.0, 145.5)
+[06Dec2024 02:54:04.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 joined the game
+[06Dec2024 02:54:05.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 has made the advancement [Ice and Fire]
+[06Dec2024 02:54:17.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ratachi1398> A SU IZQUIERDA
+[06Dec2024 02:54:24.360] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ZOMTASMA08[/100.81.12.92:62592] logged in with entity id 8763 at (-55.5, 65.0, 148.5)
+[06Dec2024 02:54:24.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 joined the game
+[06Dec2024 02:54:24.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 has made the advancement [Ice and Fire]
+[06Dec2024 02:54:48.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the weather to clear
+[06Dec2024 02:57:48.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 has made the advancement [Getting an Upgrade]
