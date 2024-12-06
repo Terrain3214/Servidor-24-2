@@ -4648,3 +4648,19 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [06Dec2024 02:26:51.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 joined the game
 [06Dec2024 02:27:05.056] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 lost connection: Disconnected
 [06Dec2024 02:27:05.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 left the game
+[06Dec2024 02:29:46.949] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Dec2024 02:29:46.960] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Dec2024 02:34:47.058] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Dec2024 02:34:47.083] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Dec2024 02:35:46.781] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 113 messages to dispatch.
+[06Dec2024 02:35:46.812] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.81.12.92:62378 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
+[06Dec2024 02:35:50.327] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 113 messages to dispatch.
+[06Dec2024 02:35:50.354] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.81.12.92:62379 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
+[06Dec2024 02:35:56.315] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 113 messages to dispatch.
+[06Dec2024 02:35:56.356] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.81.12.92:62380 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
+[06Dec2024 02:36:16.038] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 113 messages to dispatch.
+[06Dec2024 02:36:16.068] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.81.12.92:62383 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
+[06Dec2024 02:37:01.063] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 113 messages to dispatch.
+[06Dec2024 02:37:01.067] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.81.12.92:62389 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
+[06Dec2024 02:37:29.168] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 113 messages to dispatch.
+[06Dec2024 02:37:29.204] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /100.81.12.92:62390 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
