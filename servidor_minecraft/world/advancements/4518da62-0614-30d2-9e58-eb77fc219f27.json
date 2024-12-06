@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2024-12-06 03:01:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2024-12-06 02:37:56 +0000"
@@ -56,6 +62,12 @@
   "iceandfire:recipes/misc/dragon_meal": {
     "criteria": {
       "has_item": "2024-12-06 02:50:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2024-12-06 03:01:11 +0000"
     },
     "done": true
   },
@@ -275,6 +287,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/blindfold": {
+    "criteria": {
+      "has_item": "2024-12-06 03:01:11 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/manipulation_essence_to_andesite": {
     "criteria": {
       "has_journal": "2024-12-06 02:22:40 +0000"
@@ -413,6 +431,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2024-12-06 03:01:39 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/scribes_table": {
     "criteria": {
       "has_journal": "2024-12-06 02:22:40 +0000"
@@ -464,6 +488,12 @@
   "ars_nouveau:recipes/building_blocks/gilded_sourcestone_alternating_slab": {
     "criteria": {
       "has_journal": "2024-12-06 02:22:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2024-12-06 03:01:11 +0000"
     },
     "done": true
   },
@@ -817,9 +847,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2024-12-06 03:01:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2024-12-06 02:23:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-12-06 03:03:47 +0000"
     },
     "done": true
   },
@@ -964,6 +1006,12 @@
   "ars_nouveau:recipes/building_blocks/gilded_sourcestone_large_bricks_stone_cutterslab": {
     "criteria": {
       "has_journal": "2024-12-06 02:22:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2024-12-06 03:01:11 +0000"
     },
     "done": true
   },
@@ -1177,6 +1225,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2024-12-06 02:57:48 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/building_blocks/smooth_sourcestone_stone_cutterslab": {
     "criteria": {
       "has_journal": "2024-12-06 02:22:40 +0000"
@@ -1237,9 +1291,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2024-12-06 03:01:39 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/enchanting_apparatus": {
     "criteria": {
       "has_journal": "2024-12-06 02:22:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2024-12-06 03:01:11 +0000"
     },
     "done": true
   },
@@ -1531,6 +1597,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2024-12-06 03:01:11 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/sourcestone_small_bricks_stairs": {
     "criteria": {
       "has_journal": "2024-12-06 02:22:40 +0000"
@@ -1546,6 +1618,12 @@
   "ars_nouveau:recipes/building_blocks/archwood_fence": {
     "criteria": {
       "has_journal": "2024-12-06 02:22:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2024-12-06 02:57:48 +0000"
     },
     "done": true
   },
@@ -1902,6 +1980,7 @@
       "minecraft:sunflower_plains": "2024-12-06 02:22:42 +0000",
       "minecraft:beach": "2024-12-06 02:23:09 +0000",
       "minecraft:river": "2024-12-06 02:23:51 +0000",
+      "minecraft:ocean": "2024-12-06 03:03:48 +0000",
       "minecraft:flower_forest": "2024-12-06 02:23:59 +0000"
     },
     "done": false
@@ -1921,6 +2000,12 @@
   "ars_nouveau:recipes/misc/alteration_table": {
     "criteria": {
       "has_journal": "2024-12-06 02:22:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2024-12-06 03:01:11 +0000"
     },
     "done": true
   },
@@ -2207,6 +2292,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2024-12-06 03:01:11 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/gilded_sourcestone_mosaic_stairs": {
     "criteria": {
       "has_journal": "2024-12-06 02:22:40 +0000"
@@ -2252,6 +2343,12 @@
   "ars_nouveau:recipes/misc/gilded_sourcestone_small_bricks_stairs": {
     "criteria": {
       "has_journal": "2024-12-06 02:22:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2024-12-06 03:01:11 +0000"
     },
     "done": true
   },
