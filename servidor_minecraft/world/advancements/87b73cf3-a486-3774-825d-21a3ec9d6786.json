@@ -2137,6 +2137,12 @@
     },
     "done": true
   },
+  "soulsweapons:recipes/combat/kirkhammer": {
+    "criteria": {
+      "has_item": "2024-12-06 02:06:15 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
       "log_spam_fixer": "2024-12-06 02:07:47 +0000"
@@ -2208,12 +2214,6 @@
       "log_spam_fixer": "2024-12-06 02:07:47 +0000"
     },
     "done": false
-  },
-  "soulsweapons:recipes/combat/kirkhammer": {
-    "criteria": {
-      "has_item": "2024-12-06 02:06:15 +0000"
-    },
-    "done": true
   },
   "DataVersion": 3465
 }

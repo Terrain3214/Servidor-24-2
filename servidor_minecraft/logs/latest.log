@@ -198,3 +198,12 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [06Dec2024 02:08:23.804] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 lost connection: Disconnected
 [06Dec2024 02:08:23.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 left the game
 [06Dec2024 02:08:37.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
+[06Dec2024 02:22:40.266] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ratachi1398[/100.126.122.99:55711] logged in with entity id 3008 at (-41.5, 65.0, 144.5)
+[06Dec2024 02:22:40.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 joined the game
+[06Dec2024 02:22:40.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 has made the advancement [Ice and Fire]
+[06Dec2024 02:23:01.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 has made the advancement [Monster Hunter]
+[06Dec2024 02:23:07.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 was slain by Spider
+[06Dec2024 02:26:50.979] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Terrain32[/100.65.58.104:55323] logged in with entity id 3907 at (-30.74128509619939, 65.84331918472671, 111.71480486176856)
+[06Dec2024 02:26:51.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 joined the game
+[06Dec2024 02:27:05.056] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 lost connection: Disconnected
+[06Dec2024 02:27:05.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 left the game
