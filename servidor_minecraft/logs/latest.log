@@ -191,3 +191,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [06Dec2024 01:49:40.311] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
 [06Dec2024 01:49:40.765] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 247468 bytes (in 25 string chunks with the size of 10000)
 [06Dec2024 01:49:44.747] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[06Dec2024 02:01:39.359] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Terrain32[/100.65.58.104:55069] logged in with entity id 329 at (-39.5023200236674, 97.7301726595998, 123.58600412491484)
+[06Dec2024 02:01:40.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 joined the game
+[06Dec2024 02:01:41.407] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2161ms or 43 ticks behind
+[06Dec2024 02:02:12.918] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
