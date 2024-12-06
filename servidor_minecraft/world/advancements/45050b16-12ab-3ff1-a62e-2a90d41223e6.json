@@ -341,6 +341,12 @@
     },
     "done": true
   },
+  "evilcraft:root": {
+    "criteria": {
+      "criteria_0": "2024-12-06 04:33:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2024-12-06 03:16:07 +0000"
@@ -545,6 +551,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2024-12-06 04:36:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-06 04:03:35 +0000"
@@ -560,6 +572,12 @@
   "ars_nouveau:recipes/misc/alchemical_sourcelink": {
     "criteria": {
       "has_journal": "2024-12-06 02:54:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2024-12-06 04:36:11 +0000"
     },
     "done": true
   },
@@ -776,6 +794,12 @@
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-12-06 04:01:21 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/misc/verglas": {
+    "criteria": {
+      "has_item": "2024-12-06 04:29:39 +0000"
     },
     "done": true
   },
@@ -1446,6 +1470,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2024-12-06 04:36:11 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/building_blocks/gilded_sourcestone_large_bricks_stone_cutterslab": {
     "criteria": {
       "has_journal": "2024-12-06 02:54:05 +0000"
@@ -1473,6 +1503,12 @@
   "minecraft:recipes/transportation/oak_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-06 03:15:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2024-12-06 04:36:11 +0000"
     },
     "done": true
   },
@@ -1659,6 +1695,12 @@
   "soulsweapons:root": {
     "criteria": {
       "crafting_table": "2024-12-06 03:05:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2024-12-06 04:36:11 +0000"
     },
     "done": true
   },
@@ -1890,6 +1932,12 @@
     },
     "done": false
   },
+  "soulsweapons:recipes/building_blocks/verglas_block": {
+    "criteria": {
+      "has_item": "2024-12-06 04:29:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-12-06 04:06:38 +0000"
@@ -2070,6 +2118,12 @@
     },
     "done": true
   },
+  "soulsweapons:verglas": {
+    "criteria": {
+      "item": "2024-12-06 04:29:39 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/ritual_forestation": {
     "criteria": {
       "has_journal": "2024-12-06 02:54:05 +0000"
@@ -2247,6 +2301,12 @@
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2024-12-06 02:58:32 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/skofnung_stone": {
+    "criteria": {
+      "has_item": "2024-12-06 04:29:39 +0000"
     },
     "done": true
   },
@@ -2448,6 +2508,12 @@
     },
     "done": true
   },
+  "evilcraft:first_age": {
+    "criteria": {
+      "criteria_0": "2024-12-06 04:33:40 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/sourcestone_sconce": {
     "criteria": {
       "has_journal": "2024-12-06 02:54:05 +0000"
@@ -2481,6 +2547,12 @@
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2024-12-06 02:58:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2024-12-06 04:36:11 +0000"
     },
     "done": true
   },
@@ -2712,6 +2784,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2024-12-06 04:36:11 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/challenge_2": {
     "criteria": {
       "has_journal": "2024-12-06 02:54:05 +0000"
@@ -2888,6 +2966,12 @@
     },
     "done": true
   },
+  "soulsweapons:recipes/combat/sting": {
+    "criteria": {
+      "has_item": "2024-12-06 04:29:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
       "has_planks": "2024-12-06 02:58:32 +0000"
@@ -3041,6 +3125,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_mutton": "2024-12-06 03:09:48 +0000",
+      "cooked_beef": "2024-12-06 04:36:30 +0000",
       "apple": "2024-12-06 03:09:38 +0000"
     },
     "done": false
@@ -3348,6 +3433,12 @@
   "ars_nouveau:recipes/misc/sconce": {
     "criteria": {
       "has_journal": "2024-12-06 02:54:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2024-12-06 04:36:11 +0000"
     },
     "done": true
   },
