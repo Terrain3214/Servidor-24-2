@@ -419,6 +419,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2024-12-06 03:09:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_carpet": {
     "criteria": {
       "has_black_wool": "2024-12-06 03:04:15 +0000"
@@ -803,6 +809,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-12-06 03:11:05 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/building_blocks/smooth_gilded_sourcestone_alternating_stone_cutterslab": {
     "criteria": {
       "has_journal": "2024-12-06 02:54:05 +0000"
@@ -818,6 +830,12 @@
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2024-12-06 03:04:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-12-06 03:09:00 +0000"
     },
     "done": true
   },
@@ -971,6 +989,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-12-06 03:09:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2024-12-06 02:55:02 +0000"
@@ -986,6 +1010,12 @@
   "ars_nouveau:recipes/misc/smooth_gilded_sourcestone_alternating_to_sourcestone": {
     "criteria": {
       "has_journal": "2024-12-06 02:54:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2024-12-06 03:05:48 +0000"
     },
     "done": true
   },
@@ -1070,6 +1100,12 @@
   "ars_nouveau:recipes/misc/smooth_gilded_sourcestone_small_bricks_stairs": {
     "criteria": {
       "has_journal": "2024-12-06 02:54:05 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:root": {
+    "criteria": {
+      "crafting_table": "2024-12-06 03:05:48 +0000"
     },
     "done": true
   },
@@ -1400,6 +1436,12 @@
   "ars_nouveau:recipes/building_blocks/smooth_gilded_sourcestone_large_bricks_stone_cutterslab": {
     "criteria": {
       "has_journal": "2024-12-06 02:54:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2024-12-06 03:05:48 +0000"
     },
     "done": true
   },
@@ -1856,9 +1898,13 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:sunflower_plains": "2024-12-06 02:54:05 +0000",
+      "minecraft:windswept_hills": "2024-12-06 03:05:34 +0000",
       "minecraft:beach": "2024-12-06 02:54:16 +0000",
       "minecraft:river": "2024-12-06 02:54:54 +0000",
-      "minecraft:flower_forest": "2024-12-06 02:56:11 +0000"
+      "minecraft:cold_ocean": "2024-12-06 03:06:22 +0000",
+      "minecraft:ocean": "2024-12-06 03:06:14 +0000",
+      "minecraft:flower_forest": "2024-12-06 02:56:11 +0000",
+      "minecraft:plains": "2024-12-06 03:10:07 +0000"
     },
     "done": false
   },
@@ -1883,6 +1929,12 @@
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2024-12-06 03:04:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2024-12-06 03:05:47 +0000"
     },
     "done": true
   },
@@ -1952,6 +2004,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2024-12-06 03:05:48 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/building_blocks/smooth_gilded_sourcestone_mosaic_stonecutter_stair": {
     "criteria": {
       "has_journal": "2024-12-06 02:54:05 +0000"
@@ -1969,6 +2027,13 @@
       "has_journal": "2024-12-06 02:54:05 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_mutton": "2024-12-06 03:09:48 +0000",
+      "apple": "2024-12-06 03:09:38 +0000"
+    },
+    "done": false
   },
   "ars_nouveau:recipes/misc/ritual_wilden_summon": {
     "criteria": {
@@ -2111,6 +2176,12 @@
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2024-12-06 02:54:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-12-06 03:05:48 +0000"
     },
     "done": true
   },
