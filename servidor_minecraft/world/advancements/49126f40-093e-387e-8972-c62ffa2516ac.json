@@ -115,7 +115,7 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:45:28 +0000"
+      "log_spam_fixer": "2024-12-06 03:58:19 +0000"
     },
     "done": false
   },
@@ -175,7 +175,7 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:45:28 +0000"
+      "log_spam_fixer": "2024-12-06 03:58:19 +0000"
     },
     "done": false
   },
@@ -272,6 +272,12 @@
   "twilightforest:recipes/transportation/transformation_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-06 03:09:20 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/silver_ingot_to_silver_nugget": {
+    "criteria": {
+      "has_silver_ingot": "2024-12-06 03:56:10 +0000"
     },
     "done": true
   },
@@ -377,9 +383,21 @@
     },
     "done": true
   },
+  "iceandfire:recipes/tools/silver_ingot_from_smelting_raw_silver": {
+    "criteria": {
+      "has_raw_silver": "2024-12-06 03:52:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2024-12-06 03:02:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2024-12-06 03:47:35 +0000"
     },
     "done": true
   },
@@ -469,7 +487,7 @@
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:45:28 +0000"
+      "log_spam_fixer": "2024-12-06 03:58:19 +0000"
     },
     "done": false
   },
@@ -623,9 +641,15 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-12-06 03:47:52 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:45:28 +0000"
+      "log_spam_fixer": "2024-12-06 03:58:19 +0000"
     },
     "done": false
   },
@@ -674,6 +698,12 @@
   "ars_nouveau:recipes/misc/ritual_burrowing": {
     "criteria": {
       "has_journal": "2024-12-06 02:46:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2024-12-06 03:47:35 +0000"
     },
     "done": true
   },
@@ -869,6 +899,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/building_blocks/silver_ingot_to_silver_block": {
+    "criteria": {
+      "has_silver_ingot": "2024-12-06 03:56:10 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/ritual_sanctuary": {
     "criteria": {
       "has_journal": "2024-12-06 02:46:18 +0000"
@@ -999,6 +1035,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-12-06 03:52:09 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/building_blocks/smooth_gilded_sourcestone_alternating_stone_cutterslab": {
     "criteria": {
       "has_journal": "2024-12-06 02:46:18 +0000"
@@ -1020,6 +1062,12 @@
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2024-12-06 03:15:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2024-12-06 03:47:35 +0000"
     },
     "done": true
   },
@@ -1073,7 +1121,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:45:28 +0000"
+      "log_spam_fixer": "2024-12-06 03:58:19 +0000"
     },
     "done": false
   },
@@ -1131,6 +1179,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2024-12-06 03:47:35 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/building_blocks/sourcestone_large_bricks_stone_cutterslab": {
     "criteria": {
       "has_journal": "2024-12-06 02:46:18 +0000"
@@ -1152,6 +1206,12 @@
   "ars_nouveau:recipes/misc/clear_deny": {
     "criteria": {
       "has_journal": "2024-12-06 02:46:18 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/raw_silver_to_raw_silver_block": {
+    "criteria": {
+      "has_raw_silver": "2024-12-06 03:52:17 +0000"
     },
     "done": true
   },
@@ -1223,7 +1283,7 @@
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:45:28 +0000"
+      "log_spam_fixer": "2024-12-06 03:58:19 +0000"
     },
     "done": false
   },
@@ -1353,6 +1413,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/tools/silver_ingot_from_blasting_raw_silver": {
+    "criteria": {
+      "has_raw_silver": "2024-12-06 03:52:17 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/wixie_hat": {
     "criteria": {
       "has_journal": "2024-12-06 02:46:18 +0000"
@@ -1385,7 +1451,7 @@
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:45:28 +0000"
+      "log_spam_fixer": "2024-12-06 03:58:19 +0000"
     },
     "done": false
   },
@@ -1397,7 +1463,7 @@
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:45:28 +0000"
+      "log_spam_fixer": "2024-12-06 03:58:19 +0000"
     },
     "done": false
   },
@@ -1488,6 +1554,12 @@
   "ars_nouveau:recipes/building_blocks/smooth_sourcestone_stone_cutterslab": {
     "criteria": {
       "has_journal": "2024-12-06 02:46:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-12-06 03:52:37 +0000"
     },
     "done": true
   },
@@ -1721,7 +1793,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:45:28 +0000"
+      "log_spam_fixer": "2024-12-06 03:58:19 +0000"
     },
     "done": false
   },
@@ -2009,7 +2081,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:45:28 +0000"
+      "log_spam_fixer": "2024-12-06 03:58:19 +0000"
     },
     "done": false
   },
@@ -2247,6 +2319,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2024-12-06 03:47:35 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/challenge_2": {
     "criteria": {
       "has_journal": "2024-12-06 02:46:18 +0000"
@@ -2394,7 +2472,7 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:45:28 +0000"
+      "log_spam_fixer": "2024-12-06 03:58:19 +0000"
     },
     "done": false
   },
@@ -2458,6 +2536,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-12-06 03:52:37 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/yellow_sbed": {
     "criteria": {
       "has_journal": "2024-12-06 02:46:18 +0000"
@@ -2472,7 +2556,7 @@
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-12-06 03:45:28 +0000"
+      "log_spam_fixer": "2024-12-06 03:58:19 +0000"
     },
     "done": false
   },
@@ -2606,6 +2690,12 @@
   "ars_nouveau:recipes/misc/purple_sbed": {
     "criteria": {
       "has_journal": "2024-12-06 02:46:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2024-12-06 03:47:35 +0000"
     },
     "done": true
   },
