@@ -195,3 +195,6 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [06Dec2024 02:01:40.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 joined the game
 [06Dec2024 02:01:41.407] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2161ms or 43 ticks behind
 [06Dec2024 02:02:12.918] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[06Dec2024 02:08:23.804] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 lost connection: Disconnected
+[06Dec2024 02:08:23.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 left the game
+[06Dec2024 02:08:37.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
