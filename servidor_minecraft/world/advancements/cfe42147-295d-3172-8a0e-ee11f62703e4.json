@@ -2558,6 +2558,7 @@
     "criteria": {
       "minecraft:skeleton": "2024-12-07 06:34:48 +0000",
       "minecraft:spider": "2024-12-07 06:34:30 +0000",
+      "minecraft:creeper": "2024-12-07 07:28:37 +0000",
       "minecraft:zombie": "2024-12-07 05:46:26 +0000",
       "minecraft:zombie_villager": "2024-12-07 06:36:21 +0000"
     },
@@ -2964,6 +2965,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2024-12-07 07:32:41 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/ghost_chest": {
+    "criteria": {
+      "has_item": "2024-12-07 07:33:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2024-12-07 06:34:31 +0000"
@@ -2985,6 +2998,12 @@
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2024-12-07 07:12:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2024-12-07 07:32:41 +0000"
     },
     "done": true
   },
@@ -3150,9 +3169,21 @@
     },
     "done": true
   },
+  "iceandfire:recipes/building_blocks/graveyard_soil": {
+    "criteria": {
+      "has_item": "2024-12-07 07:33:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2024-12-07 07:12:49 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_ghost": {
+    "criteria": {
+      "killed_fire_dragon": "2024-12-07 07:33:08 +0000"
     },
     "done": true
   },

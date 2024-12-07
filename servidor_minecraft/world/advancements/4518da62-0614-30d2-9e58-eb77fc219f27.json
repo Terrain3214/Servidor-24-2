@@ -2273,6 +2273,7 @@
     "criteria": {
       "cooked_porkchop": "2024-12-07 06:20:02 +0000",
       "cooked_mutton": "2024-12-07 05:51:35 +0000",
+      "baked_potato": "2024-12-07 07:27:01 +0000",
       "apple": "2024-12-07 05:27:27 +0000",
       "rotten_flesh": "2024-12-07 06:41:52 +0000",
       "cooked_chicken": "2024-12-07 05:38:40 +0000"
@@ -2833,6 +2834,12 @@
     },
     "done": true
   },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 07:30:04 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_pickaxe": "2024-12-07 06:55:02 +0000"
@@ -2844,6 +2851,12 @@
       "has_glass": "2024-12-07 07:08:29 +0000"
     },
     "done": true
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 07:30:04 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
@@ -2917,11 +2930,23 @@
     },
     "done": true
   },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 07:30:04 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_sand": "2024-12-07 06:58:17 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 07:30:04 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
@@ -2959,6 +2984,12 @@
     },
     "done": true
   },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 07:30:04 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2024-12-07 07:08:49 +0000"
@@ -2976,6 +3007,12 @@
       "has_glass_pane": "2024-12-07 07:08:49 +0000"
     },
     "done": true
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 07:30:04 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
     "criteria": {
@@ -3006,6 +3043,18 @@
       "has_glass_pane": "2024-12-07 07:08:49 +0000"
     },
     "done": true
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 07:30:04 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 07:30:04 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
@@ -3043,6 +3092,12 @@
     },
     "done": true
   },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 07:30:04 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2024-12-07 07:08:29 +0000"
@@ -3060,6 +3115,12 @@
       "has_glass_pane": "2024-12-07 07:08:49 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 07:30:04 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
@@ -3138,6 +3199,18 @@
       "has_iron_pickaxe": "2024-12-07 06:55:02 +0000"
     },
     "done": true
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 07:30:04 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 07:30:04 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {

@@ -3526,12 +3526,6 @@
     },
     "done": true
   },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "requirement": "2024-12-07 07:26:35 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/amethyst_block": {
     "criteria": {
       "has_amethyst_shard": "2024-12-07 07:02:25 +0000"

@@ -462,3 +462,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [07Dec2024 07:28:27.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has made the advancement [Book of Monsters]
 [07Dec2024 07:28:41.250] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9130ms or 182 ticks behind
 [07Dec2024 07:28:43.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has made the advancement [Rotten to the Core]
+[07Dec2024 07:28:53.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was blown up by Creeper
+[07Dec2024 07:29:21.667] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 25447ms or 508 ticks behind
+[07Dec2024 07:29:39.206] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:small_keep
+[07Dec2024 07:29:54.125] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 17505ms or 350 ticks behind
+[07Dec2024 07:30:05.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was slain by Fire Dragon
+[07Dec2024 07:30:08.224] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ratachi1398 lost connection: Disconnected
+[07Dec2024 07:30:08.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 left the game
+[07Dec2024 07:30:17.895] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8775ms or 175 ticks behind
+[07Dec2024 07:30:29.868] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Starbuncle['Gootastic'/10, l='ServerLevel[world]', x=12223.54, y=130.00, z=1504.49] died: Gootastic was slain by Pochito228
+[07Dec2024 07:30:40.968] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:silverfish_nest
+[07Dec2024 07:30:53.519] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
+[07Dec2024 07:33:01.736] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/31941, l='ServerLevel[world]', x=12780.95, y=98.00, z=1712.95] died, message: 'Villager burned to death'
+[07Dec2024 07:33:08.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 has made the advancement [Who You Gonna Call?]
+[07Dec2024 07:33:52.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was slain by Ghost
+[07Dec2024 07:34:35.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has completed the challenge [Learn to Fart]
+[07Dec2024 07:36:41.503] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3233ms or 64 ticks behind
+[07Dec2024 07:36:42.120] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/31335, l='ServerLevel[world]', x=12800.70, y=84.00, z=1784.70] died, message: 'Villager was slain by Zombie'
+[07Dec2024 07:37:00.997] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[07Dec2024 07:39:02.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was slain by Ghost
