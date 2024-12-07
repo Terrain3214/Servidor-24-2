@@ -2180,7 +2180,8 @@
       "cooked_porkchop": "2024-12-07 07:58:38 +0000",
       "cooked_mutton": "2024-12-07 05:38:50 +0000",
       "apple": "2024-12-07 05:23:34 +0000",
-      "golden_apple": "2024-12-07 07:47:19 +0000"
+      "golden_apple": "2024-12-07 07:47:19 +0000",
+      "cooked_salmon": "2024-12-07 08:08:54 +0000"
     },
     "done": false
   },
@@ -3621,6 +3622,12 @@
   "iceandfire:recipes/combat/gold_hippogryph_armor": {
     "criteria": {
       "has_item": "2024-12-07 07:57:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-12-07 08:07:26 +0000"
     },
     "done": true
   },
