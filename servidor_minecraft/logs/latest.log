@@ -226,3 +226,6 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [07Dec2024 22:24:09.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 joined the game
 [07Dec2024 22:24:12.693] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2138ms or 42 ticks behind
 [07Dec2024 22:27:07.389] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[07Dec2024 22:37:23.499] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ratachi1398[/100.126.122.99:53742] logged in with entity id 3262 at (11996.300000011921, 102.0, 1418.6574244091082)
+[07Dec2024 22:37:23.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 joined the game
+[07Dec2024 22:37:26.865] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
