@@ -3614,6 +3614,12 @@
     },
     "done": true
   },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "requirement": "2024-12-07 09:17:49 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2024-12-07 07:45:38 +0000"
