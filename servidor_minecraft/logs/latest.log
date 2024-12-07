@@ -619,3 +619,35 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [07Dec2024 08:39:24.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> no?
 [07Dec2024 08:39:39.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> inicialmente es b pero da conflicto con el minimap
 [07Dec2024 08:39:42.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pochito228> no, pero ya me acorde cual esta por defecto
+[07Dec2024 08:42:12.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Spectator Mode]
+[07Dec2024 08:42:54.021] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 moved too quickly! -5.8715829816501355,0.0,8.317395857837482
+[07Dec2024 08:43:15.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[07Dec2024 08:43:33.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> al fin todos a vivir en el hueco ese no?
+[07Dec2024 08:44:01.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[07Dec2024 08:44:05.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pochito228> creo que si
+[07Dec2024 08:44:08.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 moved too quickly! 10.790476425616362,2.036256080913546,-0.6015207865727916
+[07Dec2024 08:44:08.553] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2133ms or 42 ticks behind
+[07Dec2024 08:44:10.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[07Dec2024 08:44:22.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> de quien es la casa?
+[07Dec2024 08:44:28.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pochito228> borojo creo
+[07Dec2024 08:44:34.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> r
+[07Dec2024 08:46:38.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[07Dec2024 08:46:51.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[07Dec2024 08:47:16.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 was blown up by Creeper
+[07Dec2024 08:47:21.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pochito228> jajajjaaja
+[07Dec2024 08:47:34.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Teleported Terrain32 to 12194.500000, 129.500000, 1558.500000]
+[07Dec2024 08:48:20.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 was slain by Zombie
+[07Dec2024 08:48:26.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Teleported Terrain32 to 12192.500000, 129.500000, 1564.500000]
+[07Dec2024 08:50:00.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[07Dec2024 08:50:48.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[07Dec2024 08:51:00.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 was blown up by Creeper
+[07Dec2024 08:51:06.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Teleported Terrain32 to 12185.500000, 78.500000, 1515.500000]
+[07Dec2024 08:51:39.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has completed the challenge [Cannibal]
+[07Dec2024 08:51:51.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[07Dec2024 08:52:04.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[07Dec2024 08:52:15.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[07Dec2024 08:52:32.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[07Dec2024 08:52:42.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[07Dec2024 08:52:59.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has made the advancement [Diamonds!]
+[07Dec2024 08:53:03.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[07Dec2024 08:56:22.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set the world spawn point to 12115, 61, 1496 [0.0]]
