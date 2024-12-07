@@ -234,3 +234,13 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [07Dec2024 22:42:45.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 left the game
 [07Dec2024 22:42:46.535] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
 [07Dec2024 22:45:15.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 has made the advancement [False Water]
+[07Dec2024 22:52:03.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 was shot by Skeleton
+[07Dec2024 22:53:35.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 fell from a high place
+[07Dec2024 22:57:41.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 has made the advancement [First Age]
+[07Dec2024 23:02:52.321] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ZOMTASMA08[/100.81.12.92:59495] logged in with entity id 10148 at (12000.516960290206, 72.0, 1548.6910865636164)
+[07Dec2024 23:02:52.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 joined the game
+[07Dec2024 23:03:48.447] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Pochito228[/100.65.198.20:53740] logged in with entity id 10472 at (11958.934967674219, -44.0, 1293.699999988079)
+[07Dec2024 23:03:48.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 joined the game
+[07Dec2024 23:03:51.129] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[07Dec2024 23:07:43.379] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pochito228 lost connection: Disconnected
+[07Dec2024 23:07:43.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 left the game
