@@ -2177,8 +2177,10 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-12-07 07:58:38 +0000",
       "cooked_mutton": "2024-12-07 05:38:50 +0000",
-      "apple": "2024-12-07 05:23:34 +0000"
+      "apple": "2024-12-07 05:23:34 +0000",
+      "golden_apple": "2024-12-07 07:47:19 +0000"
     },
     "done": false
   },
@@ -3454,9 +3456,69 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "skilltree:recipes/combat/gilded_quiver": {
+    "criteria": {
+      "has_ingots_gold": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_horse_armor": "2024-12-07 07:57:17 +0000"
+    },
+    "done": true
+  },
   "evilcraft:evil_source": {
     "criteria": {
       "criteria_0": "2024-12-07 06:55:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_horse_armor": "2024-12-07 07:57:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
     },
     "done": true
   },
@@ -3472,6 +3534,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:warp_scroll": {
     "criteria": {
       "has_warp_scroll": "2024-12-07 06:55:17 +0000"
@@ -3481,6 +3549,12 @@
   "minecraft:recipes/transportation/activator_rail": {
     "criteria": {
       "has_rail": "2024-12-07 06:52:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
     },
     "done": true
   },
@@ -3526,9 +3600,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/amethyst_block": {
     "criteria": {
       "has_amethyst_shard": "2024-12-07 07:02:25 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/gold_hippogryph_armor": {
+    "criteria": {
+      "has_item": "2024-12-07 07:57:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
     },
     "done": true
   },
@@ -3565,6 +3663,12 @@
   "skilltree:recipes/misc/iron_ring": {
     "criteria": {
       "has_nuggets_iron": "2024-12-07 06:31:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
     },
     "done": true
   },
