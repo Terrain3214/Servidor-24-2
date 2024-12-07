@@ -1861,5 +1861,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2024-12-07 05:24:51 +0000"
+    },
+    "done": true
+  },
+  "simplyswords:runic_weapon": {
+    "criteria": {
+      "requirement": "2024-12-07 05:29:19 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
