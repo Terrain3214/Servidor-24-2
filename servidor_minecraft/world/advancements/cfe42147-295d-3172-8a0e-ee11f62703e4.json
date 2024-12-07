@@ -3334,11 +3334,23 @@
     },
     "done": true
   },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 20:51:11 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2024-12-07 19:44:00 +0000"
     },
     "done": true
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 20:51:11 +0000"
+    },
+    "done": false
   },
   "iceandfire:recipes/misc/silver_ingot_to_silver_nugget": {
     "criteria": {
@@ -3358,6 +3370,18 @@
     },
     "done": true
   },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 20:51:11 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 20:51:11 +0000"
+    },
+    "done": false
+  },
   "iceandfire:recipes/building_blocks/silver_ingot_to_silver_block": {
     "criteria": {
       "has_silver_ingot": "2024-12-07 20:29:30 +0000"
@@ -3376,6 +3400,12 @@
     },
     "done": true
   },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 20:51:11 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2024-12-07 19:32:16 +0000"
@@ -3387,6 +3417,24 @@
       "has_wheat": "2024-12-07 19:32:16 +0000"
     },
     "done": true
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 20:51:11 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 20:51:11 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 20:51:11 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/copper_block": {
     "criteria": {
@@ -3412,6 +3460,12 @@
     },
     "done": true
   },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 20:51:11 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2024-12-07 19:33:52 +0000"
@@ -3423,6 +3477,12 @@
       "has_flint": "2024-12-07 19:44:00 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 20:51:11 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
@@ -3448,6 +3508,12 @@
     },
     "done": true
   },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 20:51:11 +0000"
+    },
+    "done": false
+  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2024-12-07 19:32:25 +0000"
@@ -3459,6 +3525,12 @@
       "has_oxeye_daisy": "2024-12-07 19:42:58 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 20:51:11 +0000"
+    },
+    "done": false
   },
   "deeperdarker:main/kill_all_sculk_mobs": {
     "criteria": {
