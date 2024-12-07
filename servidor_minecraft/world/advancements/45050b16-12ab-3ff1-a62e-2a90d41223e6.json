@@ -3452,57 +3452,69 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2024-12-07 06:31:09 +0000"
+    },
+    "done": true
+  },
+  "skilltree:recipes/misc/iron_ring": {
+    "criteria": {
+      "has_nuggets_iron": "2024-12-07 06:31:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_chestplate": "2024-12-07 06:31:34 +0000"
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:story/shiny_gear": {
     "criteria": {
-      "log_spam_fixer": "2024-12-07 09:37:51 +0000"
-    },
-    "done": false
-  },
-  "gobber2:gobber2_ingot": {
-    "criteria": {
-      "gobber2_ingot": "2024-12-07 09:25:10 +0000"
+      "diamond_boots": "2024-12-07 06:31:39 +0000"
     },
     "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
+  "sophisticatedbackpacks:recipes/misc/iron_backpack_from_copper": {
     "criteria": {
-      "log_spam_fixer": "2024-12-07 09:37:51 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/tools/golden_axe": {
-    "criteria": {
-      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+      "has_copper_backpack": "2024-12-07 06:42:36 +0000"
     },
     "done": true
   },
-  "skilltree:recipes/combat/gilded_quiver": {
+  "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
-      "has_ingots_gold": "2024-12-07 07:45:38 +0000"
+      "has_gunpowder": "2024-12-07 06:43:56 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/golden_pickaxe": {
+  "minecraft:recipes/redstone/tnt": {
     "criteria": {
-      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+      "has_gunpowder": "2024-12-07 06:43:56 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+  "iceandfire:recipes/combat/iron_hippogryph_armor": {
     "criteria": {
-      "has_golden_horse_armor": "2024-12-07 07:57:17 +0000"
+      "has_item": "2024-12-07 06:44:13 +0000"
     },
     "done": true
   },
-  "gobber2:gobber2_pickaxe": {
+  "minecraft:recipes/transportation/activator_rail": {
     "criteria": {
-      "gobber2_pickaxe": "2024-12-07 09:25:53 +0000"
+      "has_rail": "2024-12-07 06:52:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2024-12-07 06:52:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2024-12-07 06:52:29 +0000"
     },
     "done": true
   },
@@ -3512,57 +3524,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_nugget": {
+  "ars_nouveau:warp_scroll": {
     "criteria": {
-      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/golden_shovel": {
-    "criteria": {
-      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/golden_apple": {
-    "criteria": {
-      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-07 09:37:51 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/combat/golden_boots": {
-    "criteria": {
-      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget_from_blasting": {
-    "criteria": {
-      "has_golden_horse_armor": "2024-12-07 07:57:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_helmet": {
-    "criteria": {
-      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-07 09:37:51 +0000"
-    },
-    "done": false
-  },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_boots": "2024-12-07 06:31:39 +0000"
+      "has_warp_scroll": "2024-12-07 06:55:17 +0000"
     },
     "done": true
   },
@@ -3572,81 +3536,9 @@
     },
     "done": true
   },
-  "gobber2:gobber2_rod": {
-    "criteria": {
-      "gobber2_rod": "2024-12-07 09:25:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_chestplate": {
-    "criteria": {
-      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
-    },
-    "done": true
-  },
-  "ars_nouveau:warp_scroll": {
-    "criteria": {
-      "has_warp_scroll": "2024-12-07 06:55:17 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-07 09:37:51 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/food/bread": {
-    "criteria": {
-      "has_wheat": "2024-12-07 08:11:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/hay_block": {
-    "criteria": {
-      "has_wheat": "2024-12-07 08:11:45 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-07 09:37:51 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/transportation/activator_rail": {
-    "criteria": {
-      "has_rail": "2024-12-07 06:52:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
-    "criteria": {
-      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
-    },
-    "done": true
-  },
   "bosses_of_mass_destruction:recipes/void_lily": {
     "criteria": {
       "has_amethyst_shard": "2024-12-07 07:02:25 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-07 09:37:51 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-07 09:37:51 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/transportation/detector_rail": {
-    "criteria": {
-      "has_rail": "2024-12-07 06:52:29 +0000"
     },
     "done": true
   },
@@ -3668,23 +3560,11 @@
     },
     "done": true
   },
-  "iceandfire:recipes/combat/iron_hippogryph_armor": {
+  "minecraft:recipes/building_blocks/amethyst_block": {
     "criteria": {
-      "has_item": "2024-12-07 06:44:13 +0000"
+      "has_amethyst_shard": "2024-12-07 07:02:25 +0000"
     },
     "done": true
-  },
-  "gobber2:gobber2_glob": {
-    "criteria": {
-      "gobber2_glob": "2024-12-07 09:18:29 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-07 09:37:51 +0000"
-    },
-    "done": false
   },
   "skilltree:recipes/misc/scholar_necklace": {
     "criteria": {
@@ -3692,11 +3572,65 @@
     },
     "done": true
   },
-  "incendium:technical/on_inventory_change": {
+  "minecraft:recipes/tools/golden_axe": {
     "criteria": {
-      "log_spam_fixer": "2024-12-07 09:37:51 +0000"
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "skilltree:recipes/combat/gilded_quiver": {
+    "criteria": {
+      "has_ingots_gold": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
@@ -3710,93 +3644,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2024-12-07 08:13:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/amethyst_block": {
-    "criteria": {
-      "has_amethyst_shard": "2024-12-07 07:02:25 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/gold_backpack": {
-    "criteria": {
-      "has_iron_backpack": "2024-12-07 08:14:40 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/gold_hippogryph_armor": {
-    "criteria": {
-      "has_item": "2024-12-07 07:57:17 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-07 09:37:51 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/raw_iron": {
-    "criteria": {
-      "has_raw_iron_block": "2024-12-07 08:25:43 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-07 09:37:51 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/wheat": {
-    "criteria": {
-      "has_hay_block": "2024-12-07 08:07:26 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2024-12-07 07:45:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/firework_rocket_simple": {
-    "criteria": {
-      "has_gunpowder": "2024-12-07 06:43:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tnt": {
-    "criteria": {
-      "has_gunpowder": "2024-12-07 06:43:56 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/iron_backpack_from_copper": {
-    "criteria": {
-      "has_copper_backpack": "2024-12-07 06:42:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/powered_rail": {
-    "criteria": {
-      "has_rail": "2024-12-07 06:52:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
-    "criteria": {
-      "has_iron_nugget": "2024-12-07 06:31:09 +0000"
-    },
-    "done": true
-  },
-  "skilltree:recipes/misc/iron_ring": {
-    "criteria": {
-      "has_nuggets_iron": "2024-12-07 06:31:09 +0000"
     },
     "done": true
   },
@@ -3806,11 +3656,95 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_horse_armor": "2024-12-07 07:57:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_horse_armor": "2024-12-07 07:57:17 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/gold_hippogryph_armor": {
+    "criteria": {
+      "has_item": "2024-12-07 07:57:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-12-07 08:07:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-12-07 08:11:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-12-07 08:11:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-12-07 08:13:01 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/gold_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2024-12-07 08:14:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2024-12-07 08:25:43 +0000"
+    },
+    "done": true
+  },
   "gobber2:root": {
     "criteria": {
       "gobber2_globette": "2024-12-07 08:33:29 +0000"
     },
     "done": true
+  },
+  "gobber2:gobber2_glob": {
+    "criteria": {
+      "gobber2_glob": "2024-12-07 09:18:29 +0000"
+    },
+    "done": true
+  },
+  "gobber2:gobber2_ingot": {
+    "criteria": {
+      "gobber2_ingot": "2024-12-07 09:25:10 +0000"
+    },
+    "done": true
+  },
+  "gobber2:gobber2_rod": {
+    "criteria": {
+      "gobber2_rod": "2024-12-07 09:25:44 +0000"
+    },
+    "done": true
+  },
+  "gobber2:gobber2_pickaxe": {
+    "criteria": {
+      "gobber2_pickaxe": "2024-12-07 09:25:53 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "requirement": "2024-12-07 22:28:40 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
