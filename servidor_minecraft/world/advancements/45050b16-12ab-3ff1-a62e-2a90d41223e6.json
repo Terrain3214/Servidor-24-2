@@ -1750,6 +1750,7 @@
       "minecraft:spider": "2024-12-07 05:28:35 +0000",
       "minecraft:creeper": "2024-12-07 05:49:58 +0000",
       "minecraft:cave_spider": "2024-12-07 05:48:53 +0000",
+      "minecraft:enderman": "2024-12-07 07:07:10 +0000",
       "minecraft:zombie": "2024-12-07 05:08:44 +0000"
     },
     "done": false
@@ -3516,6 +3517,12 @@
   "iceandfire:recipes/combat/iron_hippogryph_armor": {
     "criteria": {
       "has_item": "2024-12-07 06:44:13 +0000"
+    },
+    "done": true
+  },
+  "skilltree:recipes/misc/scholar_necklace": {
+    "criteria": {
+      "has_ender_pearl": "2024-12-07 07:07:13 +0000"
     },
     "done": true
   },
