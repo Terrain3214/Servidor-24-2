@@ -1,103 +1,87 @@
-[06Dec2024 19:05:47.134] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[06Dec2024 19:05:47.138] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[06Dec2024 19:05:47.808] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[06Dec2024 19:05:47.871] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[06Dec2024 19:05:48.295] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[06Dec2024 19:05:48.296] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[06Dec2024 19:05:48.298] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[06Dec2024 19:05:48.301] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[06Dec2024 19:05:48.567] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[06Dec2024 19:05:48.568] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/Servidor-24-2/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.9.jar
-[06Dec2024 19:05:48.569] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
-[06Dec2024 19:05:52.765] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[06Dec2024 19:05:52.908] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[06Dec2024 19:05:53.232] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[06Dec2024 19:05:53.396] [main/WARN] [mixin/]: Error loading class: tfar/davespotioneering/blockentity/AdvancedBrewingStandBlockEntity (java.lang.ClassNotFoundException: tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity)
-[06Dec2024 19:05:53.399] [main/WARN] [mixin/]: @Mixin target tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity was not found itemproductionlib.mixins.json:davespotioneering/AdvancedBrewingStandBlockEntityMixin
-[06Dec2024 19:05:53.403] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/CookingPotBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity)
-[06Dec2024 19:05:53.405] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/CookingPotBlockEntityMixin
-[06Dec2024 19:05:53.410] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/StoveBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.StoveBlockEntity)
-[06Dec2024 19:05:53.411] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.StoveBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/StoveBlockEntityMixin
-[06Dec2024 19:05:53.412] [main/WARN] [mixin/]: Error loading class: fuzs/visualworkbench/world/inventory/ModCraftingMenu (java.lang.ClassNotFoundException: fuzs.visualworkbench.world.inventory.ModCraftingMenu)
-[06Dec2024 19:05:53.413] [main/WARN] [mixin/]: @Mixin target fuzs.visualworkbench.world.inventory.ModCraftingMenu was not found itemproductionlib.mixins.json:visualworkbench/ModCraftingMenuMixin
-[06Dec2024 19:05:53.772] [main/WARN] [mixin/]: Error loading class: fuzs/easymagic/world/inventory/ModEnchantmentMenu (java.lang.ClassNotFoundException: fuzs.easymagic.world.inventory.ModEnchantmentMenu)
-[06Dec2024 19:05:53.773] [main/WARN] [mixin/]: @Mixin target fuzs.easymagic.world.inventory.ModEnchantmentMenu was not found skilltree.mixins.json:easymagic/ModEnchantmentMenuMixin
-[06Dec2024 19:05:53.774] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/ench/table/ApothEnchantmentMenu (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu)
-[06Dec2024 19:05:53.775] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu was not found skilltree.mixins.json:apotheosis/ApothEnchantContainerMixin
-[06Dec2024 19:05:53.776] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/SocketingRecipe (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe)
-[06Dec2024 19:05:53.776] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe was not found skilltree.mixins.json:apotheosis/SocketingRecipeMixin
-[06Dec2024 19:05:53.777] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/AttributeBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus)
-[06Dec2024 19:05:53.778] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus was not found skilltree.mixins.json:apotheosis/AttributeBonusMixin
-[06Dec2024 19:05:53.779] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/EnchantmentBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus)
-[06Dec2024 19:05:53.780] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus was not found skilltree.mixins.json:apotheosis/EnchantmentBonusMixin
-[06Dec2024 19:05:54.990] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[06Dec2024 19:05:54.990] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
-[06Dec2024 19:05:56.152] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
-[06Dec2024 19:06:02.647] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
-[06Dec2024 19:06:02.647] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
-[06Dec2024 19:06:06.057] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[06Dec2024 19:06:06.057] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[06Dec2024 19:06:06.058] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[06Dec2024 19:06:06.058] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[06Dec2024 19:06:09.047] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
-[06Dec2024 19:06:09.051] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: IceAndFireCompat
-[06Dec2024 19:06:09.454] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
-[06Dec2024 19:06:09.742] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[06Dec2024 19:06:11.914] [modloading-worker-0/INFO] [simplyswords/]: Registering Gobber compat Items for simplyswords
-[06Dec2024 19:06:11.934] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[06Dec2024 19:06:11.934] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[06Dec2024 19:06:16.378] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
-[06Dec2024 19:06:17.100] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
-[06Dec2024 19:06:17.268] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[06Dec2024 19:06:17.275] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[06Dec2024 19:06:17.275] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[06Dec2024 19:06:17.276] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[06Dec2024 19:06:17.276] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[06Dec2024 19:06:17.277] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[06Dec2024 19:06:17.277] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[06Dec2024 19:06:17.278] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[06Dec2024 19:06:17.278] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[06Dec2024 19:06:18.073] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
-[06Dec2024 19:06:18.082] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Servidor-24-2/servidor_minecraft/config/dungeon_crawl.toml is not correct. Correcting
-[06Dec2024 19:06:18.110] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Dec2024 19:06:18.111] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous Settings.enable_tools was corrected from null to its default, false. 
-[06Dec2024 19:06:18.111] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous Settings.extended_debug was corrected from null to its default, true. 
-[06Dec2024 19:06:18.112] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World Generation was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Dec2024 19:06:18.113] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World Generation.solid was corrected from null to its default, false. 
-[06Dec2024 19:06:18.113] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World Generation.tick_falling_blocks was corrected from null to its default, true. 
-[06Dec2024 19:06:18.114] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Dec2024 19:06:18.115] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.secret_rooms was corrected from null to its default, true. 
-[06Dec2024 19:06:18.115] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.fixed_generation_height was corrected from null to its default, false. 
-[06Dec2024 19:06:18.116] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.overwrite_entity_loot_tables was corrected from null to its default, true. 
-[06Dec2024 19:06:18.117] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.no_nether_blocks was corrected from null to its default, false. 
-[06Dec2024 19:06:18.121] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.spawner_activation_range was corrected from null to its default, 12. 
-[06Dec2024 19:06:18.122] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.spawner_entities was corrected from null to its default, 6. 
-[06Dec2024 19:06:18.122] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.custom_spawners was corrected from null to its default, true. 
-[06Dec2024 19:06:18.123] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.natural_despawn was corrected from null to its default, true. 
-[06Dec2024 19:06:18.263] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
-[06Dec2024 19:06:18.477] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
-[06Dec2024 19:06:18.681] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
-[06Dec2024 19:06:18.686] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
-[06Dec2024 19:06:18.813] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[06Dec2024 19:06:18.818] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[06Dec2024 19:06:18.849] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 47 compatible attributes.
-[06Dec2024 19:06:18.853] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 47 values from config.
-[06Dec2024 19:06:18.895] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 47 entries.
-[06Dec2024 19:06:18.896] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 47 attributes.
-[06Dec2024 19:06:18.965] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
-[06Dec2024 19:06:19.004] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
-[06Dec2024 19:06:19.047] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
-[06Dec2024 19:06:19.050] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:forge at mcp.mobius.waila.plugin.forge.ForgeCommonPlugin
-[06Dec2024 19:06:19.057] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing plugin waystones:plugin at net.blay09.mods.waystones.compat.WTHITIntegration
-[06Dec2024 19:06:19.062] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
-[06Dec2024 19:06:19.087] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
-[06Dec2024 19:06:19.088] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
-[06Dec2024 19:06:19.143] [modloading-worker-0/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
-[06Dec2024 19:06:19.156] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.2.48 Target: null
-[06Dec2024 19:06:19.157] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[06Dec2024 19:06:19.351] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[06Dec2024 19:06:19.352] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[06Dec2024 19:06:19.443] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[07Dec2024 04:55:59.579] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[07Dec2024 04:55:59.603] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[07Dec2024 04:56:03.676] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[07Dec2024 04:56:03.865] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[07Dec2024 04:56:04.909] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[07Dec2024 04:56:04.913] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Dec2024 04:56:04.928] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Dec2024 04:56:04.938] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Dec2024 04:56:05.708] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[07Dec2024 04:56:05.718] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/Servidor-24-2/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.9.jar
+[07Dec2024 04:56:05.721] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[07Dec2024 04:56:13.653] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Dec2024 04:56:13.932] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[07Dec2024 04:56:14.521] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Dec2024 04:56:14.666] [main/WARN] [mixin/]: Error loading class: tfar/davespotioneering/blockentity/AdvancedBrewingStandBlockEntity (java.lang.ClassNotFoundException: tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity)
+[07Dec2024 04:56:14.667] [main/WARN] [mixin/]: @Mixin target tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity was not found itemproductionlib.mixins.json:davespotioneering/AdvancedBrewingStandBlockEntityMixin
+[07Dec2024 04:56:14.667] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/CookingPotBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity)
+[07Dec2024 04:56:14.668] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/CookingPotBlockEntityMixin
+[07Dec2024 04:56:14.668] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/StoveBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.StoveBlockEntity)
+[07Dec2024 04:56:14.669] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.StoveBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/StoveBlockEntityMixin
+[07Dec2024 04:56:14.670] [main/WARN] [mixin/]: Error loading class: fuzs/visualworkbench/world/inventory/ModCraftingMenu (java.lang.ClassNotFoundException: fuzs.visualworkbench.world.inventory.ModCraftingMenu)
+[07Dec2024 04:56:14.670] [main/WARN] [mixin/]: @Mixin target fuzs.visualworkbench.world.inventory.ModCraftingMenu was not found itemproductionlib.mixins.json:visualworkbench/ModCraftingMenuMixin
+[07Dec2024 04:56:15.272] [main/WARN] [mixin/]: Error loading class: fuzs/easymagic/world/inventory/ModEnchantmentMenu (java.lang.ClassNotFoundException: fuzs.easymagic.world.inventory.ModEnchantmentMenu)
+[07Dec2024 04:56:15.273] [main/WARN] [mixin/]: @Mixin target fuzs.easymagic.world.inventory.ModEnchantmentMenu was not found skilltree.mixins.json:easymagic/ModEnchantmentMenuMixin
+[07Dec2024 04:56:15.279] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/ench/table/ApothEnchantmentMenu (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu)
+[07Dec2024 04:56:15.279] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu was not found skilltree.mixins.json:apotheosis/ApothEnchantContainerMixin
+[07Dec2024 04:56:15.282] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/SocketingRecipe (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe)
+[07Dec2024 04:56:15.284] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe was not found skilltree.mixins.json:apotheosis/SocketingRecipeMixin
+[07Dec2024 04:56:15.285] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/AttributeBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus)
+[07Dec2024 04:56:15.286] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus was not found skilltree.mixins.json:apotheosis/AttributeBonusMixin
+[07Dec2024 04:56:15.289] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/EnchantmentBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus)
+[07Dec2024 04:56:15.290] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus was not found skilltree.mixins.json:apotheosis/EnchantmentBonusMixin
+[07Dec2024 04:56:17.588] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[07Dec2024 04:56:17.590] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[07Dec2024 04:56:19.670] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
+[07Dec2024 04:56:32.017] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[07Dec2024 04:56:32.018] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[07Dec2024 04:56:38.263] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[07Dec2024 04:56:38.266] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[07Dec2024 04:56:38.267] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[07Dec2024 04:56:38.268] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[07Dec2024 04:56:43.695] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
+[07Dec2024 04:56:43.745] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: IceAndFireCompat
+[07Dec2024 04:56:44.217] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
+[07Dec2024 04:56:44.927] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[07Dec2024 04:56:47.516] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[07Dec2024 04:56:47.521] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[07Dec2024 04:56:49.569] [modloading-worker-0/INFO] [simplyswords/]: Registering Gobber compat Items for simplyswords
+[07Dec2024 04:56:56.141] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[07Dec2024 04:56:57.577] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
+[07Dec2024 04:56:57.703] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[07Dec2024 04:56:57.713] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[07Dec2024 04:56:57.728] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[07Dec2024 04:56:57.728] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[07Dec2024 04:56:57.729] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[07Dec2024 04:56:57.729] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[07Dec2024 04:56:57.730] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[07Dec2024 04:56:57.731] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[07Dec2024 04:56:57.731] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[07Dec2024 04:56:58.852] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[07Dec2024 04:56:59.093] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[07Dec2024 04:57:00.078] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[07Dec2024 04:57:00.264] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[07Dec2024 04:57:00.284] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[07Dec2024 04:57:00.377] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 47 compatible attributes.
+[07Dec2024 04:57:00.447] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 47 values from config.
+[07Dec2024 04:57:00.547] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 47 entries.
+[07Dec2024 04:57:00.555] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 47 attributes.
+[07Dec2024 04:57:00.653] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
+[07Dec2024 04:57:00.655] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
+[07Dec2024 04:57:00.685] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
+[07Dec2024 04:57:00.765] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
+[07Dec2024 04:57:00.830] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
+[07Dec2024 04:57:00.834] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:forge at mcp.mobius.waila.plugin.forge.ForgeCommonPlugin
+[07Dec2024 04:57:00.870] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing plugin waystones:plugin at net.blay09.mods.waystones.compat.WTHITIntegration
+[07Dec2024 04:57:00.887] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[07Dec2024 04:57:01.130] [modloading-worker-0/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[07Dec2024 04:57:01.264] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
+[07Dec2024 04:57:01.264] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[07Dec2024 04:57:01.277] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.2.48 Target: null
+[07Dec2024 04:57:01.279] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Dec2024 04:57:01.444] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[07Dec2024 04:57:01.446] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[07Dec2024 04:57:01.648] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -112,14 +96,10 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[06Dec2024 19:06:25.950] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06Dec2024 19:06:26.093] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
-ati_structures (version 1.1.0 -> MISSING)
-Things may not work well.
-[06Dec2024 19:06:29.924] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23175!/assets/.mcassetsroot' uses unexpected schema
-[06Dec2024 19:06:29.926] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23175!/data/.mcassetsroot' uses unexpected schema
-[06Dec2024 19:06:30.092] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:ati_structures
-[06Dec2024 19:06:34.817] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
+[07Dec2024 04:57:12.615] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07Dec2024 04:57:20.011] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23175!/assets/.mcassetsroot' uses unexpected schema
+[07Dec2024 04:57:20.013] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23175!/data/.mcassetsroot' uses unexpected schema
+[07Dec2024 04:57:29.656] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23175!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -171,242 +151,111 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[06Dec2024 19:06:39.444] [Worker-Main-1/INFO] [epicfight/]: Register animations from epicfight
-[06Dec2024 19:06:40.453] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[06Dec2024 19:06:40.522] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[06Dec2024 19:06:40.554] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[06Dec2024 19:06:40.582] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[06Dec2024 19:06:40.642] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[06Dec2024 19:06:40.651] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[06Dec2024 19:06:40.654] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[06Dec2024 19:06:40.666] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[06Dec2024 19:06:40.673] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
-[06Dec2024 19:06:40.960] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2967 advancements
-[06Dec2024 19:06:41.158] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[06Dec2024 19:06:41.175] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[06Dec2024 19:06:41.274] [main/INFO] [Dungeon Crawl/]: Loading data...
-[06Dec2024 19:06:41.735] [main/INFO] [Dungeon Crawl/]: Done.
-[06Dec2024 19:06:41.753] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[06Dec2024 19:06:45.108] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
-[06Dec2024 19:06:45.366] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[06Dec2024 19:06:45.367] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[06Dec2024 19:06:45.367] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[06Dec2024 19:06:45.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[06Dec2024 19:06:45.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[06Dec2024 19:06:45.721] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[06Dec2024 19:06:45.828] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06Dec2024 19:06:45.829] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[06Dec2024 19:06:45.829] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06Dec2024 19:06:45.830] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[06Dec2024 19:06:46.418] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[06Dec2024 19:07:03.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[06Dec2024 19:07:10.947] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:sculk_deposit' in chunk [772, 111], discarding
-[06Dec2024 19:07:11.017] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [742, 85], discarding
-[06Dec2024 19:07:11.042] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:old_home
-[06Dec2024 19:07:11.042] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [742, 86], discarding
-[06Dec2024 19:07:11.065] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [742, 87], discarding
-[06Dec2024 19:07:11.117] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [742, 88], discarding
-[06Dec2024 19:07:11.361] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [741, 85], discarding
-[06Dec2024 19:07:11.367] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [741, 86], discarding
-[06Dec2024 19:07:11.371] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [741, 87], discarding
-[06Dec2024 19:07:11.374] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [741, 88], discarding
-[06Dec2024 19:07:11.474] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:silverfish_nest
-[06Dec2024 19:07:11.476] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:silverfish_nest' in chunk [745, 82], discarding
-[06Dec2024 19:07:11.503] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [740, 85], discarding
-[06Dec2024 19:07:11.510] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [740, 86], discarding
-[06Dec2024 19:07:11.513] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [740, 87], discarding
-[06Dec2024 19:07:11.515] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [740, 88], discarding
-[06Dec2024 19:07:11.809] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [739, 85], discarding
-[06Dec2024 19:07:11.813] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [739, 86], discarding
-[06Dec2024 19:07:11.818] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [739, 87], discarding
-[06Dec2024 19:07:11.821] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:old_home' in chunk [739, 88], discarding
-[06Dec2024 19:07:11.863] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [763, 81], discarding
-[06Dec2024 19:07:11.866] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [763, 82], discarding
-[06Dec2024 19:07:11.889] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:rotting_temple_underground' in chunk [744, 105], discarding
-[06Dec2024 19:07:11.892] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:rotting_temple_underground' in chunk [745, 105], discarding
-[06Dec2024 19:07:11.894] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:rotting_temple_underground' in chunk [746, 105], discarding
-[06Dec2024 19:07:11.969] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [763, 80], discarding
-[06Dec2024 19:07:11.971] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [764, 80], discarding
-[06Dec2024 19:07:11.975] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [764, 81], discarding
-[06Dec2024 19:07:11.978] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:nomadic_camp
-[06Dec2024 19:07:11.979] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [764, 82], discarding
-[06Dec2024 19:07:12.051] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:rotting_temple_underground' in chunk [744, 106], discarding
-[06Dec2024 19:07:12.056] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:rotting_temple_underground' in chunk [745, 106], discarding
-[06Dec2024 19:07:12.059] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:rotting_temple_underground' in chunk [746, 106], discarding
-[06Dec2024 19:07:12.895] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [763, 79], discarding
-[06Dec2024 19:07:13.101] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [764, 79], discarding
-[06Dec2024 19:07:13.314] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [765, 79], discarding
-[06Dec2024 19:07:13.317] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [765, 80], discarding
-[06Dec2024 19:07:13.323] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [765, 81], discarding
-[06Dec2024 19:07:13.325] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [765, 82], discarding
-[06Dec2024 19:07:13.720] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [766, 82], discarding
-[06Dec2024 19:07:13.829] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [778, 87], discarding
-[06Dec2024 19:07:13.835] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [778, 88], discarding
-[06Dec2024 19:07:13.841] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [778, 89], discarding
-[06Dec2024 19:07:13.847] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [778, 90], discarding
-[06Dec2024 19:07:13.917] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [779, 87], discarding
-[06Dec2024 19:07:13.926] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [779, 88], discarding
-[06Dec2024 19:07:13.936] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [779, 89], discarding
-[06Dec2024 19:07:13.938] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [779, 90], discarding
-[06Dec2024 19:07:14.013] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [766, 81], discarding
-[06Dec2024 19:07:14.021] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:sculk_deposit' in chunk [770, 81], discarding
-[06Dec2024 19:07:14.024] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:sculk_deposit
-[06Dec2024 19:07:14.024] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:sculk_deposit' in chunk [771, 81], discarding
-[06Dec2024 19:07:14.051] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [780, 87], discarding
-[06Dec2024 19:07:14.053] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [780, 88], discarding
-[06Dec2024 19:07:14.055] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [780, 89], discarding
-[06Dec2024 19:07:14.065] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [780, 90], discarding
-[06Dec2024 19:07:14.141] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:rotting_temple_underground' in chunk [746, 107], discarding
-[06Dec2024 19:07:14.161] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:rotting_temple_underground
-[06Dec2024 19:07:14.161] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:rotting_temple_underground' in chunk [745, 107], discarding
-[06Dec2024 19:07:14.185] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [766, 80], discarding
-[06Dec2024 19:07:14.205] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [766, 79], discarding
-[06Dec2024 19:07:14.546] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:rotting_temple_underground' in chunk [744, 107], discarding
-[06Dec2024 19:07:14.784] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:sculk_deposit
-[06Dec2024 19:07:14.784] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:sculk_deposit' in chunk [773, 111], discarding
-[06Dec2024 19:07:14.838] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:spider_nest' in chunk [775, 110], discarding
-[06Dec2024 19:07:14.840] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:spider_nest' in chunk [776, 110], discarding
-[06Dec2024 19:07:14.850] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:spider_nest' in chunk [777, 110], discarding
-[06Dec2024 19:07:14.877] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:spider_nest' in chunk [775, 111], discarding
-[06Dec2024 19:07:14.879] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:spider_nest' in chunk [776, 111], discarding
-[06Dec2024 19:07:14.881] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:spider_nest' in chunk [777, 111], discarding
-[06Dec2024 19:07:15.052] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:spider_nest' in chunk [775, 112], discarding
-[06Dec2024 19:07:15.054] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:spider_nest' in chunk [776, 112], discarding
-[06Dec2024 19:07:15.372] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:spider_nest' in chunk [777, 112], discarding
-[06Dec2024 19:07:15.424] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.436] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.437] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.437] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.438] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.439] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.439] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.441] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.442] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.444] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.445] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.447] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.449] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.450] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.452] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.455] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.461] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.462] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.465] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.468] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.470] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.472] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.475] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.478] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.481] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:15.979] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:16.479] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:16.979] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:17.559] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 19:07:18.981] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 15502 ms
-[06Dec2024 19:07:18.983] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (33.125s)! For help, type "help"
-[06Dec2024 19:07:19.161] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[06Dec2024 19:07:19.198] [Server thread/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
-[06Dec2024 19:07:19.198] [Server thread/INFO] [net.stardustlabs.incendium.Incendium/]: Thanks for choosing Incendium!
-[06Dec2024 19:07:19.210] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
-[06Dec2024 19:07:19.236] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
-[06Dec2024 19:07:19.308] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
-[06Dec2024 19:07:19.309] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
-[06Dec2024 19:07:19.309] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
-[06Dec2024 19:07:19.310] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
-[06Dec2024 19:07:19.601] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[06Dec2024 19:07:19.607] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[06Dec2024 19:07:22.496] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:sculk_deposit
-[06Dec2024 19:07:22.497] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:sculk_deposit' in chunk [-12, 2], discarding
-[06Dec2024 19:07:22.498] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2235ms or 44 ticks behind
-[06Dec2024 19:07:22.765] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:underwater_dungeon
-[06Dec2024 19:07:22.766] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:underwater_dungeon' in chunk [8, 2], discarding
-[06Dec2024 19:07:23.386] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:sculk_deposit' in chunk [-13, 2], discarding
-[06Dec2024 19:07:23.494] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [11, 0], discarding
-[06Dec2024 19:07:23.496] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [11, 1], discarding
-[06Dec2024 19:07:23.498] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [11, 2], discarding
-[06Dec2024 19:07:23.500] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [11, 3], discarding
-[06Dec2024 19:07:23.624] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:silverfish_nest' in chunk [12, -11], discarding
-[06Dec2024 19:07:23.709] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [12, 0], discarding
-[06Dec2024 19:07:23.722] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:nomadic_camp
-[06Dec2024 19:07:23.730] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [12, 1], discarding
-[06Dec2024 19:07:23.733] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [12, 2], discarding
-[06Dec2024 19:07:23.803] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [12, 3], discarding
-[06Dec2024 19:07:23.819] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:silverfish_nest
-[06Dec2024 19:07:23.820] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:silverfish_nest' in chunk [13, -11], discarding
-[06Dec2024 19:07:23.843] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [13, 0], discarding
-[06Dec2024 19:07:23.846] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [13, 1], discarding
-[06Dec2024 19:07:23.848] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [13, 2], discarding
-[06Dec2024 19:07:23.850] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [13, 3], discarding
-[06Dec2024 19:07:58.836] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@23046ce8[id=<null>,name=Terrain32,properties={},legacy=false] (/100.65.58.104:53900) lost connection: Disconnected
-[06Dec2024 19:09:37.054] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Terrain32[/100.65.58.104:54050] logged in with entity id 293 at (12130.84895929029, 64.0, 1446.0575699692351)
-[06Dec2024 19:09:37.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 joined the game
-[06Dec2024 19:09:39.480] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2217ms or 44 ticks behind
-[06Dec2024 19:10:07.011] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:sculk_deposit
-[06Dec2024 19:10:10.194] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:sculk_deposit
-[06Dec2024 19:10:13.055] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
-[06Dec2024 19:10:17.691] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:sculk_deposit
-[06Dec2024 19:10:21.926] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:sculk_deposit' in chunk [731, 72], discarding
-[06Dec2024 19:10:21.927] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:sculk_deposit
-[06Dec2024 19:10:21.927] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:sculk_deposit' in chunk [731, 73], discarding
-[06Dec2024 19:10:32.117] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4103ms or 82 ticks behind
-[06Dec2024 19:10:49.860] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2746ms or 54 ticks behind
-[06Dec2024 19:10:56.422] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [781, 87], discarding
-[06Dec2024 19:10:56.441] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:dojo
-[06Dec2024 19:10:56.442] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [781, 88], discarding
-[06Dec2024 19:10:56.444] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [781, 89], discarding
-[06Dec2024 19:10:56.446] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:dojo' in chunk [781, 90], discarding
-[06Dec2024 19:11:08.615] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3801ms or 76 ticks behind
-[06Dec2024 19:11:26.208] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2594ms or 51 ticks behind
-[06Dec2024 19:11:48.555] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 moved too quickly! -1.8164352603143925,0.0,-10.152594691624245
-[06Dec2024 19:11:48.560] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2296ms or 45 ticks behind
-[06Dec2024 19:13:42.684] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:sculk_deposit
-[06Dec2024 19:13:54.418] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:spider_nest
-[06Dec2024 19:13:54.420] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:spider_nest' in chunk [775, 113], discarding
-[06Dec2024 19:13:54.423] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:spider_nest' in chunk [776, 113], discarding
-[06Dec2024 19:13:54.425] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:spider_nest' in chunk [777, 113], discarding
-[06Dec2024 19:14:41.223] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:stray_ruins' in chunk [777, 120], discarding
-[06Dec2024 19:14:41.230] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:stray_ruins' in chunk [778, 120], discarding
-[06Dec2024 19:14:41.231] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:stray_ruins' in chunk [779, 120], discarding
-[06Dec2024 19:14:43.646] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:stray_ruins' in chunk [777, 121], discarding
-[06Dec2024 19:14:43.651] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:stray_ruins' in chunk [778, 121], discarding
-[06Dec2024 19:14:43.654] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:stray_ruins' in chunk [779, 121], discarding
-[06Dec2024 19:14:43.993] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:sculk_deposit' in chunk [787, 121], discarding
-[06Dec2024 19:14:44.095] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:sculk_deposit
-[06Dec2024 19:14:44.096] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:sculk_deposit' in chunk [788, 121], discarding
-[06Dec2024 19:14:45.533] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 moved too quickly! -1.3068186164346116,0.0,10.344740009395991
-[06Dec2024 19:14:46.270] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:stray_ruins
-[06Dec2024 19:14:46.271] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:stray_ruins' in chunk [778, 122], discarding
-[06Dec2024 19:14:46.301] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:stray_ruins' in chunk [777, 122], discarding
-[06Dec2024 19:14:46.304] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:stray_ruins' in chunk [779, 122], discarding
-[06Dec2024 19:14:47.850] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 moved too quickly! -8.981723091897948,0.0,5.639199039109826
-[06Dec2024 19:14:47.875] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2761ms or 55 ticks behind
-[06Dec2024 19:15:28.515] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:silverfish_nest
-[06Dec2024 19:15:38.735] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:underground_monument
-[06Dec2024 19:15:43.774] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:sculk_deposit
-[06Dec2024 19:15:48.040] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:sculk_deposit
-[06Dec2024 19:15:48.042] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:sculk_deposit' in chunk [734, 84], discarding
-[06Dec2024 19:18:23.926] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:stray_ruins' in chunk [779, 122], discarding
-[06Dec2024 19:20:42.165] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:stray_ruins' in chunk [779, 122], discarding
-[06Dec2024 19:20:54.974] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 moved too quickly! -8.728205133804295,0.0,-5.804898491520589
-[06Dec2024 19:21:08.764] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:sculk_deposit
-[06Dec2024 19:21:22.927] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:stray_ruins' in chunk [779, 122], discarding
-[06Dec2024 19:23:37.884] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 moved too quickly! -3.353754516227127,-6.037557367386597,7.9975022550506765
-[06Dec2024 19:23:41.573] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[06Dec2024 19:23:44.150] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 moved too quickly! -8.634895262821374,0.0,-6.222474425503606
-[06Dec2024 19:24:08.447] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 moved too quickly! -7.832562174293344,3.3750001341104507,-5.804762645142773
-[06Dec2024 19:28:38.077] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 lost connection: Disconnected
-[06Dec2024 19:28:38.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 left the game
-[06Dec2024 19:28:51.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[06Dec2024 19:28:51.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[06Dec2024 19:28:51.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[06Dec2024 19:28:51.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06Dec2024 19:28:51.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
-[06Dec2024 19:28:51.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[06Dec2024 19:28:51.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[06Dec2024 19:28:51.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[06Dec2024 19:28:51.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06Dec2024 19:28:51.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
-[06Dec2024 19:28:51.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06Dec2024 19:28:51.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06Dec2024 19:28:51.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[06Dec2024 19:28:51.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07Dec2024 04:57:38.099] [Worker-Main-1/INFO] [epicfight/]: Register animations from epicfight
+[07Dec2024 04:57:40.200] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[07Dec2024 04:57:40.288] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[07Dec2024 04:57:40.304] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[07Dec2024 04:57:40.391] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[07Dec2024 04:57:40.483] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[07Dec2024 04:57:40.499] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[07Dec2024 04:57:40.516] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[07Dec2024 04:57:40.537] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[07Dec2024 04:57:40.549] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[07Dec2024 04:57:40.951] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2967 advancements
+[07Dec2024 04:57:41.112] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[07Dec2024 04:57:41.121] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[07Dec2024 04:57:41.340] [main/INFO] [Dungeon Crawl/]: Loading data...
+[07Dec2024 04:57:42.320] [main/INFO] [Dungeon Crawl/]: Done.
+[07Dec2024 04:57:42.381] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[07Dec2024 04:57:48.858] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[07Dec2024 04:57:49.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[07Dec2024 04:57:49.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[07Dec2024 04:57:49.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[07Dec2024 04:57:49.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Dec2024 04:57:50.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[07Dec2024 04:57:50.408] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[07Dec2024 04:57:50.643] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07Dec2024 04:57:50.645] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[07Dec2024 04:57:50.646] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07Dec2024 04:57:50.647] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[07Dec2024 04:57:51.273] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[07Dec2024 04:58:05.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Dec2024 04:58:18.984] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:19.916] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:20.020] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:20.152] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:20.270] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:20.371] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:20.521] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:20.587] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:20.589] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:20.722] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:20.724] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:20.748] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:20.853] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:20.974] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:21.010] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:21.058] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:21.112] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:21.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:21.256] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:21.305] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:21.315] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:21.447] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:21.485] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:21.676] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:21.748] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:21.759] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:21.761] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:21.950] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:22.050] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:22.165] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:22.224] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:22.264] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:22.282] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:22.395] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:22.821] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:23.259] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:23.727] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:24.249] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:24.780] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:25.227] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:25.724] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:26.223] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:26.720] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:27.262] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 04:58:28.599] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 22880 ms
+[07Dec2024 04:58:28.602] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (37.899s)! For help, type "help"
+[07Dec2024 04:58:28.853] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07Dec2024 04:58:28.951] [Server thread/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[07Dec2024 04:58:28.952] [Server thread/INFO] [net.stardustlabs.incendium.Incendium/]: Thanks for choosing Incendium!
+[07Dec2024 04:58:28.993] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[07Dec2024 04:58:29.025] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[07Dec2024 04:58:29.128] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[07Dec2024 04:58:29.129] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[07Dec2024 04:58:29.129] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[07Dec2024 04:58:29.130] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[07Dec2024 04:58:29.243] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[07Dec2024 04:58:29.244] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[07Dec2024 04:58:31.508] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[07Dec2024 04:58:33.238] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:underwater_dungeon
+[07Dec2024 04:58:33.240] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:underwater_dungeon' in chunk [8, 2], discarding
+[07Dec2024 04:58:34.587] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [11, 0], discarding
+[07Dec2024 04:58:34.590] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [11, 1], discarding
+[07Dec2024 04:58:34.593] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [11, 2], discarding
+[07Dec2024 04:58:34.659] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [11, 3], discarding
+[07Dec2024 04:58:35.060] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:sculk_deposit
+[07Dec2024 04:58:35.062] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:sculk_deposit' in chunk [-12, 2], discarding
+[07Dec2024 04:58:35.170] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:silverfish_nest' in chunk [12, -11], discarding
+[07Dec2024 04:58:35.193] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [12, 0], discarding
+[07Dec2024 04:58:35.196] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:nomadic_camp
+[07Dec2024 04:58:35.196] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [12, 1], discarding
+[07Dec2024 04:58:35.199] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [12, 2], discarding
+[07Dec2024 04:58:35.201] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [12, 3], discarding
+[07Dec2024 04:58:35.550] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: ati_structures:silverfish_nest
+[07Dec2024 04:58:35.552] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:silverfish_nest' in chunk [13, -11], discarding
+[07Dec2024 04:58:35.584] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [13, 0], discarding
+[07Dec2024 04:58:35.679] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [13, 1], discarding
+[07Dec2024 04:58:35.681] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [13, 2], discarding
+[07Dec2024 04:58:35.684] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [13, 3], discarding
+[07Dec2024 04:58:36.620] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:sculk_deposit' in chunk [-13, 2], discarding
