@@ -9372,3 +9372,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [07Dec2024 17:03:26.012] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 moved too quickly! 10.122870457887984,-1.622531623156462,-1.8654447043513755
 [07Dec2024 17:05:05.223] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:plains took 1 ms
 [07Dec2024 17:05:40.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[07Dec2024 17:07:33.040] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Dec2024 17:07:33.060] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Dec2024 17:10:08.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has made the advancement [A Seedy Place]
+[07Dec2024 17:12:33.052] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Dec2024 17:12:33.070] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
