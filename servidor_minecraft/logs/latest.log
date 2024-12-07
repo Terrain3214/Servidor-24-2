@@ -314,3 +314,15 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [07Dec2024 17:05:05.223] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:plains took 1 ms
 [07Dec2024 17:05:40.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
 [07Dec2024 17:10:08.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has made the advancement [A Seedy Place]
+[07Dec2024 17:31:40.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[07Dec2024 17:33:01.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[07Dec2024 17:34:12.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[07Dec2024 17:36:23.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[07Dec2024 17:42:11.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[07Dec2024 17:42:23.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[07Dec2024 17:44:56.285] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ratachi1398[/100.126.122.99:63098] logged in with entity id 26965 at (11999.300000011921, 95.0, 1425.6832164964198)
+[07Dec2024 17:44:56.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 joined the game
+[07Dec2024 17:45:31.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ratachi1398> que mas nbegro
+[07Dec2024 17:45:34.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ratachi1398> discord
+[07Dec2024 17:45:37.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> wenas
+[07Dec2024 17:45:41.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> me voy en poco
