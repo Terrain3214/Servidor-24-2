@@ -1749,6 +1749,7 @@
       "minecraft:skeleton": "2024-12-07 05:32:26 +0000",
       "minecraft:spider": "2024-12-07 05:28:35 +0000",
       "minecraft:creeper": "2024-12-07 05:49:58 +0000",
+      "minecraft:witch": "2024-12-07 08:28:48 +0000",
       "minecraft:cave_spider": "2024-12-07 05:48:53 +0000",
       "minecraft:enderman": "2024-12-07 07:07:10 +0000",
       "minecraft:zombie": "2024-12-07 05:08:44 +0000"
@@ -3706,6 +3707,12 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2024-12-07 07:45:38 +0000"
+    },
+    "done": true
+  },
+  "gobber2:root": {
+    "criteria": {
+      "gobber2_globette": "2024-12-07 08:33:29 +0000"
     },
     "done": true
   },
