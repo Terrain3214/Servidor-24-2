@@ -5796,3 +5796,13 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [07Dec2024 23:07:43.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 left the game
 [07Dec2024 23:08:48.582] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [07Dec2024 23:08:48.595] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Dec2024 23:13:48.645] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Dec2024 23:13:48.691] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Dec2024 23:14:30.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was blown up by Creeper
+[07Dec2024 23:14:36.912] [Server thread/DEBUG] [twilightforest/]: Player ZOMTASMA08 (cfe42147-295d-3172-8a0e-ee11f62703e4) respawned and received items held in storage
+[07Dec2024 23:15:24.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was shot by Skeleton
+[07Dec2024 23:15:26.295] [Server thread/DEBUG] [twilightforest/]: Player ZOMTASMA08 (cfe42147-295d-3172-8a0e-ee11f62703e4) respawned and received items held in storage
+[07Dec2024 23:16:26.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was shot by Skeleton
+[07Dec2024 23:16:29.422] [Server thread/DEBUG] [twilightforest/]: Player ZOMTASMA08 (cfe42147-295d-3172-8a0e-ee11f62703e4) respawned and received items held in storage
+[07Dec2024 23:18:48.593] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Dec2024 23:18:48.634] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

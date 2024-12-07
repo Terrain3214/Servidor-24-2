@@ -244,3 +244,6 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [07Dec2024 23:03:51.129] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
 [07Dec2024 23:07:43.379] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pochito228 lost connection: Disconnected
 [07Dec2024 23:07:43.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 left the game
+[07Dec2024 23:14:30.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was blown up by Creeper
+[07Dec2024 23:15:24.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was shot by Skeleton
+[07Dec2024 23:16:26.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was shot by Skeleton

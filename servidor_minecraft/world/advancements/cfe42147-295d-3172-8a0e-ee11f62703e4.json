@@ -3484,5 +3484,35 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
+    "criteria": {
+      "has_gold_backpack": "2024-12-07 23:13:06 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_copper_metal_leggings": {
+    "criteria": {
+      "has_the_recipe": "2024-12-07 23:10:58 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_copper_metal_boots": {
+    "criteria": {
+      "has_the_recipe": "2024-12-07 23:11:04 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_copper_metal_helmet": {
+    "criteria": {
+      "has_the_recipe": "2024-12-07 23:11:22 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_copper_metal_chestplate": {
+    "criteria": {
+      "has_the_recipe": "2024-12-07 23:11:14 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
