@@ -259,3 +259,18 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [07Dec2024 04:58:35.681] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [13, 2], discarding
 [07Dec2024 04:58:35.684] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:nomadic_camp' in chunk [13, 3], discarding
 [07Dec2024 04:58:36.620] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'ati_structures:sculk_deposit' in chunk [-13, 2], discarding
+[07Dec2024 05:07:18.156] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Pochito228[/100.65.198.20:59087] logged in with entity id 324 at (12142.5, 68.0, 1453.5)
+[07Dec2024 05:07:18.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 joined the game
+[07Dec2024 05:07:19.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 has made the advancement [Ice and Fire]
+[07Dec2024 05:07:21.010] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[07Dec2024 05:08:20.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 was slain by Zombie
+[07Dec2024 05:08:44.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 has made the advancement [Monster Hunter]
+[07Dec2024 05:10:35.716] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ZOMTASMA08[/100.81.12.92:63955] logged in with entity id 1617 at (12142.5, 67.0, 1435.5)
+[07Dec2024 05:10:35.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 joined the game
+[07Dec2024 05:10:36.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 has made the advancement [Ice and Fire]
+[07Dec2024 05:11:08.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 has made the advancement [Stone Age]
+[07Dec2024 05:11:34.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 has made the advancement [Getting an Upgrade]
+[07Dec2024 05:12:48.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was slain by Zombie
+[07Dec2024 05:12:58.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 has completed the challenge [Cannibal]
+[07Dec2024 05:13:54.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 was blown up by Creeper
+[07Dec2024 05:14:41.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 has made the advancement [Stone Age]
