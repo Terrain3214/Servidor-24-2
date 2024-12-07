@@ -669,3 +669,13 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [07Dec2024 09:28:27.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pochito228> sisas jaja
 [07Dec2024 09:28:40.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pochito228> la verdad le di por error con el pico y me di cuenta xd
 [07Dec2024 09:28:44.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> jajajaj
+[07Dec2024 09:36:19.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[07Dec2024 09:36:31.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[07Dec2024 09:37:15.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> duerma jajaj
+[07Dec2024 09:37:53.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pochito228> ya
+[07Dec2024 09:37:55.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pochito228> hagale
+[07Dec2024 09:38:15.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pochito228> bueno vemos todo bien
+[07Dec2024 09:38:39.280] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pochito228 lost connection: Disconnected
+[07Dec2024 09:38:39.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 left the game
+[07Dec2024 09:41:22.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[07Dec2024 09:41:34.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
