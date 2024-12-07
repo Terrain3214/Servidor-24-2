@@ -274,3 +274,50 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [07Dec2024 05:12:58.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 has completed the challenge [Cannibal]
 [07Dec2024 05:13:54.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 was blown up by Creeper
 [07Dec2024 05:14:41.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 has made the advancement [Stone Age]
+[07Dec2024 05:16:04.709] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[07Dec2024 05:16:56.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was turned into KFC by Fire Dragon
+[07Dec2024 05:18:02.678] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ratachi1398[/100.126.122.99:51487] logged in with entity id 3863 at (12142.5, 67.0, 1436.5)
+[07Dec2024 05:18:02.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 joined the game
+[07Dec2024 05:18:03.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 has made the advancement [Ice and Fire]
+[07Dec2024 05:18:05.903] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[07Dec2024 05:18:24.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 has made the advancement [Acquire Hardware]
+[07Dec2024 05:18:38.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was burnt to a crisp whilst fighting Fire Dragon
+[07Dec2024 05:18:57.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 has made the advancement [Stone Age]
+[07Dec2024 05:19:08.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 has made the advancement [Getting an Upgrade]
+[07Dec2024 05:19:32.446] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Terrain32[/100.65.58.104:55833] logged in with entity id 4463 at (12179.1783428368, 79.0, 1515.5071432699563)
+[07Dec2024 05:19:32.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 joined the game
+[07Dec2024 05:19:49.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pochito228> ojo con el dragon
+[07Dec2024 05:20:38.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Teleported Terrain32 to Pochito228]
+[07Dec2024 05:21:07.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 has made the advancement [Suit Up]
+[07Dec2024 05:21:12.813] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[07Dec2024 05:21:21.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 has completed the challenge [Learn to Fart]
+[07Dec2024 05:21:23.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was burnt to a crisp whilst fighting Fire Dragon
+[07Dec2024 05:21:25.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Teleported Terrain32 to Ratachi1398]
+[07Dec2024 05:21:56.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 has reached the goal [Switcharoo!]
+[07Dec2024 05:23:01.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> Cómo sienten todo?
+[07Dec2024 05:23:05.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> daño y eso
+[07Dec2024 05:23:14.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ratachi1398> yo bien
+[07Dec2024 05:23:24.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ratachi1398> na mas a veces el bloque se pica pero no desaparece
+[07Dec2024 05:23:36.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was slain by Fire Dragon
+[07Dec2024 05:23:40.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> jajajaja
+[07Dec2024 05:23:55.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> Pero su zona central está bien?
+[07Dec2024 05:24:13.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was incinerated by Fire Dragon
+[07Dec2024 05:24:19.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 was incinerated by Fire Dragon
+[07Dec2024 05:24:19.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> zom que intenta?
+[07Dec2024 05:24:29.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ZOMTASMA08> una cosa
+[07Dec2024 05:25:04.636] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ratachi1398 lost connection: You logged in from another location
+[07Dec2024 05:25:04.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 left the game
+[07Dec2024 05:25:04.761] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[07Dec2024 05:25:04.766] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ratachi1398[/100.126.122.99:52574] logged in with entity id 7312 at (12176.810054170679, 128.0, 1414.6994048742783)
+[07Dec2024 05:25:04.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 joined the game
+[07Dec2024 05:25:05.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 was turned into KFC by Fire Dragon
+[07Dec2024 05:25:09.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was burnt to a crisp whilst fighting Fire Dragon
+[07Dec2024 05:25:12.854] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[07Dec2024 05:25:15.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ratachi1398> y hay errores de conexion mk
+[07Dec2024 05:25:28.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pochito228> negro mate esa cosa
+[07Dec2024 05:25:34.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> como asi
+[07Dec2024 05:25:36.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ZOMTASMA08> no lo mates neri
+[07Dec2024 05:25:43.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> no no no, no puedo interferir
+[07Dec2024 05:26:01.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Terrain32> solo soy un dios que observa el mundo desarrollarse
+[07Dec2024 05:26:08.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ZOMTASMA08> eso
+[07Dec2024 05:26:17.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pochito228> me puede hacer tp al menos?
