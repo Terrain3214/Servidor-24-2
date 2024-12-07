@@ -262,3 +262,5 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [07Dec2024 15:17:40.727] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ratachi1398[/100.126.122.99:49800] logged in with entity id 236 at (11996.523940077936, 102.0, 1418.300000011921)
 [07Dec2024 15:17:40.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 joined the game
 [07Dec2024 15:17:44.271] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
+[07Dec2024 15:40:23.300] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ratachi1398 lost connection: Disconnected
+[07Dec2024 15:40:23.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 left the game
