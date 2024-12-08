@@ -6532,3 +6532,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [08Dec2024 03:17:36.717] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [08Dec2024 03:17:36.744] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [08Dec2024 03:17:48.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Suit Up]
+[08Dec2024 03:21:10.229] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[08Dec2024 03:22:01.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Not Today, Thank You]
+[08Dec2024 03:22:26.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 was blown up by Creeper
+[08Dec2024 03:22:27.821] [Server thread/DEBUG] [twilightforest/]: Player Michak1 (49126f40-093e-387e-8972-c62ffa2516ac) respawned and received items held in storage
+[08Dec2024 03:22:38.646] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Dec2024 03:22:38.677] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Dec2024 03:22:53.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was slain by Zombie
+[08Dec2024 03:22:55.418] [Server thread/DEBUG] [twilightforest/]: Player ZOMTASMA08 (cfe42147-295d-3172-8a0e-ee11f62703e4) respawned and received items held in storage
+[08Dec2024 03:23:46.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 was shot by Skeleton
+[08Dec2024 03:23:47.634] [Server thread/DEBUG] [twilightforest/]: Player Michak1 (49126f40-093e-387e-8972-c62ffa2516ac) respawned and received items held in storage
+[08Dec2024 03:25:38.363] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
+[08Dec2024 03:25:40.188] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[08Dec2024 03:27:02.690] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithUtils
+[08Dec2024 03:27:05.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 was slain by Void Blossom
+[08Dec2024 03:27:10.169] [Server thread/DEBUG] [twilightforest/]: Player Pochito228 (45050b16-12ab-3ff1-a62e-2a90d41223e6) respawned and received items held in storage
+[08Dec2024 03:27:40.652] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Dec2024 03:27:40.667] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Dec2024 03:28:49.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Take Aim]
+[08Dec2024 03:29:33.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 has made the advancement [A Seedy Place]

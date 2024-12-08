@@ -342,3 +342,14 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [08Dec2024 03:11:38.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 has made the advancement [Full Moon in a Pocket]
 [08Dec2024 03:12:44.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 has made the advancement [Ice Bucket Challenge]
 [08Dec2024 03:17:48.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Suit Up]
+[08Dec2024 03:21:10.229] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[08Dec2024 03:22:01.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Not Today, Thank You]
+[08Dec2024 03:22:26.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 was blown up by Creeper
+[08Dec2024 03:22:53.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was slain by Zombie
+[08Dec2024 03:23:46.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 was shot by Skeleton
+[08Dec2024 03:25:38.363] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
+[08Dec2024 03:25:40.188] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[08Dec2024 03:27:02.690] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithUtils
+[08Dec2024 03:27:05.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 was slain by Void Blossom
+[08Dec2024 03:28:49.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Take Aim]
+[08Dec2024 03:29:33.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 has made the advancement [A Seedy Place]

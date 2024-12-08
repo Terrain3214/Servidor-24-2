@@ -2002,6 +2002,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-12-08 01:19:32 +0000",
+      "minecraft:spider": "2024-12-08 03:22:17 +0000",
+      "minecraft:creeper": "2024-12-08 03:23:31 +0000",
       "minecraft:zombie": "2024-12-08 00:55:56 +0000",
       "minecraft:zombie_villager": "2024-12-08 03:12:02 +0000"
     },
@@ -2609,9 +2611,21 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2024-12-08 03:17:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2024-12-08 03:10:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-12-08 03:22:01 +0000"
     },
     "done": true
   },
@@ -2630,6 +2644,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2024-12-08 03:10:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2024-12-08 03:25:27 +0000"
     },
     "done": true
   },
@@ -2687,6 +2707,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2024-12-08 03:25:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/smoker": {
     "criteria": {
       "has_furnace": "2024-12-08 02:28:09 +0000"
@@ -2741,6 +2767,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2024-12-08 03:25:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobbled_deepslate_wall": {
     "criteria": {
       "has_cobbled_deepslate": "2024-12-08 02:38:06 +0000"
@@ -2756,6 +2788,12 @@
   "soulsweapons:trickweapon": {
     "criteria": {
       "weapon": "2024-12-08 02:45:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2024-12-08 03:25:27 +0000"
     },
     "done": true
   },
@@ -2981,9 +3019,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-08 03:26:43 +0000"
+    },
+    "done": true
+  },
   "soulsweapons:recipes/combat/bluemoon_shortsword": {
     "criteria": {
       "has_item": "2024-12-08 03:07:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2024-12-08 03:25:27 +0000"
     },
     "done": true
   },
@@ -3029,9 +3079,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-12-08 03:23:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-12-08 02:38:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-12-08 03:23:33 +0000"
     },
     "done": true
   },
@@ -3044,6 +3106,12 @@
   "soulsweapons:recipes/tools/boss_compass": {
     "criteria": {
       "has_item": "2024-12-08 03:07:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2024-12-08 03:25:27 +0000"
     },
     "done": true
   },
