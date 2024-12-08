@@ -3518,21 +3518,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+  "iceandfire:recipes/tools/silver_pickaxe": {
     "criteria": {
-      "has_potato": "2024-12-08 02:42:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2024-12-08 02:55:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato": {
-    "criteria": {
-      "has_potato": "2024-12-08 02:42:24 +0000"
+      "has_the_recipe": "2024-12-08 02:00:35 +0000"
     },
     "done": true
   },
@@ -3542,21 +3530,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cherry_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-12-08 02:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-12-08 02:42:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-12-08 02:42:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2024-12-08 02:42:24 +0000"
     },
     "done": true
   },
-  "iceandfire:recipes/tools/silver_pickaxe": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "has_the_recipe": "2024-12-08 02:00:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cherry_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2024-12-08 02:36:46 +0000"
+      "has_bone_meal": "2024-12-08 02:55:15 +0000"
     },
     "done": true
   },
