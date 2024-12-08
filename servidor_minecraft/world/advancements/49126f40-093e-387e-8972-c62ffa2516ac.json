@@ -1716,8 +1716,10 @@
       "minecraft:stony_shore": "2024-12-08 08:38:48 +0000",
       "minecraft:dripstone_caves": "2024-12-08 00:59:10 +0000",
       "minecraft:forest": "2024-12-08 03:58:36 +0000",
+      "minecraft:ocean": "2024-12-08 20:14:24 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-12-08 07:24:04 +0000",
       "minecraft:flower_forest": "2024-12-08 08:32:28 +0000",
+      "minecraft:old_growth_birch_forest": "2024-12-08 20:18:43 +0000",
       "minecraft:meadow": "2024-12-08 07:07:08 +0000",
       "minecraft:savanna": "2024-12-08 08:32:47 +0000",
       "minecraft:plains": "2024-12-08 00:50:15 +0000"
@@ -2089,7 +2091,8 @@
       "apple": "2024-12-08 05:12:59 +0000",
       "bread": "2024-12-08 01:18:39 +0000",
       "golden_apple": "2024-12-08 05:16:01 +0000",
-      "rotten_flesh": "2024-12-08 01:00:34 +0000"
+      "rotten_flesh": "2024-12-08 01:00:34 +0000",
+      "golden_carrot": "2024-12-08 20:15:46 +0000"
     },
     "done": false
   },
@@ -4391,9 +4394,39 @@
     },
     "done": true
   },
+  "twilightforest:recipes/transportation/transformation_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/sorting_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/canopy_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
     "criteria": {
       "has_gold_backpack": "2024-12-08 20:04:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_teal_chestplate": {
+    "criteria": {
+      "has_item": "2024-12-08 20:17:09 +0000"
     },
     "done": true
   },
@@ -4409,6 +4442,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/time_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_teal_leggings": {
+    "criteria": {
+      "has_item": "2024-12-08 20:17:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-12-08 19:33:36 +0000"
@@ -4418,6 +4475,12 @@
   "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2024-12-08 19:48:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
     },
     "done": true
   },
@@ -4439,9 +4502,33 @@
     },
     "done": true
   },
+  "twilightforest:recipes/transportation/mining_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
     "criteria": {
       "has_diamond_backpack": "2024-12-08 20:04:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
     },
     "done": true
   },
@@ -4457,9 +4544,21 @@
     },
     "done": true
   },
+  "twilightforest:recipes/transportation/twilight_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_stairs": {
     "criteria": {
       "has_quartz_block": "2024-12-08 19:33:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
     },
     "done": true
   },
@@ -4469,9 +4568,33 @@
     },
     "done": true
   },
+  "deeperdarker:recipes/transportation/bloom_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_quartz": {
     "criteria": {
       "has_quartz_block": "2024-12-08 19:33:36 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/transportation/echo_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
     },
     "done": true
   },
@@ -4487,15 +4610,39 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/tide_teal_helmet": {
+    "criteria": {
+      "has_item": "2024-12-08 20:17:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-12-08 19:33:36 +0000"
     },
     "done": true
   },
+  "iceandfire:recipes/building_blocks/sea_serpent_scales_teal_to_sea_serpent_scale_block_teal": {
+    "criteria": {
+      "has_sea_serpent_scales_teal": "2024-12-08 20:17:09 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/dark_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-08 20:17:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2024-12-08 19:48:13 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_teal_boots": {
+    "criteria": {
+      "has_item": "2024-12-08 20:17:09 +0000"
     },
     "done": true
   },
