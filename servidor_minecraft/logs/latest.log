@@ -1,87 +1,87 @@
-[08Dec2024 03:47:50.962] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[08Dec2024 03:47:50.975] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[08Dec2024 03:47:55.772] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[08Dec2024 03:47:56.079] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[08Dec2024 03:47:57.513] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[08Dec2024 03:47:57.514] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[08Dec2024 03:47:57.515] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[08Dec2024 03:47:57.516] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[08Dec2024 03:47:58.428] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[08Dec2024 03:47:58.430] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/Servidor-24-2/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.9.jar
-[08Dec2024 03:47:58.430] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
-[08Dec2024 03:48:05.432] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[08Dec2024 03:48:05.755] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[08Dec2024 03:48:07.060] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[08Dec2024 03:48:07.293] [main/WARN] [mixin/]: Error loading class: tfar/davespotioneering/blockentity/AdvancedBrewingStandBlockEntity (java.lang.ClassNotFoundException: tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity)
-[08Dec2024 03:48:07.294] [main/WARN] [mixin/]: @Mixin target tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity was not found itemproductionlib.mixins.json:davespotioneering/AdvancedBrewingStandBlockEntityMixin
-[08Dec2024 03:48:07.305] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/CookingPotBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity)
-[08Dec2024 03:48:07.305] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/CookingPotBlockEntityMixin
-[08Dec2024 03:48:07.306] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/StoveBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.StoveBlockEntity)
-[08Dec2024 03:48:07.306] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.StoveBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/StoveBlockEntityMixin
-[08Dec2024 03:48:07.307] [main/WARN] [mixin/]: Error loading class: fuzs/visualworkbench/world/inventory/ModCraftingMenu (java.lang.ClassNotFoundException: fuzs.visualworkbench.world.inventory.ModCraftingMenu)
-[08Dec2024 03:48:07.307] [main/WARN] [mixin/]: @Mixin target fuzs.visualworkbench.world.inventory.ModCraftingMenu was not found itemproductionlib.mixins.json:visualworkbench/ModCraftingMenuMixin
-[08Dec2024 03:48:07.864] [main/WARN] [mixin/]: Error loading class: fuzs/easymagic/world/inventory/ModEnchantmentMenu (java.lang.ClassNotFoundException: fuzs.easymagic.world.inventory.ModEnchantmentMenu)
-[08Dec2024 03:48:07.865] [main/WARN] [mixin/]: @Mixin target fuzs.easymagic.world.inventory.ModEnchantmentMenu was not found skilltree.mixins.json:easymagic/ModEnchantmentMenuMixin
-[08Dec2024 03:48:07.866] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/ench/table/ApothEnchantmentMenu (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu)
-[08Dec2024 03:48:07.866] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu was not found skilltree.mixins.json:apotheosis/ApothEnchantContainerMixin
-[08Dec2024 03:48:07.866] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/SocketingRecipe (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe)
-[08Dec2024 03:48:07.867] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe was not found skilltree.mixins.json:apotheosis/SocketingRecipeMixin
-[08Dec2024 03:48:07.867] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/AttributeBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus)
-[08Dec2024 03:48:07.868] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus was not found skilltree.mixins.json:apotheosis/AttributeBonusMixin
-[08Dec2024 03:48:07.868] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/EnchantmentBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus)
-[08Dec2024 03:48:07.869] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus was not found skilltree.mixins.json:apotheosis/EnchantmentBonusMixin
-[08Dec2024 03:48:10.867] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[08Dec2024 03:48:10.869] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
-[08Dec2024 03:48:12.267] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
-[08Dec2024 03:48:25.623] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
-[08Dec2024 03:48:25.630] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
-[08Dec2024 03:48:32.312] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[08Dec2024 03:48:32.313] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[08Dec2024 03:48:32.314] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[08Dec2024 03:48:32.314] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[08Dec2024 03:48:39.016] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
-[08Dec2024 03:48:39.023] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: IceAndFireCompat
-[08Dec2024 03:48:39.771] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
-[08Dec2024 03:48:40.252] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[08Dec2024 03:48:43.468] [modloading-worker-0/INFO] [simplyswords/]: Registering Gobber compat Items for simplyswords
-[08Dec2024 03:48:43.543] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[08Dec2024 03:48:43.551] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[08Dec2024 03:48:51.506] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
-[08Dec2024 03:48:52.540] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
-[08Dec2024 03:48:52.712] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[08Dec2024 03:48:52.712] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[08Dec2024 03:48:52.713] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[08Dec2024 03:48:52.714] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[08Dec2024 03:48:52.714] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[08Dec2024 03:48:52.714] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[08Dec2024 03:48:52.715] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[08Dec2024 03:48:52.718] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[08Dec2024 03:48:52.720] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[08Dec2024 03:48:53.627] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
-[08Dec2024 03:48:54.079] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
-[08Dec2024 03:48:54.559] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
-[08Dec2024 03:48:55.028] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[08Dec2024 03:48:55.044] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[08Dec2024 03:48:55.120] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 47 compatible attributes.
-[08Dec2024 03:48:55.154] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 47 values from config.
-[08Dec2024 03:48:55.191] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
-[08Dec2024 03:48:55.209] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
-[08Dec2024 03:48:55.277] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 47 entries.
-[08Dec2024 03:48:55.283] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 47 attributes.
-[08Dec2024 03:48:55.320] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
-[08Dec2024 03:48:55.348] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
-[08Dec2024 03:48:55.389] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
-[08Dec2024 03:48:55.397] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:forge at mcp.mobius.waila.plugin.forge.ForgeCommonPlugin
-[08Dec2024 03:48:55.404] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing plugin waystones:plugin at net.blay09.mods.waystones.compat.WTHITIntegration
-[08Dec2024 03:48:55.409] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
-[08Dec2024 03:48:55.622] [modloading-worker-0/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
-[08Dec2024 03:48:55.729] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
-[08Dec2024 03:48:55.729] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
-[08Dec2024 03:48:55.789] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.2.48 Target: null
-[08Dec2024 03:48:55.792] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08Dec2024 03:48:56.088] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[08Dec2024 03:48:56.092] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[08Dec2024 03:48:56.247] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[08Dec2024 06:34:34.373] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[08Dec2024 06:34:34.377] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[08Dec2024 06:34:37.393] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[08Dec2024 06:34:37.468] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[08Dec2024 06:34:37.895] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[08Dec2024 06:34:37.898] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[08Dec2024 06:34:37.900] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[08Dec2024 06:34:37.902] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[08Dec2024 06:34:38.497] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[08Dec2024 06:34:38.503] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/Servidor-24-2/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.9.jar
+[08Dec2024 06:34:38.504] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[08Dec2024 06:34:43.308] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[08Dec2024 06:34:43.468] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[08Dec2024 06:34:43.770] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Dec2024 06:34:43.828] [main/WARN] [mixin/]: Error loading class: tfar/davespotioneering/blockentity/AdvancedBrewingStandBlockEntity (java.lang.ClassNotFoundException: tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity)
+[08Dec2024 06:34:43.829] [main/WARN] [mixin/]: @Mixin target tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity was not found itemproductionlib.mixins.json:davespotioneering/AdvancedBrewingStandBlockEntityMixin
+[08Dec2024 06:34:43.830] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/CookingPotBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity)
+[08Dec2024 06:34:43.831] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/CookingPotBlockEntityMixin
+[08Dec2024 06:34:43.832] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/StoveBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.StoveBlockEntity)
+[08Dec2024 06:34:43.832] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.StoveBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/StoveBlockEntityMixin
+[08Dec2024 06:34:43.834] [main/WARN] [mixin/]: Error loading class: fuzs/visualworkbench/world/inventory/ModCraftingMenu (java.lang.ClassNotFoundException: fuzs.visualworkbench.world.inventory.ModCraftingMenu)
+[08Dec2024 06:34:43.835] [main/WARN] [mixin/]: @Mixin target fuzs.visualworkbench.world.inventory.ModCraftingMenu was not found itemproductionlib.mixins.json:visualworkbench/ModCraftingMenuMixin
+[08Dec2024 06:34:44.152] [main/WARN] [mixin/]: Error loading class: fuzs/easymagic/world/inventory/ModEnchantmentMenu (java.lang.ClassNotFoundException: fuzs.easymagic.world.inventory.ModEnchantmentMenu)
+[08Dec2024 06:34:44.153] [main/WARN] [mixin/]: @Mixin target fuzs.easymagic.world.inventory.ModEnchantmentMenu was not found skilltree.mixins.json:easymagic/ModEnchantmentMenuMixin
+[08Dec2024 06:34:44.154] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/ench/table/ApothEnchantmentMenu (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu)
+[08Dec2024 06:34:44.157] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu was not found skilltree.mixins.json:apotheosis/ApothEnchantContainerMixin
+[08Dec2024 06:34:44.159] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/SocketingRecipe (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe)
+[08Dec2024 06:34:44.159] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe was not found skilltree.mixins.json:apotheosis/SocketingRecipeMixin
+[08Dec2024 06:34:44.161] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/AttributeBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus)
+[08Dec2024 06:34:44.169] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus was not found skilltree.mixins.json:apotheosis/AttributeBonusMixin
+[08Dec2024 06:34:44.174] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/EnchantmentBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus)
+[08Dec2024 06:34:44.176] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus was not found skilltree.mixins.json:apotheosis/EnchantmentBonusMixin
+[08Dec2024 06:34:45.883] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[08Dec2024 06:34:45.884] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[08Dec2024 06:34:47.091] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
+[08Dec2024 06:34:55.494] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[08Dec2024 06:34:55.495] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[08Dec2024 06:35:00.445] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[08Dec2024 06:35:00.451] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[08Dec2024 06:35:00.452] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[08Dec2024 06:35:00.453] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[08Dec2024 06:35:04.114] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
+[08Dec2024 06:35:04.125] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: IceAndFireCompat
+[08Dec2024 06:35:04.811] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
+[08Dec2024 06:35:05.172] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[08Dec2024 06:35:07.788] [modloading-worker-0/INFO] [simplyswords/]: Registering Gobber compat Items for simplyswords
+[08Dec2024 06:35:07.818] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[08Dec2024 06:35:07.819] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[08Dec2024 06:35:13.679] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[08Dec2024 06:35:14.306] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
+[08Dec2024 06:35:14.407] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[08Dec2024 06:35:14.408] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[08Dec2024 06:35:14.409] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[08Dec2024 06:35:14.410] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[08Dec2024 06:35:14.410] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[08Dec2024 06:35:14.411] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[08Dec2024 06:35:14.411] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[08Dec2024 06:35:14.412] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[08Dec2024 06:35:14.413] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[08Dec2024 06:35:15.062] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[08Dec2024 06:35:15.252] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[08Dec2024 06:35:15.433] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[08Dec2024 06:35:15.693] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
+[08Dec2024 06:35:15.705] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
+[08Dec2024 06:35:15.816] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[08Dec2024 06:35:15.835] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[08Dec2024 06:35:15.889] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 47 compatible attributes.
+[08Dec2024 06:35:15.942] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 47 values from config.
+[08Dec2024 06:35:16.127] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 47 entries.
+[08Dec2024 06:35:16.137] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 47 attributes.
+[08Dec2024 06:35:16.174] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
+[08Dec2024 06:35:16.238] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
+[08Dec2024 06:35:16.326] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
+[08Dec2024 06:35:16.332] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
+[08Dec2024 06:35:16.332] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[08Dec2024 06:35:16.337] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:forge at mcp.mobius.waila.plugin.forge.ForgeCommonPlugin
+[08Dec2024 06:35:16.344] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing plugin waystones:plugin at net.blay09.mods.waystones.compat.WTHITIntegration
+[08Dec2024 06:35:16.356] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.2.48 Target: null
+[08Dec2024 06:35:16.356] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08Dec2024 06:35:16.372] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[08Dec2024 06:35:16.515] [modloading-worker-0/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[08Dec2024 06:35:16.531] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[08Dec2024 06:35:16.531] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[08Dec2024 06:35:16.742] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -96,10 +96,10 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[08Dec2024 03:49:06.916] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08Dec2024 03:49:14.183] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23175!/assets/.mcassetsroot' uses unexpected schema
-[08Dec2024 03:49:14.189] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23175!/data/.mcassetsroot' uses unexpected schema
-[08Dec2024 03:49:21.231] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
+[08Dec2024 06:35:23.386] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08Dec2024 06:35:28.287] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23175!/assets/.mcassetsroot' uses unexpected schema
+[08Dec2024 06:35:28.289] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-24-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23175!/data/.mcassetsroot' uses unexpected schema
+[08Dec2024 06:35:33.546] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23175!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -151,245 +151,156 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[08Dec2024 03:49:29.796] [Worker-Main-1/INFO] [epicfight/]: Register animations from epicfight
-[08Dec2024 03:49:31.906] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[08Dec2024 03:49:32.030] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[08Dec2024 03:49:32.068] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[08Dec2024 03:49:32.104] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[08Dec2024 03:49:32.227] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[08Dec2024 03:49:32.240] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[08Dec2024 03:49:32.249] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[08Dec2024 03:49:32.278] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[08Dec2024 03:49:32.285] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
-[08Dec2024 03:49:32.724] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2967 advancements
-[08Dec2024 03:49:33.045] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[08Dec2024 03:49:33.051] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[08Dec2024 03:49:33.156] [main/INFO] [Dungeon Crawl/]: Loading data...
-[08Dec2024 03:49:34.054] [main/INFO] [Dungeon Crawl/]: Done.
-[08Dec2024 03:49:34.076] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[08Dec2024 03:49:40.128] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
-[08Dec2024 03:49:40.843] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[08Dec2024 03:49:40.847] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08Dec2024 03:49:40.848] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[08Dec2024 03:49:40.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08Dec2024 03:49:41.558] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[08Dec2024 03:49:41.682] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[08Dec2024 03:49:41.955] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08Dec2024 03:49:41.957] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[08Dec2024 03:49:41.959] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08Dec2024 03:49:41.959] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[08Dec2024 03:49:43.402] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[08Dec2024 03:50:08.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08Dec2024 03:50:19.838] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:19.915] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:19.918] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:19.921] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:19.928] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:20.062] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:20.107] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:20.160] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:20.322] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:20.430] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:20.542] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:20.605] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:20.618] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:21.153] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:21.200] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:21.267] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:21.285] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:21.312] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:21.315] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:21.392] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:21.472] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:21.576] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:21.664] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:21.830] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:22.007] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:22.053] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:22.145] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:22.152] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:25.455] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:25.457] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:25.460] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:25.464] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:25.465] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:25.467] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:25.580] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:26.078] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:26.578] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:27.175] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 03:50:28.790] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 20213 ms
-[08Dec2024 03:50:28.792] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (46.183s)! For help, type "help"
-[08Dec2024 03:50:29.483] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[08Dec2024 03:50:29.539] [Server thread/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
-[08Dec2024 03:50:29.539] [Server thread/INFO] [net.stardustlabs.incendium.Incendium/]: Thanks for choosing Incendium!
-[08Dec2024 03:50:29.566] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
-[08Dec2024 03:50:29.657] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
-[08Dec2024 03:50:29.755] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
-[08Dec2024 03:50:29.756] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
-[08Dec2024 03:50:29.756] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
-[08Dec2024 03:50:29.757] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
-[08Dec2024 03:50:29.893] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[08Dec2024 03:50:29.894] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[08Dec2024 03:50:33.310] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3304ms or 66 ticks behind
-[08Dec2024 03:50:52.595] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ratachi1398[/100.126.122.99:62931] logged in with entity id 358 at (11995.511063918197, 94.0, 1419.2863870290348)
-[08Dec2024 03:50:52.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 joined the game
-[08Dec2024 03:50:54.811] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ZOMTASMA08[/100.81.12.92:60572] logged in with entity id 360 at (12021.911156017537, 66.0, 1522.3796012161515)
-[08Dec2024 03:50:54.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 joined the game
-[08Dec2024 03:50:58.894] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Michak1[/100.88.119.109:51246] logged in with entity id 414 at (12082.274732177042, 61.0, 1396.1928570132304)
-[08Dec2024 03:50:58.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 joined the game
-[08Dec2024 03:51:11.377] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 23071ms or 461 ticks behind
-[08Dec2024 03:51:16.778] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
-[08Dec2024 03:51:29.045] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Pochito228[/100.65.198.20:54379] logged in with entity id 689 at (12087.571299114285, 73.0, 1586.8996865346344)
-[08Dec2024 03:51:29.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 joined the game
-[08Dec2024 03:51:44.556] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 18200ms or 364 ticks behind
-[08Dec2024 03:55:16.657] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
-[08Dec2024 03:57:38.201] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2045ms or 40 ticks behind
-[08Dec2024 03:58:11.404] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 18248ms or 364 ticks behind
-[08Dec2024 03:58:32.833] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6478ms or 129 ticks behind
-[08Dec2024 03:59:09.752] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 21946ms or 438 ticks behind
-[08Dec2024 03:59:45.679] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 20973ms or 419 ticks behind
-[08Dec2024 04:00:22.948] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22293ms or 445 ticks behind
-[08Dec2024 04:00:52.082] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14177ms or 283 ticks behind
-[08Dec2024 04:01:23.729] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16673ms or 333 ticks behind
-[08Dec2024 04:01:52.449] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13743ms or 274 ticks behind
-[08Dec2024 04:02:20.622] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13216ms or 264 ticks behind
-[08Dec2024 04:02:51.842] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16237ms or 324 ticks behind
-[08Dec2024 04:03:25.809] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 19004ms or 380 ticks behind
-[08Dec2024 04:03:59.957] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 19151ms or 383 ticks behind
-[08Dec2024 04:04:34.673] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 19717ms or 394 ticks behind
-[08Dec2024 04:05:05.064] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pochito228 moved too quickly! -0.36953262258612085,-1.130906499714527,-10.142970788553384
-[08Dec2024 04:05:16.703] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 27048ms or 540 ticks behind
-[08Dec2024 04:05:59.803] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 28147ms or 562 ticks behind
-[08Dec2024 04:06:37.469] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22714ms or 454 ticks behind
-[08Dec2024 04:06:40.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Magebloom]
-[08Dec2024 04:07:13.541] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 21085ms or 421 ticks behind
-[08Dec2024 04:07:17.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [A True Source of Evil]
-[08Dec2024 04:07:44.186] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15680ms or 313 ticks behind
-[08Dec2024 04:08:21.650] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22494ms or 449 ticks behind
-[08Dec2024 04:08:45.491] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! -5.228873630741873,0.0,-9.057786100942621
-[08Dec2024 04:08:45.494] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! -5.755407925176769,0.0,-10.159831108963772
-[08Dec2024 04:08:45.496] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! -6.265276886857464,0.0,-11.27936195136192
-[08Dec2024 04:08:45.497] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! -6.757122299763068,0.0,-12.415729113952807
-[08Dec2024 04:08:45.665] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! -4.2186111113678635,0.0,-10.34570217882765
-[08Dec2024 04:08:45.673] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! -4.598948919232498,0.0,-11.521690694105132
-[08Dec2024 04:08:45.678] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! -4.9739626495920675,0.0,-12.6697109326401
-[08Dec2024 04:08:45.680] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! -5.343919720393387,0.0,-13.790408589311255
-[08Dec2024 04:08:45.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! -5.709075665674391,0.0,-14.88442027145095
-[08Dec2024 04:08:45.682] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! -6.034970520178831,0.0,-15.848432877952177
-[08Dec2024 04:08:46.016] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 6.846927941212925,0.0,18.14532773240046
-[08Dec2024 04:08:46.017] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 6.846927941212925,0.0,18.14532773240046
-[08Dec2024 04:08:46.018] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 6.757491255453715,0.0,17.937965885831545
-[08Dec2024 04:08:46.020] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 6.846927941212925,0.0,18.14532773240046
-[08Dec2024 04:08:46.020] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 6.846927941212925,0.0,18.14532773240046
-[08Dec2024 04:08:46.172] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 7.090284571393568,0.0,18.775248574976672
-[08Dec2024 04:08:46.201] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 7.005123407963765,0.0,18.585964317927278
-[08Dec2024 04:08:46.202] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 6.922573600695614,0.0,18.405382592061073
-[08Dec2024 04:08:46.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 3.345076934518147,0.0,9.832375582918417
-[08Dec2024 04:08:46.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 3.345076934518147,0.0,9.832375582918417
-[08Dec2024 04:08:46.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 3.345076934518147,0.0,9.832375582918417
-[08Dec2024 04:08:46.209] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 3.345076934518147,0.0,9.832375582918417
-[08Dec2024 04:08:46.210] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 3.345076934518147,0.0,9.832375582918417
-[08Dec2024 04:08:46.210] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 3.345076934518147,0.0,9.832375582918417
-[08Dec2024 04:08:46.211] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 3.2627505702057533,0.0,9.660197366289026
-[08Dec2024 04:08:46.213] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved too quickly! 3.180977564146815,0.0,9.496341745763857
-[08Dec2024 04:08:46.218] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved wrongly! 2.877238036482595
-[08Dec2024 04:08:46.381] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved wrongly! 2.724714198563788
-[08Dec2024 04:08:46.384] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved wrongly! 2.5752408344942523
-[08Dec2024 04:08:46.387] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved wrongly! 2.4237585484831925
-[08Dec2024 04:08:46.395] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Pochito228) moved wrongly! 2.270313007680784
-[08Dec2024 04:09:02.014] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 25408ms or 508 ticks behind
-[08Dec2024 04:09:29.874] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12868ms or 257 ticks behind
-[08Dec2024 04:10:03.660] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 18804ms or 376 ticks behind
-[08Dec2024 04:10:27.270] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pochito228 moved too quickly! 7.860584013185871,0.3800236743955381,-6.272831435136311
-[08Dec2024 04:10:43.659] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 25003ms or 500 ticks behind
-[08Dec2024 04:10:48.462] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ratachi1398 moved too quickly! 5.464745703864537,-0.023088109101550458,-8.619872370960138
-[08Dec2024 04:10:55.852] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ratachi1398 moved too quickly! 7.754776316443895,-1.6815583980583142,-6.437830777202862
-[08Dec2024 04:11:20.662] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22007ms or 440 ticks behind
-[08Dec2024 04:11:40.907] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pochito228 moved too quickly! -1.8747592507352238,-0.41290928041701136,-9.864911275320964
-[08Dec2024 04:12:03.995] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 28340ms or 566 ticks behind
-[08Dec2024 04:12:42.351] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 23395ms or 467 ticks behind
-[08Dec2024 04:12:59.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 has made the advancement [Who You Gonna Call?]
-[08Dec2024 04:13:22.949] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 25644ms or 512 ticks behind
-[08Dec2024 04:13:34.420] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pochito228 moved too quickly! 0.3548057535481348,0.3015347236627832,-10.032745183291368
-[08Dec2024 04:14:06.298] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 28393ms or 567 ticks behind
-[08Dec2024 04:14:45.777] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 24521ms or 490 ticks behind
-[08Dec2024 04:15:23.853] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 23097ms or 461 ticks behind
-[08Dec2024 04:16:00.720] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 21914ms or 438 ticks behind
-[08Dec2024 04:16:20.359] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ratachi1398 moved too quickly! 7.039272898096897,-2.9403488117095407,-6.602989654567182
-[08Dec2024 04:16:20.552] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Michak1 moved too quickly! -10.070499574325368,0.0,-0.05579423092831348
-[08Dec2024 04:16:40.862] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 25157ms or 503 ticks behind
-[08Dec2024 04:17:00.650] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pochito228 moved too quickly! -9.815096174908831,-1.0,2.7571847490363623
-[08Dec2024 04:17:06.551] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pochito228 moved too quickly! -8.192475205763913,-0.07520089011894271,-5.880868448504387
-[08Dec2024 04:17:11.564] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pochito228 moved too quickly! 8.013945595710538,-0.24813599859093927,-6.3667473351587685
-[08Dec2024 04:17:11.579] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ratachi1398 moved too quickly! 9.322366670457995,3.1661092609382138,2.0092770834580733
-[08Dec2024 04:17:22.049] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pochito228 moved too quickly! 7.8864852063925355,0.8800391385729398,6.2285058156987665
-[08Dec2024 04:17:22.078] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ratachi1398 moved too quickly! 8.381044629484677,0.17081290814229533,-5.8633986725199065
-[08Dec2024 04:17:22.307] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 26451ms or 529 ticks behind
-[08Dec2024 04:18:04.715] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 27409ms or 548 ticks behind
-[08Dec2024 04:18:25.310] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pochito228 moved too quickly! 5.0979058749035175,-0.41999998688697815,-8.841606696865313
-[08Dec2024 04:18:35.432] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ratachi1398 moved too quickly! -1.6544803045417211,-0.24918707874468282,-10.08926928756523
-[08Dec2024 04:18:35.452] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Michak1 moved too quickly! 9.539998538666623,0.5358406250445569,-3.0382863990148508
-[08Dec2024 04:18:56.514] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 36808ms or 736 ticks behind
-[08Dec2024 04:19:42.750] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 31244ms or 624 ticks behind
-[08Dec2024 04:19:54.370] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZOMTASMA08 moved too quickly! 4.836909358036792,1.2491870787446828,-9.012753399890016
-[08Dec2024 04:19:54.391] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pochito228 moved too quickly! 10.071454785807873,-1.0,0.6612344734462567
-[08Dec2024 04:20:01.003] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ratachi1398 moved too quickly! 7.521276802757711,0.2522033402537289,6.894966584554595
-[08Dec2024 04:20:08.978] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZOMTASMA08 moved too quickly! 5.6870686964539345,0.8322033533667508,-8.464440162187657
-[08Dec2024 04:20:21.423] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 23718ms or 474 ticks behind
-[08Dec2024 04:20:55.591] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 19186ms or 383 ticks behind
-[08Dec2024 04:21:28.970] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 18415ms or 368 ticks behind
-[08Dec2024 04:21:30.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 has made the advancement [Who You Gonna Call?]
-[08Dec2024 04:21:59.237] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15282ms or 305 ticks behind
-[08Dec2024 04:22:31.606] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 17401ms or 348 ticks behind
-[08Dec2024 04:23:03.012] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16406ms or 328 ticks behind
-[08Dec2024 04:23:33.237] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15232ms or 304 ticks behind
-[08Dec2024 04:24:03.225] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15020ms or 300 ticks behind
-[08Dec2024 04:24:35.396] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 17191ms or 343 ticks behind
-[08Dec2024 04:25:06.766] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16410ms or 328 ticks behind
-[08Dec2024 04:25:41.574] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 19819ms or 396 ticks behind
-[08Dec2024 04:26:16.095] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 19539ms or 390 ticks behind
-[08Dec2024 04:26:53.350] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22294ms or 445 ticks behind
-[08Dec2024 04:27:34.941] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 26635ms or 532 ticks behind
-[08Dec2024 04:28:11.005] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 21099ms or 421 ticks behind
-[08Dec2024 04:28:49.721] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 23766ms or 475 ticks behind
-[08Dec2024 04:29:32.191] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of ZOMTASMA08) moved too quickly! -0.08423203207712504,-4.618527782440651E-11,10.399627525746837
-[08Dec2024 04:29:32.192] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of ZOMTASMA08) moved too quickly! -0.08748811626173847,-4.657607632907457E-11,10.799613987073371
-[08Dec2024 04:29:32.193] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of ZOMTASMA08) moved too quickly! -0.09074455924564973,-4.6767922867729794E-11,11.199600465633466
-[08Dec2024 04:29:32.194] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of ZOMTASMA08) moved too quickly! -0.09400132514929282,-4.67892391498026E-11,11.599586959703629
-[08Dec2024 04:29:32.195] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of ZOMTASMA08) moved too quickly! -0.09725838168196788,-4.668265773943858E-11,11.999573467733171
-[08Dec2024 04:29:32.196] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of ZOMTASMA08) moved too quickly! -0.1005156997780432,-4.6490811200783355E-11,12.399559988325564
-[08Dec2024 04:29:32.197] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of ZOMTASMA08) moved too quickly! -0.10377325328408915,-4.624922667062492E-11,12.799546520224794
-[08Dec2024 04:29:32.199] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of ZOMTASMA08) moved too quickly! -0.10703101865692588,-4.5993431285751285E-11,13.199533062300361
-[08Dec2024 04:29:32.200] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of ZOMTASMA08) moved too quickly! -0.1102889747107838,-4.574474132823525E-11,13.59951961353454
-[08Dec2024 04:29:34.055] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 29349ms or 586 ticks behind
-[08Dec2024 04:30:28.053] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 39048ms or 780 ticks behind
-[08Dec2024 04:30:31.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 has made the advancement [False Water]
-[08Dec2024 04:31:24.158] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 41152ms or 823 ticks behind
-[08Dec2024 04:31:29.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Diamonds!]
-[08Dec2024 04:32:08.115] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 28959ms or 579 ticks behind
-[08Dec2024 04:32:42.878] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ratachi1398 moved too quickly! -0.2758167907359166,-1.0013359791121488,-10.101737203181756
-[08Dec2024 04:32:59.132] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 36027ms or 720 ticks behind
-[08Dec2024 04:33:53.886] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 39780ms or 795 ticks behind
-[08Dec2024 04:34:44.699] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 35844ms or 716 ticks behind
-[08Dec2024 04:35:37.025] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 37369ms or 747 ticks behind
-[08Dec2024 04:35:54.594] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZOMTASMA08 moved too quickly! -1.4324566686700564,-0.24918707874468282,10.058187747572447
-[08Dec2024 04:36:37.207] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 45202ms or 904 ticks behind
-[08Dec2024 04:37:44.159] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 51954ms or 1039 ticks behind
-[08Dec2024 04:37:47.027] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pochito228 moved too quickly! 0.00940795738097222,-0.7531999805212024,-10.08217506000588
-[08Dec2024 04:38:20.879] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ratachi1398 moved too quickly! 10.860766809390043,0.0,0.9303377114608793
-[08Dec2024 04:38:49.066] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 49911ms or 998 ticks behind
-[08Dec2024 04:39:22.102] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Michak1 moved too quickly! -0.6422196085040923,0.0,10.201791257730747
-[08Dec2024 04:39:58.397] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 54342ms or 1086 ticks behind
-[08Dec2024 04:41:11.096] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: A single server tick took 60.19 seconds (should be max 0.05)
-[08Dec2024 04:41:11.113] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
-[08Dec2024 04:41:11.829] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 0b0b93c3-0424-4f0f-a341-5fc04c35b162
-[08Dec2024 04:41:11.913] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 1dd72c53-6bd7-4b26-82b9-ffb903e7442d
-[08Dec2024 04:41:11.915] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/]: This crash report has been saved to: /workspaces/Servidor-24-2/servidor_minecraft/./crash-reports/crash-2024-12-08_04.41.11-server.txt
-[08Dec2024 04:41:11.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[08Dec2024 04:41:11.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[08Dec2024 04:41:12.087] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ratachi1398 lost connection: Server closed
-[08Dec2024 04:41:12.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 left the game
-[08Dec2024 04:41:12.130] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Michak1 lost connection: Server closed
-[08Dec2024 04:41:12.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 left the game
-[08Dec2024 04:41:12.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08Dec2024 06:35:38.980] [Worker-Main-1/INFO] [epicfight/]: Register animations from epicfight
+[08Dec2024 06:35:39.996] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[08Dec2024 06:35:40.084] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[08Dec2024 06:35:40.102] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[08Dec2024 06:35:40.123] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[08Dec2024 06:35:40.190] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[08Dec2024 06:35:40.195] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[08Dec2024 06:35:40.197] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[08Dec2024 06:35:40.219] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[08Dec2024 06:35:40.223] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[08Dec2024 06:35:40.488] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2967 advancements
+[08Dec2024 06:35:40.658] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[08Dec2024 06:35:40.669] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[08Dec2024 06:35:40.749] [main/INFO] [Dungeon Crawl/]: Loading data...
+[08Dec2024 06:35:41.392] [main/INFO] [Dungeon Crawl/]: Done.
+[08Dec2024 06:35:41.412] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[08Dec2024 06:35:45.746] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[08Dec2024 06:35:46.114] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[08Dec2024 06:35:46.115] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[08Dec2024 06:35:46.115] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[08Dec2024 06:35:46.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08Dec2024 06:35:46.325] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[08Dec2024 06:35:46.459] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[08Dec2024 06:35:46.714] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08Dec2024 06:35:46.715] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[08Dec2024 06:35:46.715] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08Dec2024 06:35:46.716] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[08Dec2024 06:35:47.258] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[08Dec2024 06:35:57.941] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[08Dec2024 06:36:05.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08Dec2024 06:36:17.944] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.950] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.950] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.951] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.953] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.955] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.956] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.958] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.960] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.962] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.964] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.965] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.967] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.971] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.972] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.973] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.974] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.977] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.978] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.979] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.980] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.981] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.983] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.984] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:17.986] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:18.270] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:18.770] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:19.270] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:19.789] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Dec2024 06:36:21.643] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 15873 ms
+[08Dec2024 06:36:21.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (34.894s)! For help, type "help"
+[08Dec2024 06:36:21.864] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[08Dec2024 06:36:21.893] [Server thread/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[08Dec2024 06:36:21.893] [Server thread/INFO] [net.stardustlabs.incendium.Incendium/]: Thanks for choosing Incendium!
+[08Dec2024 06:36:21.902] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[08Dec2024 06:36:21.920] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[08Dec2024 06:36:22.008] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[08Dec2024 06:36:22.009] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[08Dec2024 06:36:22.010] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[08Dec2024 06:36:22.011] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[08Dec2024 06:36:22.086] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[08Dec2024 06:36:22.087] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[08Dec2024 06:36:24.483] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2140ms or 42 ticks behind
+[08Dec2024 06:36:58.958] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Pochito228[/100.65.198.20:58268] logged in with entity id 355 at (12083.699999988079, 122.0, 1601.6424461403863)
+[08Dec2024 06:36:59.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 joined the game
+[08Dec2024 06:37:01.112] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[08Dec2024 06:37:14.871] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ZOMTASMA08[/100.81.12.92:61602] logged in with entity id 698 at (12479.180663692274, 112.0, 1903.314522936373)
+[08Dec2024 06:37:14.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 joined the game
+[08Dec2024 06:37:22.695] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2f7dd95e[id=<null>,name=Michak1,properties={},legacy=false] (/100.88.119.109:52500) lost connection: Disconnected
+[08Dec2024 06:37:23.158] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7064ms or 141 ticks behind
+[08Dec2024 06:37:54.495] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16352ms or 327 ticks behind
+[08Dec2024 06:37:59.792] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@620ef9fe[id=<null>,name=Michak1,properties={},legacy=false] (/100.88.119.109:52501) lost connection: Disconnected
+[08Dec2024 06:38:18.500] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9007ms or 180 ticks behind
+[08Dec2024 06:38:38.144] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4650ms or 93 ticks behind
+[08Dec2024 06:38:46.186] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1e9c596f[id=<null>,name=Michak1,properties={},legacy=false] (/100.88.119.109:52504) lost connection: Disconnected
+[08Dec2024 06:39:00.982] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Michak1[/100.88.119.109:52511] logged in with entity id 1985 at (12080.601341108051, 64.0, 1419.2846030857463)
+[08Dec2024 06:39:01.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 joined the game
+[08Dec2024 06:39:06.757] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[08Dec2024 06:39:11.989] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
+[08Dec2024 06:39:53.570] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 31826ms or 636 ticks behind
+[08Dec2024 06:40:24.569] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16025ms or 320 ticks behind
+[08Dec2024 06:40:48.910] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9367ms or 187 ticks behind
+[08Dec2024 06:41:10.951] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7058ms or 141 ticks behind
+[08Dec2024 06:41:35.069] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9126ms or 182 ticks behind
+[08Dec2024 06:42:01.124] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11081ms or 221 ticks behind
+[08Dec2024 06:42:26.207] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10114ms or 202 ticks behind
+[08Dec2024 06:42:49.143] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7949ms or 158 ticks behind
+[08Dec2024 06:43:14.578] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10485ms or 209 ticks behind
+[08Dec2024 06:43:38.583] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9040ms or 180 ticks behind
+[08Dec2024 06:44:03.915] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10371ms or 207 ticks behind
+[08Dec2024 06:44:07.034] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! 1.0499998023788066,-6.168250675459191,9.221119546333966
+[08Dec2024 06:44:07.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! 1.0812277567474666,-6.95330104113971,10.320495645701612
+[08Dec2024 06:44:07.041] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! 1.0829937373164285,-7.747262301466307,11.413027283580732
+[08Dec2024 06:44:07.050] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! 1.0525769095784199,-8.550075772505679,12.498169768396338
+[08Dec2024 06:44:07.052] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! 0.9846101545826969,-9.362981970854264,13.57377765469164
+[08Dec2024 06:44:07.053] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! 0.8786932362763764,-10.186689475853811,14.638262974900954
+[08Dec2024 06:44:07.056] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! 0.7368614077167877,-11.021403377238457,15.690677336127237
+[08Dec2024 06:44:07.183] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -0.7485440244854544,-7.214788374844261,8.581446346780467
+[08Dec2024 06:44:07.195] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -0.992845249007587,-7.888037468723269,9.589807921127203
+[08Dec2024 06:44:07.196] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -1.2676623882580316,-7.888037468723269,10.582094694110083
+[08Dec2024 06:44:07.199] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -1.5709395737194427,-7.888037468723269,11.558050253684314
+[08Dec2024 06:44:07.202] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -1.901154118047998,-8.706705679122706,12.517491595119736
+[08Dec2024 06:44:07.202] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -2.2582723513587553,-8.888037468723269,12.975435773005074
+[08Dec2024 06:44:07.204] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -2.643299826882867,-8.888037468723269,12.975435773005074
+[08Dec2024 06:44:07.291] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! 0.37895969302553567,6.625470139587932,-9.67827787427268
+[08Dec2024 06:44:07.292] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! 0.37895969302553567,6.625470139587932,-9.67827787427268
+[08Dec2024 06:44:07.293] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! 0.37895969302553567,6.625470139587932,-9.67827787427268
+[08Dec2024 06:44:07.296] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! 0.37895969302553567,6.625470139587932,-9.67827787427268
+[08Dec2024 06:44:07.296] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! 0.37895969302553567,6.625470139587932,-9.67827787427268
+[08Dec2024 06:44:07.296] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! 0.37895969302553567,6.625470139587932,-9.67827787427268
+[08Dec2024 06:44:07.297] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -0.0958052838632284,5.752163701789414,-8.947934002893817
+[08Dec2024 06:44:07.298] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! 0.37895969302553567,6.625470139587932,-9.67827787427268
+[08Dec2024 06:44:07.301] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -0.11925296295339649,5.763477891083795,-8.906384980480652
+[08Dec2024 06:44:07.478] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -2.314667092943637,-8.221053163888598,10.741896706682155
+[08Dec2024 06:44:07.479] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -2.314667092943637,-8.221053163888598,10.741896706682155
+[08Dec2024 06:44:07.480] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -2.314667092943637,-8.221053163888598,10.741896706682155
+[08Dec2024 06:44:07.480] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -2.314667092943637,-8.221053163888598,10.741896706682155
+[08Dec2024 06:44:07.481] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -2.314667092943637,-8.221053163888598,10.741896706682155
+[08Dec2024 06:44:07.482] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -2.314667092943637,-8.221053163888598,10.741896706682155
+[08Dec2024 06:44:07.482] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -2.314667092943637,-8.221053163888598,10.741896706682155
+[08Dec2024 06:44:07.490] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -2.314667092943637,-8.221053163888598,10.741896706682155
+[08Dec2024 06:44:07.490] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -2.314667092943637,-8.221053163888598,10.741896706682155
+[08Dec2024 06:44:07.492] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -2.8311548249057523,-8.409777664590948,10.741896706682155
+[08Dec2024 06:44:07.495] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -3.365285852647503,-8.409777664590948,11.378892346041312
+[08Dec2024 06:44:07.496] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved too quickly! -3.96764804056329,-8.409777664590948,11.942096663501161
+[08Dec2024 06:44:07.552] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Michak1) moved wrongly! 1.7264271335000103
+[08Dec2024 06:44:37.818] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 18924ms or 378 ticks behind
+[08Dec2024 06:45:04.943] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12149ms or 242 ticks behind
+[08Dec2024 06:45:31.452] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[08Dec2024 06:45:51.157] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4714ms or 94 ticks behind
+[08Dec2024 06:46:40.997] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[08Dec2024 06:46:59.982] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3989ms or 79 ticks behind
+[08Dec2024 06:47:20.129] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5185ms or 103 ticks behind
+[08Dec2024 06:47:38.878] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[08Dec2024 06:47:55.934] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2091ms or 41 ticks behind
+[08Dec2024 06:48:48.267] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZOMTASMA08 lost connection: Disconnected
+[08Dec2024 06:48:48.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 left the game
+[08Dec2024 06:49:57.255] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@64177f6f[id=<null>,name=ZOMTASMA08,properties={},legacy=false] (/100.81.12.92:61664) lost connection: Disconnected
+[08Dec2024 06:50:08.778] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ZOMTASMA08[/100.81.12.92:61667] logged in with entity id 7672 at (12868.446417508896, 103.0, 1867.6704282599658)
+[08Dec2024 06:50:08.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 joined the game
+[08Dec2024 06:50:12.857] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4014ms or 80 ticks behind
+[08Dec2024 06:50:35.967] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8124ms or 162 ticks behind
+[08Dec2024 06:51:35.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Enchanter]
