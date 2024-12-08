@@ -258,3 +258,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [08Dec2024 19:19:27.721] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4414ms or 88 ticks behind
 [08Dec2024 19:19:59.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Warped]
 [08Dec2024 19:56:55.651] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2844ms or 56 ticks behind
+[08Dec2024 20:08:12.034] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ZOMTASMA08[/100.81.12.92:62077] logged in with entity id 28108 at (12011.885499719156, 69.0, 1542.7248823201235)
+[08Dec2024 20:08:12.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 joined the game
+[08Dec2024 20:10:12.924] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZOMTASMA08 lost connection: Disconnected
+[08Dec2024 20:10:12.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 left the game
