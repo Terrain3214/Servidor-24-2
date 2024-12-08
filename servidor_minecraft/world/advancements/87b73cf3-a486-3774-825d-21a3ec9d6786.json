@@ -4923,5 +4923,65 @@
     },
     "done": true
   },
+  "gobber2:gobber2_ingot": {
+    "criteria": {
+      "gobber2_ingot": "2024-12-08 16:37:09 +0000"
+    },
+    "done": true
+  },
+  "gobber2:gobber2_bow": {
+    "criteria": {
+      "gobber2_bow": "2024-12-08 16:19:48 +0000"
+    },
+    "done": true
+  },
+  "gobber2:gobber2_bow_end": {
+    "criteria": {
+      "gobber2_bow_end": "2024-12-08 16:22:37 +0000"
+    },
+    "done": true
+  },
+  "gobber2:gobber2_bow_nether": {
+    "criteria": {
+      "gobber2_bow_nether": "2024-12-08 16:20:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-08 16:35:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-08 16:35:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-08 16:35:54 +0000"
+    },
+    "done": true
+  },
+  "gobber2:gobber2_glob": {
+    "criteria": {
+      "gobber2_glob": "2024-12-08 16:36:51 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/copper_ingot_to_nuggets": {
+    "criteria": {
+      "has_item": "2024-12-08 16:35:54 +0000"
+    },
+    "done": true
+  },
+  "skilltree:recipes/misc/copper_nugget": {
+    "criteria": {
+      "has_ingots_copper": "2024-12-08 16:35:54 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

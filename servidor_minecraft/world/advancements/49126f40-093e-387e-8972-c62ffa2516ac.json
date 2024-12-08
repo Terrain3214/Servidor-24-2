@@ -4337,5 +4337,29 @@
     },
     "done": true
   },
+  "gobber2:gobber2_ingot": {
+    "criteria": {
+      "gobber2_ingot": "2024-12-08 16:31:29 +0000"
+    },
+    "done": true
+  },
+  "gobber2:gobber2_bow": {
+    "criteria": {
+      "gobber2_bow": "2024-12-08 16:32:41 +0000"
+    },
+    "done": true
+  },
+  "gobber2:gobber2_sword": {
+    "criteria": {
+      "gobber2_sword": "2024-12-08 16:34:23 +0000"
+    },
+    "done": true
+  },
+  "gobber2:gobber2_rod": {
+    "criteria": {
+      "gobber2_rod": "2024-12-08 16:32:21 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
