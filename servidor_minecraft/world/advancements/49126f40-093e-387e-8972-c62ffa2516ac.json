@@ -4361,6 +4361,12 @@
     },
     "done": true
   },
+  "gobber2:gobber2_armor": {
+    "criteria": {
+      "gobber2_leggings": "2024-12-08 18:58:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_redstone_block": "2024-12-08 18:36:19 +0000"
