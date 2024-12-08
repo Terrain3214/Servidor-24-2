@@ -5931,3 +5931,12 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [08Dec2024 20:51:03.770] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Michak1) moved too quickly! 10.681291804859939,0.0,-1.3394621501951178
 [08Dec2024 20:51:23.121] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [08Dec2024 20:51:23.136] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Dec2024 20:52:57.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Tie me to the Mast]
+[08Dec2024 20:53:13.498] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
+[08Dec2024 20:56:25.109] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Dec2024 20:56:25.168] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Dec2024 20:58:29.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Michak1> luego me conecto
+[08Dec2024 21:01:04.566] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Michak1 lost connection: Disconnected
+[08Dec2024 21:01:04.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 left the game
+[08Dec2024 21:01:25.093] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Dec2024 21:01:25.115] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
