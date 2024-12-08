@@ -2,3 +2,5 @@
 [08Dec2024 00:05:33.426] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ZOMTASMA08[/100.81.12.92:59703] logged in with entity id 4824 at (12019.300000011921, 67.24918707874468, 1532.4822808887172)
 [08Dec2024 00:05:33.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 joined the game
 [08Dec2024 00:05:36.468] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[08Dec2024 00:07:08.216] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZOMTASMA08 lost connection: Disconnected
+[08Dec2024 00:07:08.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 left the game
