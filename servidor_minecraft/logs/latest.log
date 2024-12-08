@@ -240,3 +240,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [08Dec2024 01:31:46.907] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8594ms or 171 ticks behind
 [08Dec2024 01:32:11.648] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9785ms or 195 ticks behind
 [08Dec2024 01:33:21.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 was shot by Skeleton
+[08Dec2024 01:49:06.431] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1a69b407[id=<null>,name=ZOMTASMA08,properties={},legacy=false] (/100.81.12.92:60178) lost connection: Disconnected
+[08Dec2024 01:49:23.036] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ZOMTASMA08[/100.81.12.92:60187] logged in with entity id 7198 at (12001.433182624416, 72.0, 1548.3768970289532)
+[08Dec2024 01:49:23.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 joined the game
+[08Dec2024 01:49:25.993] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
