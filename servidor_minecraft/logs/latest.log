@@ -230,3 +230,10 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [08Dec2024 17:04:50.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
 [08Dec2024 17:08:16.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
 [08Dec2024 17:10:27.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[08Dec2024 17:11:06.291] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 lost connection: Disconnected
+[08Dec2024 17:11:06.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 left the game
+[08Dec2024 17:11:16.280] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Terrain32[/100.65.58.104:51287] logged in with entity id 2561 at (12226.836714526169, -10.0, 1482.3886661518734)
+[08Dec2024 17:11:16.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 joined the game
+[08Dec2024 17:11:20.197] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
+[08Dec2024 17:12:33.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[08Dec2024 17:21:20.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
