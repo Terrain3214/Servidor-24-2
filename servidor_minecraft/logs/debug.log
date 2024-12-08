@@ -4794,3 +4794,46 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [08Dec2024 01:51:43.759] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [08Dec2024 01:56:43.580] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [08Dec2024 01:56:43.610] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Dec2024 02:01:43.528] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Dec2024 02:01:43.538] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Dec2024 02:03:07.015] [Worker-Main-12/DEBUG] [mixin/]: Mixing WorldGenRegionAccessor from cataclysm.mixins.json into net.minecraft.server.level.WorldGenRegion
+[08Dec2024 02:03:07.020] [Worker-Main-12/DEBUG] [mixin/]: Mixing gen.WorldGenRegionMixin from iceandfire.mixins.json into net.minecraft.server.level.WorldGenRegion
+[08Dec2024 02:03:08.217] [Worker-Main-12/DEBUG] [mixin/]: Mixing accessor.BeardifierAccessor from cataclysm.mixins.json into net.minecraft.world.level.levelgen.Beardifier
+[08Dec2024 02:03:10.166] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[08Dec2024 02:03:27.242] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2079ms or 41 ticks behind
+[08Dec2024 02:04:34.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 has made the advancement [Diamonds!]
+[08Dec2024 02:04:46.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 has made the advancement [Suit Up]
+[08Dec2024 02:05:51.187] [Worker-Main-12/DEBUG] [Dungeon Crawl/]: Creating a dungeon at (12516 | 50 | 468).
+[08Dec2024 02:05:51.197] [Worker-Main-12/DEBUG] [Dungeon Crawl/]: Generating layout for layer 0
+[08Dec2024 02:05:51.207] [Worker-Main-12/DEBUG] [Dungeon Crawl/]: Generated Layer 0 with 6(0) Nodes and 5(0) Rooms
+[08Dec2024 02:05:51.208] [Worker-Main-12/DEBUG] [Dungeon Crawl/]: Generating layout for layer 1
+[08Dec2024 02:05:51.209] [Worker-Main-12/DEBUG] [Dungeon Crawl/]: Generated Layer 1 with 5(0) Nodes and 5(0) Rooms
+[08Dec2024 02:05:51.210] [Worker-Main-12/DEBUG] [Dungeon Crawl/]: Generating layout for layer 2
+[08Dec2024 02:05:51.211] [Worker-Main-12/DEBUG] [Dungeon Crawl/]: Generated Layer 2 with 7(1) Nodes and 6(0) Rooms
+[08Dec2024 02:05:51.211] [Worker-Main-12/DEBUG] [Dungeon Crawl/]: Generating layout for layer 3
+[08Dec2024 02:05:51.212] [Worker-Main-12/DEBUG] [Dungeon Crawl/]: Generated Layer 3 with 11(0) Nodes and 6(0) Rooms
+[08Dec2024 02:05:51.212] [Worker-Main-12/DEBUG] [Dungeon Crawl/]: Generating layout for layer 4
+[08Dec2024 02:05:51.213] [Worker-Main-12/DEBUG] [Dungeon Crawl/]: Generated Layer 4 with 12(0) Nodes and 6(0) Rooms
+[08Dec2024 02:06:04.032] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2069ms or 41 ticks behind
+[08Dec2024 02:06:49.823] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Dec2024 02:06:49.838] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Dec2024 02:09:12.890] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:catacombs/multipart/node/ceiling/dome with rotation CLOCKWISE_90 at (12572 | 28 | 578)
+[08Dec2024 02:09:12.905] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:catacombs/multipart/node/ceiling/dome with rotation CLOCKWISE_90 at (12572 | 28 | 578)
+[08Dec2024 02:09:12.909] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Running decoration VineDecoration[chance=0.35] for dungeoncrawl:catacombs/multipart/node/ceiling/dome at (12572 | 28 | 578)
+[08Dec2024 02:09:12.910] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Finished decoration VineDecoration[chance=0.35] for dungeoncrawl:catacombs/multipart/node/ceiling/dome at (12572 | 28 | 578)
+[08Dec2024 02:09:12.910] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:catacombs/multipart/large_spawner_cell_open with rotation CLOCKWISE_180 at (12566 | 23 | 573)
+[08Dec2024 02:09:12.922] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:catacombs/multipart/large_spawner_cell_open with rotation CLOCKWISE_180 at (12566 | 23 | 573)
+[08Dec2024 02:09:12.922] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Running decoration VineDecoration[chance=0.35] for dungeoncrawl:catacombs/multipart/large_spawner_cell_open at (12566 | 23 | 573)
+[08Dec2024 02:09:12.923] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Finished decoration VineDecoration[chance=0.35] for dungeoncrawl:catacombs/multipart/large_spawner_cell_open at (12566 | 23 | 573)
+[08Dec2024 02:09:12.923] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/large_wall with rotation CLOCKWISE_90 at (12572 | 23 | 584)
+[08Dec2024 02:09:12.923] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/large_wall with rotation CLOCKWISE_90 at (12572 | 23 | 584)
+[08Dec2024 02:09:12.923] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Running decoration VineDecoration[chance=0.35] for dungeoncrawl:default/multipart/large_wall at (12572 | 23 | 584)
+[08Dec2024 02:09:12.923] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Finished decoration VineDecoration[chance=0.35] for dungeoncrawl:default/multipart/large_wall at (12572 | 23 | 584)
+[08Dec2024 02:09:12.923] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:catacombs/multipart/crypt_graves with rotation CLOCKWISE_180 at (12567 | 23 | 577)
+[08Dec2024 02:09:12.931] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:catacombs/multipart/crypt_graves with rotation CLOCKWISE_180 at (12567 | 23 | 577)
+[08Dec2024 02:09:12.936] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Running decoration VineDecoration[chance=0.35] for dungeoncrawl:catacombs/multipart/crypt_graves at (12567 | 23 | 577)
+[08Dec2024 02:09:12.937] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Finished decoration VineDecoration[chance=0.35] for dungeoncrawl:catacombs/multipart/crypt_graves at (12567 | 23 | 577)
+[08Dec2024 02:09:12.938] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:catacombs/node/crypt_dead_end with rotation CLOCKWISE_90 at (12566 | 23 | 572)
+[08Dec2024 02:09:12.942] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:catacombs/node/crypt_dead_end with rotation CLOCKWISE_90 at (12566 | 23 | 572)
+[08Dec2024 02:09:12.942] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Running decoration VineDecoration[chance=0.35] for dungeoncrawl:catacombs/node/crypt_dead_end at (12566 | 23 | 572)
+[08Dec2024 02:09:12.944] [Worker-Main-31/DEBUG] [Dungeon Crawl/]: Finished decoration VineDecoration[chance=0.35] for dungeoncrawl:catacombs/node/crypt_dead_end at (12566 | 23 | 572)
