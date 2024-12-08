@@ -4059,6 +4059,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-12-08 07:35:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
       "has_book": "2024-12-08 07:01:36 +0000"
@@ -4068,6 +4074,12 @@
   "iceandfire:recipes/misc/dragon_bone_wall": {
     "criteria": {
       "has_item": "2024-12-08 06:56:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-12-08 07:35:16 +0000"
     },
     "done": true
   },
@@ -4140,6 +4152,12 @@
   "iceandfire:recipes/misc/skull_to_bone_meal": {
     "criteria": {
       "has_item": "2024-12-08 06:56:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-12-08 07:35:16 +0000"
     },
     "done": true
   },

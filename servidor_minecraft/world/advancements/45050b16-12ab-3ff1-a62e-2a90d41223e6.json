@@ -1708,14 +1708,21 @@
       "minecraft:taiga": "2024-12-08 04:04:04 +0000",
       "minecraft:frozen_river": "2024-12-08 04:07:04 +0000",
       "minecraft:cherry_grove": "2024-12-07 05:14:12 +0000",
+      "minecraft:savanna_plateau": "2024-12-08 07:32:52 +0000",
+      "minecraft:beach": "2024-12-08 07:34:26 +0000",
+      "minecraft:sparse_jungle": "2024-12-08 07:33:37 +0000",
       "minecraft:river": "2024-12-07 05:39:03 +0000",
+      "minecraft:lukewarm_ocean": "2024-12-08 07:34:55 +0000",
       "minecraft:snowy_plains": "2024-12-08 04:07:47 +0000",
       "minecraft:dripstone_caves": "2024-12-07 05:16:58 +0000",
       "minecraft:snowy_taiga": "2024-12-08 04:09:01 +0000",
       "minecraft:forest": "2024-12-07 06:04:45 +0000",
       "minecraft:frozen_ocean": "2024-12-08 04:17:04 +0000",
+      "minecraft:jungle": "2024-12-08 07:33:59 +0000",
       "minecraft:snowy_beach": "2024-12-08 04:13:50 +0000",
+      "minecraft:flower_forest": "2024-12-08 07:41:47 +0000",
       "minecraft:meadow": "2024-12-07 06:04:08 +0000",
+      "minecraft:savanna": "2024-12-08 07:32:45 +0000",
       "minecraft:plains": "2024-12-07 05:07:21 +0000"
     },
     "done": false
@@ -4734,9 +4741,57 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-12-08 07:48:14 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 07:48:44 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2024-12-08 07:42:20 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 07:48:44 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
     "criteria": {
       "has_deepslate_tiles": "2024-12-08 07:20:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-12-08 07:48:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2024-12-08 07:42:20 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 07:48:44 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2024-12-08 07:42:20 +0000"
     },
     "done": true
   },
@@ -4752,9 +4807,27 @@
     },
     "done": true
   },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 07:48:44 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2024-12-08 07:17:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2024-12-08 07:42:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2024-12-08 07:42:08 +0000"
     },
     "done": true
   },
@@ -4764,11 +4837,23 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-12-08 07:42:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/stone_button": {
     "criteria": {
       "has_stone": "2024-12-08 07:17:52 +0000"
     },
     "done": true
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 07:48:44 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
@@ -4788,9 +4873,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2024-12-08 07:42:20 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 07:48:44 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
     "criteria": {
       "has_deepslate_tiles": "2024-12-08 07:20:42 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 07:48:44 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2024-12-08 07:42:20 +0000"
     },
     "done": true
   },
@@ -4800,9 +4909,21 @@
     },
     "done": true
   },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 07:48:44 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2024-12-08 07:17:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-12-08 07:48:14 +0000"
     },
     "done": true
   },
@@ -4818,6 +4939,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2024-12-08 07:42:08 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 07:48:44 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
     "criteria": {
       "has_deepslate_tiles": "2024-12-08 07:20:42 +0000"
@@ -4830,6 +4963,18 @@
     },
     "done": true
   },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 07:48:44 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-12-08 07:42:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2024-12-08 07:17:52 +0000"
@@ -4839,6 +4984,24 @@
   "minecraft:recipes/building_blocks/deepslate_tile_slab": {
     "criteria": {
       "has_deepslate_tiles": "2024-12-08 07:20:42 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 07:48:44 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 07:48:44 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-12-08 07:42:20 +0000"
     },
     "done": true
   },
