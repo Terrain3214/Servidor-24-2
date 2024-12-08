@@ -380,3 +380,16 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [08Dec2024 04:38:20.879] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ratachi1398 moved too quickly! 10.860766809390043,0.0,0.9303377114608793
 [08Dec2024 04:38:49.066] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 49911ms or 998 ticks behind
 [08Dec2024 04:39:22.102] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Michak1 moved too quickly! -0.6422196085040923,0.0,10.201791257730747
+[08Dec2024 04:39:58.397] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 54342ms or 1086 ticks behind
+[08Dec2024 04:41:11.096] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: A single server tick took 60.19 seconds (should be max 0.05)
+[08Dec2024 04:41:11.113] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[08Dec2024 04:41:11.829] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 0b0b93c3-0424-4f0f-a341-5fc04c35b162
+[08Dec2024 04:41:11.913] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 1dd72c53-6bd7-4b26-82b9-ffb903e7442d
+[08Dec2024 04:41:11.915] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/]: This crash report has been saved to: /workspaces/Servidor-24-2/servidor_minecraft/./crash-reports/crash-2024-12-08_04.41.11-server.txt
+[08Dec2024 04:41:11.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08Dec2024 04:41:11.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08Dec2024 04:41:12.087] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ratachi1398 lost connection: Server closed
+[08Dec2024 04:41:12.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 left the game
+[08Dec2024 04:41:12.130] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Michak1 lost connection: Server closed
+[08Dec2024 04:41:12.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 left the game
+[08Dec2024 04:41:12.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds

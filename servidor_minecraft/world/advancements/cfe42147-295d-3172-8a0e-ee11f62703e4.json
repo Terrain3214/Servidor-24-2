@@ -3574,11 +3574,23 @@
     },
     "done": true
   },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 04:38:32 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/redstone/birch_button": {
     "criteria": {
       "has_planks": "2024-12-08 04:13:27 +0000"
     },
     "done": true
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 04:38:32 +0000"
+    },
+    "done": false
   },
   "twilightforest:recipes/transportation/transformation_chest_boat": {
     "criteria": {
@@ -3603,6 +3615,12 @@
       "has_boat": "2024-12-08 04:29:07 +0000"
     },
     "done": true
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 04:38:32 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/birch_fence": {
     "criteria": {
@@ -3633,6 +3651,12 @@
       "has_boat": "2024-12-08 04:29:07 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 04:38:32 +0000"
+    },
+    "done": false
   },
   "soulsweapons:recipes/misc/verglas": {
     "criteria": {
@@ -3706,6 +3730,12 @@
     },
     "done": true
   },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 04:38:32 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
       "has_stone": "2024-12-08 04:03:10 +0000"
@@ -3742,6 +3772,12 @@
     },
     "done": true
   },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 04:38:32 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/transportation/cherry_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-08 04:29:07 +0000"
@@ -3754,6 +3790,12 @@
     },
     "done": true
   },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 04:38:32 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2024-12-08 04:13:27 +0000"
@@ -3765,6 +3807,12 @@
       "has_stone": "2024-12-08 04:03:10 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 04:38:32 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
@@ -3832,6 +3880,12 @@
     },
     "done": true
   },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 04:38:32 +0000"
+    },
+    "done": false
+  },
   "soulsweapons:verglas": {
     "criteria": {
       "item": "2024-12-08 04:30:31 +0000"
@@ -3862,6 +3916,12 @@
     },
     "done": true
   },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 04:38:32 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/redstone/birch_trapdoor": {
     "criteria": {
       "has_planks": "2024-12-08 04:13:27 +0000"
@@ -3885,6 +3945,18 @@
       "has_item": "2024-12-08 04:30:31 +0000"
     },
     "done": true
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 04:38:32 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-08 04:38:32 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
