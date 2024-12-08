@@ -2710,8 +2710,12 @@
       "cooked_mutton": "2024-12-07 06:37:20 +0000",
       "cooked_beef": "2024-12-07 19:11:07 +0000",
       "beef": "2024-12-07 18:46:44 +0000",
+      "baked_potato": "2024-12-08 02:42:03 +0000",
       "porkchop": "2024-12-07 06:01:03 +0000",
+      "potato": "2024-12-08 02:43:13 +0000",
       "mutton": "2024-12-07 06:01:06 +0000",
+      "bread": "2024-12-08 02:43:16 +0000",
+      "melon_slice": "2024-12-08 02:53:26 +0000",
       "cooked_chicken": "2024-12-07 06:30:48 +0000"
     },
     "done": false
@@ -3514,9 +3518,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-12-08 02:42:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2024-12-08 02:55:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-12-08 02:42:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stripped_cherry_wood": {
     "criteria": {
       "has_log": "2024-12-08 02:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-12-08 02:42:24 +0000"
     },
     "done": true
   },
@@ -3529,6 +3557,12 @@
   "minecraft:recipes/decorations/cherry_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2024-12-08 02:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2024-12-08 02:55:15 +0000"
     },
     "done": true
   },

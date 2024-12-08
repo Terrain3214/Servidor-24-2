@@ -319,3 +319,26 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [08Dec2024 02:36:46.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
 [08Dec2024 02:38:35.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZOMTASMA08 was slain by Ratachi1398
 [08Dec2024 02:38:46.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[08Dec2024 02:45:48.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has reached the goal [Switcharoo!]
+[08Dec2024 02:47:54.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[08Dec2024 02:48:01.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[08Dec2024 02:49:38.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[08Dec2024 02:58:00.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Survival Mode]
+[08Dec2024 02:58:22.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Spectator Mode]
+[08Dec2024 02:58:53.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[08Dec2024 02:59:13.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Spectator Mode]
+[08Dec2024 02:59:28.383] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 moved too quickly! 7.066881358496175,-2.0782464825820917,7.1550266795081825
+[08Dec2024 03:00:54.987] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[08Dec2024 03:00:57.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[08Dec2024 03:01:06.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Spectator Mode]
+[08Dec2024 03:03:13.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Terrain32: Set own game mode to Creative Mode]
+[08Dec2024 03:04:16.398] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Pochito228[/100.65.198.20:53619] logged in with entity id 40637 at (11957.929670513176, -49.0, 1292.2921640663346)
+[08Dec2024 03:04:16.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 joined the game
+[08Dec2024 03:04:19.113] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[08Dec2024 03:05:22.295] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Terrain32 lost connection: Disconnected
+[08Dec2024 03:05:22.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Terrain32 left the game
+[08Dec2024 03:07:14.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Full Moon in a Pocket]
+[08Dec2024 03:11:02.016] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[08Dec2024 03:11:38.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ratachi1398 has made the advancement [Full Moon in a Pocket]
+[08Dec2024 03:12:44.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pochito228 has made the advancement [Ice Bucket Challenge]
+[08Dec2024 03:17:48.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Michak1 has made the advancement [Suit Up]
